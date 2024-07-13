@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
 workflow-type: tm+mt
 source-wordcount: '1416'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -42,9 +42,9 @@ Esta versión incluye las siguientes correcciones de errores:
 
 * No se pueden descargar recursos digitales protegidos por DRM en la configuración regional turca.
 * No se pueden abrir ni descargar los informes existentes que contienen recursos con título multilínea.
-* Al descargar recursos mediante [!UICONTROL Descargar] de la barra de acciones, se descargan un máximo de 1000 recursos.
+* Cuando descarga recursos con el botón [!UICONTROL Descargar] de la barra de acciones, se descargan un máximo de 1000 recursos.
 * Nombre incorrecto de los recursos de tipo PSD al verlos en el árbol de contenido.
-* [!UICONTROL Eliminar representación] La opción de la página de detalles del recurso no funciona.
+* La opción [!UICONTROL Eliminar representación] de la página de detalles del recurso no funciona.
 * Título y tamaño de recursos desalineados en la ventana emergente de descarga.
 * Al crear un informe, las etiquetas no están localizadas.
 * Los administradores de asistencia se denominaban como administradores en Brand Portal.
@@ -62,13 +62,13 @@ Esta versión incorpora las siguientes mejoras:
 
 Esta versión incluye las siguientes correcciones de errores:
 
-* No se puede guardar [!UICONTROL Fecha] y [!UICONTROL Opciones] predicados a la variable [!UICONTROL Colección inteligente].
+* No se pueden guardar los predicados [!UICONTROL Date] y [!UICONTROL Options] en la [!UICONTROL colección inteligente].
 
-* El [!UICONTROL Fecha y hora] El formato no es coherente cuando se trabaja en una configuración regional que no sea el inglés.
+* El formato [!UICONTROL Fecha y hora] no es coherente mientras se trabaja en una configuración regional que no sea el inglés.
 
-* Al realizar la búsqueda de recursos, la variable [!UICONTROL Eliminar] falta el botón.
+* Al buscar recursos, falta el botón [!UICONTROL Eliminar].
 
-* Si la variable [!UICONTROL Título] contiene símbolos multibyte en [!UICONTROL Vínculos compartidos]No obstante, el informe no se puede descargar.
+* Si el campo [!UICONTROL Title] contiene símbolos multibyte en [!UICONTROL Link Share], el informe no se puede descargar.
 
 * Al ver un documento de tipo PDF, las etiquetas y la información del objeto no están localizadas.
 
@@ -77,7 +77,7 @@ Esta versión incluye las siguientes correcciones de errores:
 **Correcciones de errores y mejoras**
 Esta versión incorpora las siguientes mejoras:
 
-* Mejoras de rendimiento al cargar recursos en [!UICONTROL Descargar] que aparece.
+* Mejoras de rendimiento al cargar recursos en la ventana emergente [!UICONTROL Descargar].
 * Al descargar un recurso o una representación de un recurso, ahora se descarga en su formato de tipo de archivo original en lugar de un archivo zip.
 
 Esta versión incluye las siguientes correcciones de errores:
@@ -88,11 +88,11 @@ Esta versión incluye las siguientes correcciones de errores:
 
 ### Versión de mayo de 2023 {#may-2023}
 
-**Corrección de errores**
+**Correcciones de errores**
 Esta versión incluye correcciones a los siguientes problemas críticos:
 
-* Si se produce un error al descargar un recurso desde un vínculo compartido, la variable `Notice` y `Close` las etiquetas del mensaje de error no están localizadas.
-* Pantallas Brand Portal **Campos de encabezado de solicitud demasiado grandes** error al acceder a los filtros de búsqueda mediante `Filter` panel.
+* Si se produce un error al descargar un recurso desde un vínculo compartido, las etiquetas `Notice` y `Close` del mensaje de error no se localizan.
+* Brand Portal muestra el error **Campos de encabezado de solicitud demasiado grandes** al acceder a los filtros de búsqueda mediante el panel `Filter`.
 
 **Problemas conocidos**
 Esta versión de incluye los siguientes problemas conocidos:
@@ -116,7 +116,7 @@ Esta versión incluye correcciones a los siguientes problemas críticos:
 Esta versión incorpora las siguientes mejoras:
 
 * Ahora hay disponible un nuevo visor de PDF moderno para obtener una vista previa mejorada de los recursos de PDF.
-* Ahora puede activar o desactivar las notificaciones de abastecimiento de recursos para los administradores. Vaya a [!UICONTROL Configuración general] y, a continuación, habilitar o deshabilitar [!UICONTROL `Notify Administrator of asset contribution`].
+* Ahora puede activar o desactivar las notificaciones de abastecimiento de recursos para los administradores. Vaya a [!UICONTROL Configuración general] y después habilite o deshabilite [!UICONTROL `Notify Administrator of asset contribution`].
 
   ![Notificar al administrador de la contribución de recursos](assets/notify-admin.png)
 
@@ -132,7 +132,7 @@ Esta versión de incluye los siguientes problemas conocidos:
 
 ### Versión de octubre de 2022 {#oct-2022}
 
-**Problemas críticos corregidos**
+**Problemas Críticos Corregidos**
 
 Esta versión incluye correcciones a los siguientes problemas críticos:
 
@@ -152,7 +152,7 @@ Esta versión incluye correcciones a los siguientes problemas críticos:
 
 ### Versión de agosto de 2022 {#aug-2022}
 
-**Problemas críticos corregidos**
+**Problemas Críticos Corregidos**
 
 Esta versión incluye correcciones a los siguientes problemas críticos:
 
@@ -164,11 +164,11 @@ Esta versión incluye correcciones a los siguientes problemas críticos:
 
 ### Versión de mayo de 2022 {#may-2022}
 
-**Nuevas funciones**
+**Nuevas características**
 
 Ahora, Brand Portal ejecuta trabajos automáticos cada doce horas para eliminar todos los recursos de Brand Portal AEM que se publican en el sitio de trabajo de la aplicación de la aplicación de la aplicación de la manera más sencilla. Como resultado, no es necesario eliminar manualmente los recursos de la carpeta Contribution para mantener el tamaño de la carpeta por debajo del límite de umbral.
 
-**Problemas críticos corregidos**
+**Problemas Críticos Corregidos**
 
 Esta versión incluye correcciones a los siguientes problemas críticos:
 
@@ -181,17 +181,17 @@ Esta versión incluye correcciones a los siguientes problemas críticos:
 
 ### Versión de febrero de 2022 {#feb-2022}
 
-**Nuevas funciones**
+**Nuevas características**
 
 * El umbral de tiempo de espera de sesión para los usuarios invitados se ha reducido de 2 horas a 15 minutos.
-* Las adicionales **[!UICONTROL Ver páginas]** Se ha eliminado la opción para PDF de varias páginas, ya que el usuario ahora puede ver las páginas del PDF desde el visor de Adobe Document Cloud.
+* La opción adicional **[!UICONTROL Ver páginas]** se ha eliminado para los PDF de varias páginas, ya que el usuario ahora puede ver las páginas del PDF desde el Visor de Adobe Document Cloud.
 * Los usuarios no pueden buscar, navegar ni abrir carpetas. La interfaz de usuario refleja el mensaje de error: `Failed to load data`.
-* El **[!UICONTROL Representaciones]** el panel no enumera todas las representaciones estáticas de los recursos publicados en Brand Portal.
-* El **[!UICONTROL Representaciones]** el panel enumera las representaciones de recorte inteligente del recurso; sin embargo, el usuario no puede obtener una vista previa ni descargar las representaciones de recorte inteligente.
+* El panel **[!UICONTROL Representaciones]** no enumera todas las representaciones estáticas de los recursos publicados en Brand Portal.
+* El panel **[!UICONTROL Representaciones]** enumera las representaciones de recorte inteligente del recurso; sin embargo, el usuario no puede obtener una vista previa ni descargar las representaciones de recorte inteligente.
 * El cuadro de diálogo de descarga enumera las representaciones de recortes inteligentes del recurso seleccionado. Sin embargo, el usuario no puede descargar estas representaciones.
 * Un usuario no administrador solo obtiene la representación del recurso original al descargar un recurso. El sistema y las representaciones personalizadas no se descargan.
-* Al aplicar el filtro de búsqueda para descargar un recurso, la variable `Download` El botón está desactivado en el cuadro de diálogo de descarga y no permite al usuario descargar el recurso.
-* If `Smart Tags` y (o) `Color Tags` están activadas, el cuadro de diálogo de descarga enumera las `json` archivos como representaciones y descarga estos `json` archivos en la carpeta zip archivada.
+* Al aplicar el filtro de búsqueda para descargar un recurso, el botón `Download` se deshabilita en el cuadro de diálogo de descarga y no permite al usuario descargar el recurso.
+* Si `Smart Tags` y (o) `Color Tags` están habilitados, el cuadro de diálogo de descarga enumera los `json` archivos como representaciones y descarga estos `json` archivos en la carpeta zip archivada.
 * Los usuarios anónimos no pueden descargar recursos mediante un vínculo compartido porque el vínculo redirige a la página de inicio de sesión de Brand Portal.
 * El sistema no refleja el valor correcto para el número de usuarios simultáneos activos.
 
@@ -374,11 +374,11 @@ La interfaz de usuario de Brand Portal está disponible en los siguientes idioma
 
 ## Plataformas certificadas {#certified-platforms}
 
-Para saber qué plataformas están certificadas para ejecutarse con esta versión de Brand Portal, consulte la **Compatibilidad con la IU táctil optimizada** en la tabla de la columna **Exploradores admitidos para la interfaz de usuario de creación** sección de [Requisitos técnicos](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Para saber qué plataformas están certificadas para ejecutarse con esta versión de Brand Portal, consulte la columna **Compatibilidad con IU táctil optimizada** en la tabla de la sección **Exploradores compatibles para crear la interfaz de usuario** de [Requisitos técnicos](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## Vínculos {#links}
 
-* [Página de productos de Adobe Experience Manager en adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Página de productos Adobe Experience Manager en adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
 * [Documentación de Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## Acceso y asistencia de productos (sitios restringidos) {#product-access-and-support-restricted-sites}

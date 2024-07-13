@@ -13,7 +13,7 @@ exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -34,30 +34,30 @@ Si no hay una imagen de fondo personalizada, se muestra un fondo predeterminado 
 
    ![](assets/admin-tools-panel-10.png)
 
-1. En el carril izquierdo del **[!UICONTROL Configurar la marca]** página, **[!UICONTROL Papel pintado]** está seleccionado de forma predeterminada. Se muestra la imagen de fondo predeterminada que aparece en la página de inicio de sesión.
+1. En el carril izquierdo de la página **[!UICONTROL Configurar marca]**, **[!UICONTROL Papel pintado]** está seleccionado de forma predeterminada. Se muestra la imagen de fondo predeterminada que aparece en la página de inicio de sesión.
 
    ![](assets/default_wallpaper.png)
 
-1. Para añadir una nueva imagen de fondo, haga clic en **[!UICONTROL Elegir imagen]** en la barra de herramientas de la parte superior.
+1. Para agregar una nueva imagen de fondo, haz clic en el icono **[!UICONTROL Elegir imagen]** de la barra de herramientas en la parte superior.
 
    ![](assets/choose_wallpaperimage.png)
 
    Realice una de las siguientes acciones:
 
-   * Para cargar una imagen desde el equipo, haga clic en **[!UICONTROL Cargar]**. Navegue hasta la imagen requerida y cárguela.
-   * Para utilizar una imagen de Brand Portal existente, haga clic en **[!UICONTROL Seleccionar entre los elementos existentes]**. Seleccione una imagen con el selector de recursos.
+   * Para cargar una imagen desde tu equipo, haz clic en **[!UICONTROL Cargar]**. Navegue hasta la imagen requerida y cárguela.
+   * Para usar una imagen de Brand Portal existente, haga clic en **[!UICONTROL Seleccionar entre los existentes]**. Seleccione una imagen con el selector de recursos.
 
    ![](assets/asset-picker.png)
 
-1. Especifique un texto de encabezado y una descripción para la imagen de fondo. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]** en la barra de herramientas de la parte superior.
+1. Especifique un texto de encabezado y una descripción para la imagen de fondo. Para guardar los cambios, haz clic en **[!UICONTROL Guardar]** en la barra de herramientas de la parte superior.
 
-1. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Previsualizar]** para generar una previsualización de la interfaz de Brand Portal con la imagen.
+1. En la barra de herramientas situada en la parte superior, haga clic en el icono **[!UICONTROL Vista previa]** para obtener una vista previa de la interfaz de Brand Portal con la imagen.
 
    ![](assets/chlimage_1.png)
 
    ![](assets/custom-wallpaper-preview.png)
 
-1. Para activar o desactivar el fondo de pantalla predeterminado, haga lo siguiente en la **[!UICONTROL Configurar marca > Papel pintado]** página:
+1. Para activar o desactivar el papel tapiz predeterminado, haga lo siguiente en la página **[!UICONTROL Configurar marca > Papel tapiz]**:
 
    * Para mostrar la imagen de fondo de pantalla predeterminada en la página de inicio de sesión de Brand Portal, haga clic en **[!UICONTROL Desactivar papel tapiz]** en la barra de herramientas de la parte superior. Un mensaje confirma que la imagen personalizada está desactivada.
 
@@ -67,9 +67,7 @@ Si no hay una imagen de fondo personalizada, se muestra un fondo predeterminado 
 
    ![](assets/chlimage_1-2.png)
 
-   * Clic **[!UICONTROL Guardar]** para guardar los cambios.
-
-
+   * Haga clic en **[!UICONTROL Guardar]** para guardar los cambios.
 
 ## Personalización del encabezado {#customize-the-header}
 
@@ -83,13 +81,13 @@ El encabezado aparece en varias páginas de Brand Portal después de iniciar ses
 
    ![](assets/admin-tools-panel-11.png)
 
-1. Para personalizar el encabezado de página de la interfaz de Brand Portal, en la **[!UICONTROL Configurar la marca]** página, seleccione **[!UICONTROL Imagen de encabezado]** desde el carril izquierdo. Se muestra la imagen de encabezado predeterminada.
+1. Para personalizar el encabezado de la página para la interfaz de Brand Portal, en la página **[!UICONTROL Configurar marca]**, seleccione **[!UICONTROL Imagen de encabezado]** en el carril izquierdo. Se muestra la imagen de encabezado predeterminada.
 
    ![](assets/default-header.png)
 
-1. Para cargar una imagen de encabezado, haga clic en **[!UICONTROL Elegir imagen]** y elija **[!UICONTROL Cargar]**.
+1. Para cargar una imagen de encabezado, haz clic en el icono **[!UICONTROL Elegir imagen]** y elige **[!UICONTROL Cargar]**.
 
-   Para utilizar una imagen de Brand Portal existente, elija **[!UICONTROL Seleccionar entre los elementos existentes]**.
+   Para usar una imagen de Brand Portal existente, elige **[!UICONTROL Seleccionar entre los existentes]**.
 
    ![](assets/choose_wallpaperimage-1.png)
 
@@ -97,19 +95,19 @@ El encabezado aparece en varias páginas de Brand Portal después de iniciar ses
 
    ![](assets/asset-picker-header.png)
 
-1. Para incluir una dirección URL en la imagen de encabezado, especifíquela en la **[!UICONTROL URL de imagen]** cuadro. Puede especificar direcciones URL externas o internas. Los vínculos internos también pueden ser vínculos relativos, por ejemplo,
+1. Para incluir una dirección URL en la imagen de encabezado, especifíquela en el cuadro **[!UICONTROL URL de imagen]**. Puede especificar direcciones URL externas o internas. Los vínculos internos también pueden ser vínculos relativos, por ejemplo,
    [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`].
 Este vínculo dirige a los usuarios a la carpeta de etiquetas.
-Para guardar los cambios, haga clic en **[!UICONTROL Guardar]** en la barra de herramientas de la parte superior.
+Para guardar los cambios, haz clic en **[!UICONTROL Guardar]** en la barra de herramientas de la parte superior.
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Previsualizar]** para generar una previsualización de la interfaz de Brand Portal con la imagen del encabezado.
+1. En la barra de herramientas de la parte superior, haga clic en el icono **[!UICONTROL Vista previa]** para generar una vista previa de la interfaz de Brand Portal con la imagen del encabezado.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
-1. Para activar o desactivar la imagen de encabezado, haga lo siguiente en la **[!UICONTROL Configurar marca > Imagen de encabezado]** página:
+1. Para activar o desactivar la imagen del encabezado, haga lo siguiente en la página **[!UICONTROL Configurar marca > Imagen de encabezado]**:
 
    * Para evitar que una imagen de encabezado aparezca en páginas de Brand Portal, haga clic en **[!UICONTROL Desactivar encabezado]** en la barra de herramientas de la parte superior. Un mensaje confirma que la imagen está desactivada.
 
@@ -119,9 +117,7 @@ Para guardar los cambios, haga clic en **[!UICONTROL Guardar]** en la barra de h
 
    ![](assets/chlimage_1-5.png)
 
-   * Clic **[!UICONTROL Guardar]** para guardar los cambios.
-
-
+   * Haga clic en **[!UICONTROL Guardar]** para guardar los cambios.
 
 ## Personalizar la mensajería de correo electrónico {#customize-the-email-messaging}
 
@@ -135,13 +131,13 @@ Cuando los recursos se comparten como un vínculo, los usuarios reciben un corre
 
    ![](assets/admin-tools-panel-12.png)
 
-1. Cuando los recursos se comparten como vínculos o se descargan a través de correos electrónicos y cuándo  **[!UICONTROL colecciones]** se comparten, las notificaciones por correo electrónico se envían a los usuarios. Para personalizar el mensaje de correo electrónico, en **[!UICONTROL Configurar la marca]** página, seleccione **[!UICONTROL Mensaje de correo electrónico]** desde el carril izquierdo.
+1. Cuando los recursos se comparten como vínculos o se descargan por correo electrónico, y cuando se comparten **[!UICONTROL colecciones]**, se envían notificaciones por correo electrónico a los usuarios. Para personalizar el mensaje de correo electrónico, en la página **[!UICONTROL Configurar marca]**, seleccione **[!UICONTROL Mensaje de correo electrónico]** en el carril izquierdo.
 
    ![](assets/configure-branding-page-email.png)
 
-1. Para añadir un logotipo a los correos electrónicos salientes, haga clic en **[!UICONTROL Cargar]** en la barra de herramientas de la parte superior.
+1. Para agregar un logotipo a los correos electrónicos salientes, haz clic en **[!UICONTROL Cargar]** en la barra de herramientas de la parte superior.
 
-1. En el **[!UICONTROL Descripción]** , especifique el texto del encabezado y pie de página del correo electrónico. Para guardar los cambios, haga clic en **[!UICONTROL Guardar]** en la barra de herramientas de la parte superior.
+1. En la sección **[!UICONTROL Descripción]**, especifique el texto del encabezado y pie de página del correo electrónico. Para guardar los cambios, haz clic en **[!UICONTROL Guardar]** en la barra de herramientas de la parte superior.
 
    >[!NOTE]
    >

@@ -12,22 +12,22 @@ role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: 72cd0ebbf05067287d94e1dc4e1b68f5fb6c2888
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 0%
 
 ---
 
 # Solución de problemas en la publicación paralela de Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal se configura con Experience Manager Assets para que los recursos de marca aprobados se ingieran (o publiquen) sin problemas desde la instancia de autor de Experience Manager Assets. Una [configurado](../using/configure-aem-assets-with-brand-portal.md), Experience Manager Author utiliza un agente de replicación para replicar los recursos seleccionados en el servicio en la nube de Brand Portal para que los usuarios de Brand Portal los utilicen de forma aprobada. Se utilizan varios agentes de replicación en el Experience Manager 6.2 SP1-CFP5, el Experience Manager CFP 6.3.0.2 y versiones posteriores para permitir la publicación paralela de alta velocidad.
+Brand Portal se configura con Experience Manager Assets para que los recursos de marca aprobados se ingieran (o publiquen) sin problemas desde la instancia de autor de Experience Manager Assets. Una vez [configurado](../using/configure-aem-assets-with-brand-portal.md), Experience Manager Author usa un agente de replicación para replicar los recursos seleccionados en el servicio en la nube de Brand Portal para que los usuarios de Brand Portal los aprueben. Se utilizan varios agentes de replicación en el Experience Manager 6.2 SP1-CFP5, el Experience Manager CFP 6.3.0.2 y versiones posteriores para permitir la publicación paralela de alta velocidad.
 
 >[!NOTE]
 >
 >El Adobe recomienda actualizar al Experience Manager 6.4.1.0 para garantizar que Experience Manager Assets Brand Portal se configura correctamente con Experience Manager Assets. Una limitación del Experience Manager 6.4 genera un error al configurar Experience Manager Assets con Brand Portal y se produce un error en la replicación.
 
-Al configurar Cloud Service para Brand Portal en **[!UICONTROL /etc/cloudservice]**, todos los usuarios y tokens necesarios se generan automáticamente y se guardan en el repositorio. Cuando se crea la configuración de Cloud Service, también se crean los usuarios de servicio necesarios para los agentes de replicación y replicación para replicar contenido. Crea cuatro agentes de replicación. Por lo tanto, cuando publica numerosos recursos de Experience Manager a Brand Portal, estos se ponen en cola y se distribuyen entre los agentes de replicación a través de Round Robin.
+Al configurar el servicio en la nube para Brand Portal en **[!UICONTROL /etc/cloudservice]**, todos los usuarios y el token necesarios se generan automáticamente y se guardan en el repositorio. Cuando se crea la configuración de Cloud Service, también se crean los usuarios de servicio necesarios para los agentes de replicación y replicación para replicar contenido. Crea cuatro agentes de replicación. Por lo tanto, cuando publica numerosos recursos de Experience Manager a Brand Portal, estos se ponen en cola y se distribuyen entre los agentes de replicación a través de Round Robin.
 
-Sin embargo, la publicación puede fallar intermitentemente debido a: grandes trabajos de sling, aumento de la red y **[!UICONTROL E/S de disco]** en la instancia de autor de Experience Manager o el rendimiento se ha ralentizado de la instancia de autor de Experience Manager. Por lo tanto, se recomienda probar la conexión con los agentes de replicación antes de comenzar la publicación.
+Sin embargo, la publicación puede fallar intermitentemente debido a: grandes trabajos de Sling, aumento de la red y **[!UICONTROL E/S del disco]** en la instancia de autor del Experience Manager o rendimiento lento de la instancia de autor del Experience Manager. Por lo tanto, se recomienda probar la conexión con los agentes de replicación antes de comenzar la publicación.
 
 ![](assets/test-connection.png)
 
@@ -45,13 +45,13 @@ Compruebe los registros de cola. Compruebe si el agente de replicación se ha cr
 
 Si al editar repetidamente el servicio en la nube no está configurado correctamente, notifique un ticket de guardería.
 
-**Probar la conexión con los agentes de replicación**
+**Probar conexión con agentes de replicación**
 
 Ver registro, si se encuentran errores en el registro de replicación:
 
 1. Póngase en contacto con Atención al cliente.
 
-1. Reintentar [limpieza](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) y vuelva a crear la configuración de publicación.
+1. Vuelva a intentar [limpiar](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) y cree la configuración de publicación.
 
 <!--
 Comment Type: remark
@@ -63,15 +63,14 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ## Limpiar las configuraciones de publicación de Brand Portal existentes {#clean-up-existing-config}
 
-La mayoría de las veces, cuando la publicación no funciona, el motivo puede ser que el usuario que está publicando (por ejemplo: `mac-<tenantid>-replication` no tiene la clave privada más reciente y, por lo tanto, la publicación falla con el error &quot;401 unauthorized&quot; y no se informa de ningún otro error en los registros del agente de replicación. Es posible que desee evitar la resolución de problemas y crear una configuración en su lugar. Para que la nueva configuración funcione correctamente, limpie lo siguiente de la configuración del autor del Experience Manager:
+La mayoría de las veces, cuando la publicación no funciona, la razón puede ser que el usuario que está publicando (por ejemplo: `mac-<tenantid>-replication` no tiene la clave privada más reciente, y por lo tanto la publicación falla con el error &quot;401 no autorizado&quot; y no se informa de ningún otro error en los registros del agente de replicación. Es posible que desee evitar la resolución de problemas y crear una configuración en su lugar. Para que la nueva configuración funcione correctamente, limpie lo siguiente de la configuración del autor del Experience Manager:
 
-1. Ir a `localhost:4502/crx/de/` (teniendo en cuenta que está ejecutando una instancia de autor en localhost:4502:\
+1. Vaya a `localhost:4502/crx/de/` (considerando que está ejecutando una instancia de autor en localhost:4502:)\
    i. eliminar `/etc/replication/agents.author/mp_replication`
-ii. eliminar 
-`/etc/cloudservices/mediaportal/<config_name>`
+ii. eliminar `/etc/cloudservices/mediaportal/<config_name>`
 
 1. Vaya a localhost:4502/useradmin:\
-   i. buscar usuario `mac-<tenantid>replication`
+   i. busque el usuario `mac-<tenantid>replication`
 ii. eliminar este usuario
 
 Ahora todo el sistema está limpio. Ahora puede intentar crear una configuración de servicio en la nube y seguir utilizando la aplicación JWT existente. No es necesario crear una aplicación, sino actualizar la clave pública desde la configuración en la nube recién creada.
@@ -83,7 +82,7 @@ Ahora todo el sistema está limpio. Ahora puede intentar crear una configuració
 
 ## Problema de visibilidad del inquilino de la aplicación JWT de Developer Connection {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Si está activado `https://legacy-oauth.cloud.adobe.io/`, se enumeran todas las organizaciones (inquilinos) para las que los usuarios actuales son administradores del sistema. Si no encuentra aquí el nombre de la organización o no puede crear una aplicación para un inquilino requerido, compruebe si tiene suficientes derechos (de administrador del sistema).
+Si está en `https://legacy-oauth.cloud.adobe.io/`, se enumerarán todas las organizaciones (inquilinos) para las que los usuarios actuales tienen un administrador del sistema. Si no encuentra aquí el nombre de la organización o no puede crear una aplicación para un inquilino requerido, compruebe si tiene suficientes derechos (de administrador del sistema).
 
 Hay un problema conocido en esta interfaz de usuario que para cualquier inquilino solo son visibles las diez aplicaciones principales. Cuando cree la aplicación, permanezca en esa página y marque la dirección URL. No es necesario que vaya a la página de lista de la aplicación y busque la aplicación que ha creado. Puede acceder a esta dirección URL con marcador directamente y actualizar/eliminar la aplicación cuando sea necesario.
 
@@ -118,7 +117,7 @@ permission
 
 Si un agente de replicación (que publicaba en Brand Portal correctamente) detiene el procesamiento de los trabajos de publicación, compruebe los registros de replicación. El Experience Manager tiene integrado el reintento automático, por lo que si falla la publicación de un recurso en particular, se vuelve a intentar automáticamente. Si hay algún problema intermitente como un error de red, es posible que se realice correctamente durante el reintento.
 
-Si hay errores de publicación continuos y la cola está bloqueada, debe comprobar **[!UICONTROL probar conexión]** e intente resolver los errores de los que se informa.
+Si hay errores de publicación continuos y la cola está bloqueada, debería comprobar **[!UICONTROL probar la conexión]** e intentar resolver los errores de los que se informa.
 
 En función de los errores, se le recomienda registrar un ticket de asistencia para que el equipo de ingeniería de Brand Portal pueda ayudarle a resolver los problemas.
 
@@ -138,10 +137,10 @@ Normalmente, el trabajo de publicación falla con un error de tiempo de espera s
 Para configurar los agentes de replicación:
 
 1. Inicie sesión en la instancia de autor de AEM Assets.
-1. Desde el **Herramientas** panel, vaya a **[!UICONTROL Implementación]** > **[!UICONTROL Replicación]**.
-1. En la página Replicación, haga clic en **[!UICONTROL Agentes en el autor]**. Puede ver los cuatro agentes de replicación de su inquilino de Brand Portal.
-1. Haga clic en la URL del agente de replicación y en **[!UICONTROL Editar]**.
-1. En Configuración del agente , haga clic en **[!UICONTROL Extendido]** pestaña.
-1. Seleccione el **[!UICONTROL Cerrar conexión]** casilla de verificación.
+1. En el panel **Herramientas**, vaya a **[!UICONTROL Implementación]** > **[!UICONTROL Replicación]**.
+1. En la página Replicación, haga clic en **[!UICONTROL Agentes del autor]**. Puede ver los cuatro agentes de replicación de su inquilino de Brand Portal.
+1. Haga clic en la URL del agente de replicación y luego en **[!UICONTROL Editar]**.
+1. En Configuración del agente, haga clic en la ficha **[!UICONTROL Extendido]**.
+1. Active la casilla de verificación **[!UICONTROL Cerrar conexión]**.
 1. Repita los pasos del 4 al 7 para configurar los cuatro agentes de replicación.
-1. Reiniciar el servidor.
+1. Reinicie el servidor.

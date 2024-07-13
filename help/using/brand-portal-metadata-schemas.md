@@ -1,7 +1,7 @@
 ---
-title: Utilizar el formulario de esquema de metadatos
+title: Uso del formulario de esquema de metadatos
 seo-title: Use the metadata schema form
-description: Una esquema de metadatos describe la presentación de la Página de Propiedades y las propiedades de metadatos mostradas para activos que utilizan los esquema concretos. La esquema que se aplica a un recurso determina los campos metadatos que aparecen en su Página Propiedades.
+description: Un esquema de metadatos describe el diseño de la página Propiedades y las propiedades de metadatos mostradas para los recursos que utilizan el esquema en particular. El esquema que aplique a un recurso determina los campos de metadatos que aparecen en su página Propiedades.
 seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
@@ -12,22 +12,22 @@ role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 11%
+source-wordcount: '1719'
+ht-degree: 8%
 
 ---
 
-# Utilizar el formulario de esquema de metadatos {#use-the-metadata-schema-form}
+# Uso del formulario de esquema de metadatos {#use-the-metadata-schema-form}
 
-Una esquema de metadatos describe la presentación de la Página de Propiedades y las propiedades de metadatos mostradas para activos que utilizan los esquema concretos. La esquema que se aplica a un recurso determina los campos metadatos que aparecen en su Página Propiedades.
+Un esquema de metadatos describe el diseño de la página Propiedades y las propiedades de metadatos mostradas para los recursos que utilizan el esquema en particular. El esquema que aplique a un recurso determina los campos de metadatos que aparecen en su página Propiedades.
 
-El **[!UICONTROL Propiedades]** para cada recurso incluye propiedades de metadatos predeterminadas según el tipo MIME del recurso. Los administradores pueden utilizar el Editor de esquemas de metadatos para modificar esquemas existentes o agregar esquemas de metadatos personalizados. Experience Manager Assets Brand Portal proporciona formularios predeterminados para recursos de varios tipos MIME. Sin embargo, también puede Agregar formularios personalizados para estos activos.
+La página **[!UICONTROL Propiedades]** de cada recurso incluye propiedades de metadatos predeterminadas según el tipo MIME del recurso. Los administradores pueden utilizar el Editor de esquemas de metadatos para modificar esquemas existentes o agregar esquemas de metadatos personalizados. Experience Manager Assets Brand Portal proporciona formularios predeterminados para recursos de varios tipos MIME. Sin embargo, también puede agregar formularios personalizados para estos recursos.
 
-## añadir un formulario metadatos esquema {#add-a-metadata-schema-form}
+## Agregar un formulario de esquema de metadatos {#add-a-metadata-schema-form}
 
-Para crear un nuevo metadatos esquema formulario, haga lo siguiente:
+Para crear un nuevo formulario de esquema de metadatos, haga lo siguiente:
 
-1. En la barra de herramientas de la parte superior, haga clic en el logotipo Experience Manager para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -35,11 +35,11 @@ Para crear un nuevo metadatos esquema formulario, haga lo siguiente:
 
    ![](assets/navigation-panel.png)
 
-1. En el **[!UICONTROL Forms de esquema de metadatos]** página, haga clic en **[!UICONTROL Crear]**.
+1. En la página **[!UICONTROL Forms de esquema de metadatos]**, haga clic en **[!UICONTROL Crear]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-1. En el **[!UICONTROL Crear formulario de esquema]** , especifique el título del formulario Esquema y, a continuación, haga clic en **[!UICONTROL Crear]** para completar el proceso de creación del formulario.
+1. En el cuadro de diálogo **[!UICONTROL Crear formulario de esquema]**, especifique el título del formulario de esquema y, a continuación, haga clic en **[!UICONTROL Crear]** para completar el proceso de creación del formulario.
 
    ![](assets/create-schema-form.png)
 
@@ -56,68 +56,68 @@ Para editar un formulario de esquema de metadatos, haga lo siguiente:
    ![](assets/aemlogo.png)
 
 1. En el panel de herramientas administrativas, haga clic en **[!UICONTROL Esquemas de metadatos]**.
-1. En el **[!UICONTROL esquema de metadatos Forms]** página, seleccione un formulario esquema para editar sus propiedades, por ejemplo, **[!UICONTROL colección]** .
+1. En la página **[!UICONTROL Forms de esquema de metadatos]**, seleccione un formulario de esquema para editar sus propiedades; por ejemplo, **[!UICONTROL colección]**.
 
    ![](assets/metadata-schema-forms.png)
 
    >[!NOTE]
    >
-   >Las plantillas sin editar muestran un símbolo de bloqueo antes que las demás. Si personaliza cualquiera de las plantillas, desaparece el símbolo de bloqueo antes de la plantilla.
+   >Las plantillas no editadas muestran un símbolo de bloqueo antes que ellas. Si personaliza cualquiera de las plantillas, desaparece el símbolo de bloqueo antes de la plantilla.
 
-1. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Editar]**.
+1. En la barra de herramientas de la parte superior, haz clic en **[!UICONTROL Editar]**.
 
-   El **[!UICONTROL Editor de esquemas de metadatos]** página se abre con el **[!UICONTROL Básico]** pestaña abierta a la izquierda y el **[!UICONTROL Generar formulario]** pestaña abierta a la derecha.
+   La página **[!UICONTROL Editor de esquemas de metadatos]** se abre con la ficha **[!UICONTROL Básico]** abierta a la izquierda y la ficha **[!UICONTROL Generar formulario]** abierta a la derecha.
 
-1. En el **[!UICONTROL Editor de esquemas de metadatos]** página, personalice la **[!UICONTROL Propiedades]** página del recurso arrastrando uno o más componentes desde una lista de tipos de componentes en la **[!UICONTROL Generar formulario]** a la pestaña **[!UICONTROL Básico]** pestaña.
+1. En la página **[!UICONTROL Editor de esquemas de metadatos]**, personalice la página **[!UICONTROL Propiedades]** del recurso arrastrando uno o más componentes de una lista de tipos de componentes en la pestaña **[!UICONTROL Generar formulario]** a la pestaña **[!UICONTROL Básico]**.
 
    ![](assets/metadata-schemaeditor-page.png)
 
-1. Para configurar un componente, selecciónelo y modifique sus propiedades en el **[!UICONTROL Configuración]** pestaña.
+1. Para configurar un componente, selecciónelo y modifique sus propiedades en la ficha **[!UICONTROL Configuración]**.
 
-### Componentes del formulario de compilación pestaña {#components-in-the-build-form-tab}
+### Componentes de la pestaña Generar formulario {#components-in-the-build-form-tab}
 
-El **[!UICONTROL formulario]** de compilación pestaña enumera los elementos que se pueden utilizar en el formulario de esquema. La **[!UICONTROL Configuración]** pestaña proporciona los atributos de cada elemento que seleccione en el **[!UICONTROL pestaña de formulario]** de compilación. En la tabla siguiente se enumeran los elementos de formulario disponibles en el **[!UICONTROL formulario]** de compilación pestaña:
+La pestaña **[!UICONTROL Generar formulario]** enumera los elementos que puede usar en el formulario de esquema. La ficha **[!UICONTROL Configuración]** proporciona los atributos de cada elemento que selecciona en la ficha **[!UICONTROL Generar formulario]**. En la tabla siguiente se enumeran los elementos de formulario disponibles en la ficha **[!UICONTROL Generar formulario]**:
 
-| Nombre de la Componente | Descripción |
+| Nombre del componente | Descripción |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **[!UICONTROL Encabezado de sección]** | Añada un encabezado de sección para una lista de componentes comunes. |
 | **[!UICONTROL Texto de una sola línea]** | Agregue una propiedad de texto de una sola línea. Se almacena como una cadena. |
 | **[!UICONTROL Texto con varios valores]** | Agregue una propiedad de texto de varios valores. Se almacena como una matriz de cadenas. |
-| **[!UICONTROL Número]** | Añada un componente numérico. |
-| **[!UICONTROL Fecha]** | Añadir un componente de fecha. |
-| **[!UICONTROL Lista desplegable]** | Añadir un lista desplegable. |
-| **[!UICONTROL Etiquetas estándar]** | Añadir una etiqueta. **Nota:** es posible que los administradores necesiten cambiar el valor de ruta, por ejemplo `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>` , si publicar el metadatos esquema formulario de Experience Manager Assets, donde la ruta no incluye la información de los inquilinos, por ejemplo, `/etc/tags/<custom_tag_namespace>` . |
+| **[!UICONTROL Número]** | Añada un componente de número. |
+| **[!UICONTROL Fecha]** | Añada un componente de fecha. |
+| **[!UICONTROL Menú Desplegable]** | Añada una lista desplegable. |
+| **[!UICONTROL Etiquetas estándar]** | Añada una etiqueta. **Nota:** Los administradores podrían tener que cambiar el valor de la ruta de acceso, por ejemplo, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, si publican el formulario de esquema de metadatos desde Experience Manager Assets, donde la ruta de acceso no incluye información del inquilino, por ejemplo, `/etc/tags/<custom_tag_namespace>`. |
 | **[!UICONTROL Etiquetas inteligentes]** | Etiquetas detectadas automáticamente si ha adquirido y configurado el complemento Experience Manager Assets smart tags. |
 | **[!UICONTROL Campo oculto]** | Agregue un campo oculto. Se envía como parámetro de POST cuando se guarda el recurso. |
-| **[!UICONTROL Recurso al que se hace referencia en]** | Agregue este componente para ver la lista de recursos a los que hace referencia el recurso. |
-| **[!UICONTROL Referencia de recursos]** | Agregar para mostrar una lista de recursos que hacen referencia al recurso. |
-| **[!UICONTROL Clasificación del recurso]** | Clasificación promedio de un recurso agregado desde Experience Manager Assets antes de publicarse en Brand Portal. |
-| **[!UICONTROL Metadatos de contexto]** | Añadir para controlar la visualización de otras fichas de metadatos en la Página Propiedades de activos. |
+| **[!UICONTROL Recurso Referido Por]** | Agregue este componente para ver la lista de recursos a los que hace referencia el recurso. |
+| **[!UICONTROL Referencia de recurso]** | Agregar para mostrar una lista de recursos que hacen referencia al recurso. |
+| **[!UICONTROL Clasificación de recursos]** | Clasificación promedio de un recurso agregado desde Experience Manager Assets antes de publicarse en Brand Portal. |
+| **[!UICONTROL Metadatos contextuales]** | Agregue para controlar la visualización de otras pestañas de metadatos en la página Propiedades de los recursos. |
 
 >[!NOTE]
 >
->No utilice **[!UICONTROL las referencias]** del producto, ya que no funciona.
+>No use **[!UICONTROL referencias del producto]**, ya que no funciona.
 
-#### Editar el componente metadatos {#edit-the-metadata-component}
+#### Editar el componente de metadatos {#edit-the-metadata-component}
 
-Para editar las propiedades de un componente de metadatos del formulario, haga clic en el componente y edite sus propiedades en el **[!UICONTROL pestaña configuración]** .
+Para editar las propiedades de un componente de metadatos en el formulario, haga clic en el componente y edite sus propiedades en la pestaña **[!UICONTROL Configuración]**.
 
-* **[!UICONTROL Etiquetar]** de campo: el nombre de la propiedad de metadatos que se muestra en el propiedades página del recurso.
+* **[!UICONTROL Etiqueta de campo]**: nombre de la propiedad de metadatos que se muestra en la página Propiedades del recurso.
 
-* **[!UICONTROL Asignar a la propiedad]**: el valor de esta propiedad proporciona la ruta/nombre relativo al nodo del recurso donde se guarda en el repositorio CRX. Comienza con &quot;**./** &quot;porque indica que la ruta está debajo de la nodo del recurso.
+* **[!UICONTROL Asignar a la propiedad]**: el valor de esta propiedad proporciona la ruta/nombre relativa al nodo de recursos donde se guarda en el repositorio de CRX. Comienza con &quot;**./**&quot; porque indica que la ruta de acceso está bajo el nodo del recurso.
 
-A continuación se muestran los valores válidos para este Propiedad:
+Los siguientes son los valores válidos para esta propiedad:
 
--- `./jcr:content/metadata/dc:title`: Almacena el valor en el nodo de metadatos del recurso como propiedad [!UICONTROL `dc:title`].
+— `./jcr:content/metadata/dc:title`: almacena el valor en el nodo de metadatos del recurso como propiedad [!UICONTROL `dc:title`].
 
--- `./jcr:created` : Muestra el propiedad JCR en la nodo de recurso. Si configura estas propiedades en propiedades de vista, le recomendamos que las marque como Deshabilitar edición, ya que están protegidas. De lo contrario, se produce el fallo “Error al modificar los recursos” al guardar las propiedades del recurso.
+— `./jcr:created`: muestra la propiedad jcr en el nodo del recurso. Si configura estas propiedades en propiedades de vista, le recomendamos que las marque como Deshabilitar edición, ya que están protegidas. De lo contrario, se produce el fallo “Error al modificar los recursos” al guardar las propiedades del recurso.
 
-* **[!UICONTROL Marcador]**: utilice esta propiedad para proporcionar al usuario cualquier información relevante sobre la propiedad de metadatos.
+* **[!UICONTROL Marcador de posición]**: utilice esta propiedad para proporcionar al usuario información relevante acerca de la propiedad de metadatos.
 * **[!UICONTROL Requerido]**: utilice esta propiedad para marcar una propiedad de metadatos como obligatoria en la página Propiedades.
-* **[!UICONTROL Desactivar edición]**: utilice esta propiedad para que una propiedad de metadatos no se pueda editar en la página Propiedades.
-* **[!UICONTROL Mostrar campo vacío en solo lectura]**: Marque esta propiedad para mostrar una propiedad de metadatos en la página Propiedades aunque no tenga valor. De forma predeterminada, cuando una propiedad de metadatos no tiene valor, no se muestra en la página Propiedades.
+* **[!UICONTROL Deshabilitar edición]**: utilice esta propiedad para que una propiedad de metadatos no se pueda editar en la página Propiedades.
+* **[!UICONTROL Mostrar campo vacío en solo lectura]**: marque esta propiedad para mostrar una propiedad de metadatos en la página Propiedades aunque no tenga valor. De forma predeterminada, cuando una propiedad de metadatos no tiene valor, no se muestra en la página Propiedades.
 * **[!UICONTROL Descripción]**: utilice esta propiedad para agregar una descripción breve para el componente de metadatos.
-* **[!UICONTROL Icono Eliminar]**: haga clic en este icono para eliminar un componente del formulario de esquema.
+* **[!UICONTROL Icono Eliminar]**: Haga clic en este icono para eliminar un componente del formulario de esquema.
 
 ![](assets/delete_icon_editmetadataschemaform.png)
 
@@ -127,41 +127,41 @@ A continuación se muestran los valores válidos para este Propiedad:
 
 #### Agregar o eliminar una pestaña en el formulario de esquema {#add-or-delete-a-tab-in-the-schema-form}
 
-El formulario de esquema predeterminado incluye el **[!UICONTROL Básico]** y **[!UICONTROL Avanzadas]** pestañas. El editor de esquemas permite agregar o eliminar una pestaña.
+El formulario de esquema predeterminado incluye las fichas **[!UICONTROL Básico]** y **[!UICONTROL Avanzado]**. El editor de esquemas permite añadir o eliminar una pestaña.
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* Para agregar una pestaña nueva en un formulario de esquema, haga clic en **[!UICONTROL +]** . De forma predeterminada, el pestaña nuevo tiene el nombre &quot;sin nombre-1&quot;. Puede modificar el nombre desde el **[!UICONTROL pestaña configuración]** .
+* Para agregar una nueva pestaña en un formulario de esquema, haga clic en **[!UICONTROL +]**. De forma predeterminada, la nueva pestaña tiene el nombre &quot;Unnamed-1&quot;. Puede modificar el nombre desde la ficha **[!UICONTROL Configuración]**.
 
 ![](assets/add-tab-metadata-form.png)
 
-* Para eliminar una pestaña, haga clic en **[!UICONTROL x]**. Clic **[!UICONTROL Guardar]** para guardar los cambios.
+* Para eliminar una ficha, haga clic en **[!UICONTROL x]**. Haga clic en **[!UICONTROL Guardar]** para guardar los cambios.
 
 ## Aplicar un esquema de metadatos a una carpeta {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal permite personalizar y controlar el esquema de metadatos para que la variable **[!UICONTROL Propiedades]** de un recurso muestra únicamente la información específica que decida mostrar. Para controlar los metadatos mostrados en **[!UICONTROL Propiedades]** , elimine los metadatos requeridos del formulario de esquema de metadatos y aplíquelo a la carpeta específica.
+Brand Portal permite personalizar y controlar el esquema de metadatos para que la página **[!UICONTROL Propiedades]** de un recurso muestre únicamente la información específica que elija mostrar. Para controlar los metadatos mostrados en la página **[!UICONTROL Propiedades]**, quite los metadatos requeridos del formulario de esquema de metadatos y aplíquelo a la carpeta específica.
 
-Para aplicar un metadatos esquema formulario a una carpeta, haga lo siguiente:
+Para aplicar un formulario de esquema de metadatos a una carpeta, haga lo siguiente:
 
-1. En la barra de herramientas de la parte superior, haga clic en el logotipo Experience Manager para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 
-1. En el panel Herramientas administrativas, haga clic en **[!UICONTROL esquemas]** de metadatos.
+1. En el panel de herramientas administrativas, haga clic en **[!UICONTROL Esquemas de metadatos]**.
 
-1. En el **[!UICONTROL esquema de metadatos Forms]** página, seleccione el formulario esquema que desee aplicar a un recurso, por ejemplo, **[!UICONTROL ropa]** .
+1. En la página **[!UICONTROL Forms de esquema de metadatos]**, seleccione el formulario de esquema que desee aplicar a un recurso, por ejemplo, **[!UICONTROL dress]**.
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-1. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL aplicar a carpeta]** .
+1. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Aplicar a las carpetas]**.
 
-1. Desde el **[!UICONTROL Seleccione las carpetas]** , vaya a la carpeta a la que desee aplicar el **[!UICONTROL ropa]** esquema de metadatos, por ejemplo, **[!UICONTROL Guantes]**.
+1. En la página **[!UICONTROL Seleccionar carpetas]**, vaya a la carpeta a la que desee aplicar el esquema de metadatos **[!UICONTROL dress]**; por ejemplo, **[!UICONTROL Gloves]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-1. Clic **[!UICONTROL Aplicar]** para aplicar el formulario de esquema de metadatos a la carpeta.
+1. Haga clic en **[!UICONTROL Aplicar]** para aplicar el formulario de esquema de metadatos a la carpeta.
 
-   Los metadatos disponibles en la variable **[!UICONTROL ropa]** el formulario de esquema de metadatos se aplica al **[!UICONTROL Guantes]** carpeta y visible en el **[!UICONTROL Propiedades]** de la carpeta.
+   Los metadatos disponibles en el formulario de esquema de metadatos **[!UICONTROL wear]** se han aplicado a la carpeta **[!UICONTROL Gloves]** y están visibles en la página **[!UICONTROL Properties]** de la carpeta.
 
    ![](assets/folder_metadata_properties.png)
 
@@ -173,48 +173,48 @@ Para aplicar un metadatos esquema formulario a una carpeta, haga lo siguiente:
 
 Brand Portal solo permite eliminar formularios de esquema personalizados. No permite eliminar los formularios o las plantillas de esquema predeterminados. Sin embargo, puede eliminar cualquier cambio personalizado en estos formularios.
 
-Para eliminar un formulario, seleccione un formulario y haga clic en **[!UICONTROL Eliminar]** icono.
+Para eliminar un formulario, selecciónelo y haga clic en el icono **[!UICONTROL Eliminar]**.
 
 ![](assets/delete_icon_metadataschemaeditorform.png)
 
 >[!NOTE]
 >
->Después de eliminar los cambios personalizados realizados en un formulario predeterminado, la variable **[!UICONTROL Bloquear]** vuelve a aparecer antes del nombre del formulario en la interfaz de esquema de metadatos para indicar que el formulario se ha revertido a su estado predeterminado.
+>Después de eliminar los cambios personalizados realizados en un formulario predeterminado, el símbolo **[!UICONTROL Lock]** vuelve a aparecer antes del nombre del formulario en la interfaz del esquema de metadatos para indicar que el formulario se ha revertido a su estado predeterminado.
 
 ## Formularios de esquema para TIPOS MIME {#schema-forms-for-mime-types}
 
 ### Adición de nuevos formularios para tipos MIME {#adding-new-forms-for-mime-types}
 
-Además de los formularios predeterminados, puede Agregar formularios personalizados para activos de varios tipos MIME o crear un nuevo formulario bajo un tipo de formulario adecuado. Por ejemplo, para agregar una nueva plantilla para el subtipo **[!UICONTROL imagen/png]**, cree el formulario en los formularios de “imagen”. El título del formulario de esquema es el nombre del subtipo. En este caso, el título es &quot;png&quot;.
+Además de los formularios predeterminados, puede agregar formularios personalizados para recursos de varios tipos MIME o crear un nuevo formulario en un tipo de formulario adecuado. Por ejemplo, para agregar una nueva plantilla para el subtipo **[!UICONTROL imagen/png]**, cree el formulario en los formularios de “imagen”. El título del formulario de esquema es el nombre del subtipo. En este caso, el título es &quot;png&quot;.
 
 #### Uso de una plantilla de esquema existente para varios tipos MIME {#using-an-existing-schema-template-for-various-mime-types}
 
-Puede utilizar una plantilla existente para un tipo MIME diferente. Por ejemplo, utilice el **formulario de imagen/JPEG** para activos de tipo **MIME image/png** .
+Puede utilizar una plantilla existente para un tipo MIME diferente. Por ejemplo, use el formulario **image/jpeg** para los recursos de tipo MIME **image/png**.
 
-En este caso, cree un nuevo nodo en [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] en el repositorio CRX. Especifique un nombre para el nodo y defina las siguientes propiedades:
+En este caso, cree un nuevo nodo en [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] en el repositorio de CRX. Especifique un nombre para el nodo y defina las siguientes propiedades:
 
 | **Nombre** | **Tipo** | **Valor** |
 |---|---|---|
 | exponsedmimetype | Cadena | image/jpeg |
-| mimetipos | Cadena[] | image/png |
+| mimetipos | Cadena [] | image/png |
 
-* **exponsedmimetype**: Nombre del formulario existente que se va a asignar
-* **mimeTypes** : lista de tipos MIME que utilizan el formulario definido en el **atributo exposedmimetype**
+* **exponsedmimetype**: nombre del formulario existente que se va a asignar
+* **mimetypes**: lista de tipos MIME que utilizan el formulario definido en el atributo **exponsedmimetype**
 
-Brand portal asigna los siguientes tipos MIME y esquema formularios:
+Brand Portal asigna los siguientes tipos MIME y formularios de esquema:
 
-| **Formulario de esquema** | **Tipos MIME** |
+| **Formulario de esquema** | **tipos MIME** |
 |---|---|
 | image/jpeg | image/pjpeg |
-| image/tiff | imagen/x-TIFF |
+| image/tiff | image/x-tiff |
 | application/pdf | application/postscript |
-| aplicación/x-conjunto imágenes | Multipart/Related; type=application/x-ImageSet |
+| application/x-ImageSet | Multipart/Related; type=application/x-ImageSet |
 | application/x-SpinSet | Multipart/Related; type=application/x-SpinSet |
 | application/x-MixedMediaSet | Multipart/Related; type=application/x-MixedMediaSet |
 | video/quicktime | video/x-quicktime |
 | video/mpeg4 | video/mp4 |
 | video/avi | video/avi, video/msvideo, video/x-msvideo |
-| Video/WMV | video/x-ms-wmv |
+| video/wmv | video/x-ms-wmv |
 | video/flv | video/x-flv |
 
 A continuación se muestra una lista de propiedades de metadatos predeterminadas:
@@ -236,7 +236,7 @@ A continuación se muestra una lista de propiedades de metadatos predeterminadas
 * jcr:content/jcr:lastModified
 * jcr:content/metadata/prism:expirationDate
 * jcr:content/onTime
-* JCR: contenido/offTime
+* jcr:content/offTime
 * jcr:content/metadata/dam:size
-* JCR: contenido/metadatos/TIFF: ImageWidth
-* JCR: contenido/metadatos/TIFF: ImageLength
+* jcr:content/metadata/tiff:ImageWidth
+* jcr:content/metadata/tiff:ImageLength

@@ -1,71 +1,67 @@
 ---
 title: Descarga de recursos
-seo-title: Download assets
-description: Todos los usuarios pueden descargar simultáneamente recursos y carpetas accesibles para ellos. De este modo, los recursos de marca aprobados se pueden distribuir de forma segura para su uso sin conexión.
-seo-description: All users can simultaneously download assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
-uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
+description: Todos los usuarios pueden descargar recursos y carpetas accesibles al mismo tiempo, lo que garantiza que los recursos de marca aprobados se distribuyan de forma segura para su uso sin conexión.
 content-type: reference
 contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
-discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: fe6677df928a4125185051d80ae3055afb479369
+source-git-commit: f483ac280a5e89ca25305eae09380d70ad661752
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1909'
 ht-degree: 5%
 
 ---
 
 # Descarga de recursos {#download-assets-from-bp}
 
-Adobe Experience Manager Assets Brand Portal mejora la experiencia de descarga al permitir a los usuarios descargar simultáneamente recursos y carpetas accesibles desde Brand Portal. De este modo, los recursos de marca aprobados se pueden distribuir de forma segura para su uso sin conexión. Siga leyendo para saber cómo descargar recursos (recursos aprobados) de Brand Portal y qué esperar del [rendimiento de descarga](#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal mejora la experiencia de descarga al permitir que los usuarios descarguen simultáneamente recursos y carpetas accesibles para ellos desde Brand Portal. Este método significa que los recursos de marca aprobados se pueden distribuir de forma segura para su uso sin conexión. Siga leyendo para saber cómo descargar recursos (recursos aprobados) de Brand Portal y qué esperar del [rendimiento de descarga](#expected-download-performance).
 
 
 >[!NOTE]
 >
->En Brand Portal 2020.10.0 (y versiones posteriores), la configuración de **[!UICONTROL Descarga rápida]** está habilitada de forma predeterminada, que utiliza IBM Aspera Connect para la descarga acelerada de los recursos. Instale IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) en la extensión del explorador antes de descargar los recursos de Brand Portal. Para obtener más información, consulte la [guía para acelerar las descargas desde Brand Portal](../using/accelerated-download.md).
+>En Brand Portal 2020.10.0 (y versiones posteriores), la configuración de **[!UICONTROL Descarga rápida]** está habilitada de forma predeterminada, que utiliza IBM® Aspera Connect para la descarga acelerada de los recursos. Instale IBM® Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) en la extensión del explorador antes de descargar los recursos de Brand Portal. Consulte la [guía para acelerar las descargas desde Brand Portal](../using/accelerated-download.md).
 >
->Si no desea usar IBM Aspera Connect y continuar con el proceso de descarga normal, póngase en contacto con el administrador de Brand Portal para desactivar la configuración de **[!UICONTROL descarga rápida]**.
+>Si no desea usar IBM® Aspera Connect y continuar con el proceso de descarga normal, póngase en contacto con el administrador de Brand Portal para desactivar la configuración de **[!UICONTROL descarga rápida]**.
 
 ## Configurar la descarga de recursos {#configure-download}
 
-Los administradores de Brand Portal pueden configurar las opciones de descarga de recursos y grupo de usuarios para los usuarios de Brand Portal, lo que les permite acceder y descargar representaciones de recursos desde la interfaz de Brand Portal.
+Los administradores de Brand Portal pueden configurar las opciones de descarga de recursos y grupo de usuarios para los usuarios de Brand Portal. Esta capacidad permite a los usuarios acceder y descargar representaciones de recursos desde la interfaz de Brand Portal.
 
 >[!NOTE]
 >
->La configuración de descarga aplicada en la interfaz de usuario facilita una experiencia de autoservicio a los usuarios de Brand Portal para configurar y descargar fácilmente representaciones de recursos. No restringe la descarga de recursos en la capa de aplicación; por ejemplo, los usuarios pueden seguir accediendo y descargando representaciones de recursos con la ruta de URL completa.
+>La configuración de descarga de la interfaz de usuario de proporciona una experiencia de autoservicio para los usuarios de Brand Portal, lo que les permite configurar y descargar representaciones de recursos fácilmente. No restringe la descarga de recursos en la capa de aplicación; por ejemplo, los usuarios pueden seguir accediendo y descargando representaciones de recursos con la ruta de URL completa.
 
-El acceso y la descarga de las representaciones de recursos desde la interfaz de Brand Portal se definen mediante las siguientes configuraciones:
+Las siguientes configuraciones definen cómo acceder y descargar las representaciones de recursos desde la interfaz de Brand Portal:
 
 * Habilitar configuración de descarga
 * Configurar grupos de usuarios
 
 ### Habilitar configuración de descarga {#enable-download-settings}
 
-Los administradores pueden habilitar el recurso **[!UICONTROL Configuración de descarga]** para definir el conjunto de representaciones accesibles para los usuarios de Brand Portal para su descarga.
+Los administradores pueden habilitar **[!UICONTROL Configuración de descarga]** para definir el conjunto de representaciones accesibles para los usuarios de Brand Portal para su descarga.
 
 Los ajustes disponibles son:
 
 * **[!UICONTROL Descarga rápida]**
 
-  Proporciona una descarga acelerada de los recursos mediante IBM Aspera Connect. De manera predeterminada, la configuración **[!UICONTROL Descarga rápida]** está habilitada en **[!UICONTROL Configuración de descarga]**.
+  Proporciona una descarga acelerada de los recursos mediante IBM® Aspera Connect. De manera predeterminada, la configuración **[!UICONTROL Descarga rápida]** está habilitada en **[!UICONTROL Configuración de descarga]**.
 
 * **[!UICONTROL Representaciones personalizadas]**
 
   Permite descargar representaciones personalizadas y (o) dinámicas de los recursos.
 
-  Todas las representaciones de recursos que no sean el recurso original y las generadas por el sistema se denominan representaciones personalizadas. Incluye representaciones estáticas y dinámicas disponibles para el recurso. Cualquier usuario puede crear una representación estática personalizada en Experience Manager Assets, mientras que solo el administrador puede crear representaciones dinámicas personalizadas. Para obtener más información, consulte [cómo aplicar ajustes preestablecidos de imagen o representaciones dinámicas](../using/brand-portal-image-presets.md).
+  Todas las representaciones de recursos que no sean el recurso original y las generadas por el sistema se denominan representaciones personalizadas. Incluye representaciones estáticas y dinámicas disponibles para el recurso. Cualquier usuario puede crear una representación estática personalizada en Experience Manager Assets, mientras que solo el administrador puede crear representaciones dinámicas personalizadas. Consulte [cómo aplicar ajustes preestablecidos de imagen o representaciones dinámicas](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Representaciones del sistema]**
 
   Permite descargar representaciones generadas por el sistema de los recursos.
 
-  Estas son las miniaturas que se generan automáticamente en Experience Manager Assets en función del flujo de trabajo &quot;Recurso de actualización DAM&quot;.
+  Estos recursos son miniaturas que se generan automáticamente en Experience Manager Assets en función del flujo de trabajo &quot;Recurso de actualización DAM&quot;.
 
 * **[!UICONTROL Descarga de recursos]**
 
-  Permite descargar las representaciones en una carpeta independiente para cada recurso. La configuración se aplica a carpetas, colecciones y descargas masivas de recursos (más de 20 recursos).
+  Las representaciones se descargan en carpetas independientes para cada recurso. Esta configuración se aplica a carpetas, colecciones y descargas masivas de más de 20 recursos.
 
 
 Inicie sesión en su inquilino de Brand Portal como administrador y vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Descargar]**.
@@ -89,9 +85,9 @@ Inicie sesión en su inquilino de Brand Portal como administrador y vaya a **[!U
 
 >[!NOTE]
 >
->Si se agrega un usuario a varios grupos y si uno de esos grupos tiene restricciones, estas se aplicarán al usuario.
+>Si se agrega un usuario a varios grupos y si uno de esos grupos tiene restricciones, estas se aplican al usuario.
 
-En función de la configuración, el flujo de trabajo de descarga permanece constante para los recursos independientes, varios recursos, carpetas que contienen recursos, recursos con o sin licencia y descarga de recursos mediante un vínculo compartido.
+En función de la configuración, el flujo de trabajo de descarga permanece constante para los recursos independientes, varios recursos, carpetas que contienen recursos, recursos con o sin licencia y la descarga de recursos mediante un vínculo compartido.
 
 La siguiente matriz define si un usuario tendría acceso a las representaciones según las [configuraciones de descarga](#configure-download):
 
@@ -121,7 +117,7 @@ Los usuarios de Brand Portal pueden descargar varios recursos, carpetas que cont
 Si el usuario tiene acceso a las representaciones, se le proporcionará el cuadro de diálogo **[!UICONTROL Descargar]** mejorado con las siguientes capacidades:
 
 * Vea todas las representaciones disponibles de cualquier recurso en la lista de descarga.
-* Excluya las representaciones de los recursos que no sean necesarios para la descarga.
+* Excluya las representaciones de recursos que no sean necesarios para la descarga.
 * Aplique el mismo conjunto de representaciones a todos los tipos de recursos similares con un solo clic.
 * Aplique un conjunto diferente de representaciones para diferentes tipos de recursos.
 * Cree una carpeta independiente para cada recurso.
@@ -153,14 +149,14 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
      >[!NOTE]
      >
-     >Si descarga los recursos por primera vez y no tiene IBM Aspera Connect instalado en el explorador, se le pedirá que instale el acelerador de descargas de Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+     >Si descarga los recursos por primera vez y no tiene IBM® Aspera Connect instalado en el explorador, se le pedirá que instale el acelerador de descargas de Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
 
      >[!NOTE]
      >
-     >Si los recursos que está descargando también incluyen recursos con licencia, se le redirigirá a la página **[!UICONTROL Administración de copyright]**. En esta página, seleccione los recursos, haga clic en **[!UICONTROL Aceptar]** y, a continuación, haga clic en **[!UICONTROL Descargar]**. Si decide no estar de acuerdo, los recursos con licencia no se descargan.
+     >Si los recursos que descargó también incluyen recursos con licencia, se le redirigirá a la página **[!UICONTROL Administración de copyright]**. En esta página, seleccione los recursos, haga clic en **[!UICONTROL Aceptar]** y, a continuación, haga clic en **[!UICONTROL Descargar]**. Si decide no estar de acuerdo, los recursos con licencia no se descargan.
      > 
-     >Los recursos protegidos por licencias tienen [acuerdo de licencia adjunto](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html), lo cual se lleva a cabo estableciendo la [propiedad de metadatos](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) del recurso en Experience Manager Assets.
+     >Los recursos protegidos por licencias tienen un [acuerdo de licencia adjunto](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), para lo cual se establece la [propiedad de metadatos](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) del recurso en Experience Manager Assets.
 
 
      ![recurso con licencia](assets/licensed-asset-new.png)
@@ -177,17 +173,17 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
    ![quitar](assets/remove.png)
 
-   Para conservar la jerarquía de carpetas de Brand Portal al descargar recursos, active la casilla de verificación **[!UICONTROL Crear una carpeta independiente para cada recurso]**.
+   Para mantener la estructura de carpetas de Brand Portal al descargar recursos, active la casilla **[!UICONTROL `Create separate folder for each asset`]**.
 
    El botón de descarga refleja el recuento de los elementos seleccionados. Una vez que haya terminado de aplicar las reglas, haga clic en **[!UICONTROL Descargar elementos]**.
 
    ![cuadro de diálogo de descarga](assets/download-dialog-box-new.png)
 
-1. De manera predeterminada, la configuración **[!UICONTROL Descarga rápida]** está habilitada en **[!UICONTROL Configuración de descarga]**. Por lo tanto, aparece un cuadro de confirmación para permitir la descarga acelerada mediante IBM Aspera Connect.
+1. De manera predeterminada, la configuración **[!UICONTROL Descarga rápida]** está habilitada en **[!UICONTROL Configuración de descarga]**. Por lo tanto, aparece un cuadro de confirmación para permitir la descarga acelerada mediante IBM® Aspera Connect.
 
-   Para seguir usando **[!UICONTROL Descarga rápida]**, haz clic en **[!UICONTROL Permitir]**. Todas las representaciones seleccionadas se descargan en una carpeta zip con IBM Aspera Connect.
+   Para seguir usando **[!UICONTROL Descarga rápida]**, haz clic en **[!UICONTROL Permitir]**. Todas las representaciones seleccionadas se descargan en una carpeta zip mediante IBM® Aspera Connect.
 
-   Si no desea usar IBM Aspera Connect, haga clic en **[!UICONTROL Denegar]**. Si se deniega la descarga rápida **[!UICONTROL 1} o se produce un error, el sistema rellena un mensaje de error.]** Haga clic en el botón **[!UICONTROL Descarga normal]** para continuar descargando los recursos.
+   Si no quieres usar IBM® Aspera Connect, haz clic en **[!UICONTROL Denegar]**. Si se deniega la descarga rápida **[!UICONTROL 1} o se produce un error, el sistema rellena un mensaje de error.]** Haga clic en el botón **[!UICONTROL Descarga normal]** para continuar descargando los recursos.
 
 <!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
@@ -199,7 +195,7 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
 >[!NOTE]
 >
->Si el administrador desactiva la configuración **[!UICONTROL Descarga rápida]**, las representaciones seleccionadas se descargan directamente en una carpeta zip sin usar IBM Aspera Connect.
+>Si el administrador desactiva la configuración **[!UICONTROL Descarga rápida]**, las representaciones seleccionadas se descargan directamente en una carpeta zip sin usar IBM® Aspera Connect.
 
 >[!NOTE]
 >
@@ -207,19 +203,17 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 >  
 >Si los recursos se descargan desde un vínculo compartido, las representaciones de recursos se descargan en una carpeta independiente para cada recurso dentro de la carpeta zip.
 >
->Si se selecciona una carpeta, una colección o más de 20 recursos para la descarga, se omitirá el cuadro de diálogo **[!UICONTROL Descargar]** y todas las representaciones de recursos accesibles para el usuario, excluidas las representaciones dinámicas, se descargarán en una carpeta zip.
+>Al seleccionar una carpeta, una colección o más de 20 recursos para su descarga, se omite el cuadro de diálogo **[!UICONTROL Descargar]**. En su lugar, todas las representaciones de recursos accesibles, excepto las representaciones dinámicas, se descargan en una carpeta zip.
 
 >[!NOTE]
 >
->Brand Portal admite la configuración de Dynamic Media en modo híbrido y en modo Scene7.
+>Brand Portal admite la configuración de Dynamic Media en los modos Híbrido e Scene7.
 >
->(*Si la instancia de autor de Experience Manager Assets se está ejecutando en **Modo híbrido de Dynamic Media***)
+>(*Si la instancia de autor de Experience Manager Assets se está ejecutando en **modo híbrido de Dynamic Media***)
 >
->Para obtener una vista previa o descargar las representaciones dinámicas de un recurso, asegúrese de que el medio dinámico esté habilitado y de que la representación tiff piramidal del recurso exista en la instancia de autor de Experience Manager Assets desde la que se publicaron los recursos. Cuando se publica un recurso desde Experience Manager Assets en Brand Portal, también se publica su representación tiff piramidal.
+>Para obtener una vista previa o descargar representaciones dinámicas, habilite medios dinámicos. Asegúrese de que la representación TIFF piramidal del recurso exista en la instancia de autor de Experience Manager Assets en la que se publicaron los recursos. Cuando se publica un recurso desde Experience Manager Assets en Brand Portal, también se publica su representación tiff piramidal.
 
-
-
-Si el administrador no le ha autorizado a [tener acceso a las representaciones originales](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), las representaciones originales de los recursos seleccionados no se descargarán.
+Si el administrador [no le ha autorizado a tener acceso a las representaciones originales](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), no podrá descargar las representaciones originales de los recursos seleccionados.
 
 ![mensaje-sin-acceso](assets/no-access-message.png)
 
@@ -250,9 +244,9 @@ A continuación se indican los pasos para descargar representaciones de recursos
    ![representaciones-panel](assets/renditions-panel.png)
 
 
-1. De manera predeterminada, la configuración **[!UICONTROL Descarga rápida]** está habilitada en **[!UICONTROL Configuración de descarga]**. Por lo tanto, aparece un cuadro de confirmación para permitir la descarga acelerada mediante IBM Aspera Connect.
+1. De manera predeterminada, la configuración **[!UICONTROL Descarga rápida]** está habilitada en **[!UICONTROL Configuración de descarga]**. Por lo tanto, aparece un cuadro de confirmación para permitir la descarga acelerada mediante IBM® Aspera Connect.
 
-   Para seguir usando **[!UICONTROL Descarga rápida]**, haz clic en **[!UICONTROL Permitir]**. Todas las representaciones seleccionadas se descargan en una carpeta zip con IBM Aspera Connect.
+   Para seguir usando **[!UICONTROL Descarga rápida]**, haz clic en **[!UICONTROL Permitir]**. Todas las representaciones seleccionadas se descargan en una carpeta zip mediante IBM® Aspera Connect.
 
    Si deniega el uso de **[!UICONTROL Descarga rápida]**, el sistema rellenará un mensaje de error. Haga clic en el botón **[!UICONTROL Descarga normal]** para continuar descargando los recursos.
 
@@ -268,7 +262,7 @@ A continuación se indican los pasos para descargar representaciones de recursos
 
 >[!NOTE]
 >
->Si el administrador desactiva la configuración **[!UICONTROL Descarga rápida]**, las representaciones seleccionadas se descargan directamente en una carpeta zip sin usar IBM Aspera Connect.
+>Si el administrador desactiva la configuración **[!UICONTROL Descarga rápida]**, las representaciones seleccionadas se descargan directamente en una carpeta zip sin usar IBM® Aspera Connect.
 
 
 >[!NOTE]

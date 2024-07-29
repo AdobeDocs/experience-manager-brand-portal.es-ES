@@ -6,10 +6,10 @@ feature-set: Experience Manager Assets
 type: Documentation
 index: y
 recommendations: noDisplay
-source-git-commit: b8b0f367a74023a12a29e05e8c384cd0d5cd84a3
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 89%
+source-wordcount: '112'
+ht-degree: 99%
 
 ---
 
@@ -22,8 +22,8 @@ El archivo metadata.md incluye metadatos de repositorios que pasan a los archivo
 |--- |--- |
 | solution-title | Se utiliza en el encabezado del artículo como vínculo |
 | solution-hub-url | Abre la página central de ayuda |
-| solution-icon | Muestra el icono de la solución junto al título de la solución. No implementado aún |
+| solution-icon | Muestra un icono de la solución junto al título de la solución. No implementado aún |
 | getting-started-url | Vínculo a la página de introducción de ayuda |
 | tutorials-url | Vínculo a videotutoriales, tutoriales de ayuda o tutoriales de KT |
 | mini-toc-levels | Determina el número de niveles de encabezado que aparecen en el carril derecho. El valor predeterminado es 2 |
-| git-repo | Especifica la ubicación del repositorio principal para uso interno |
+| git-repo | Especifica la ubicación del repo principal para uso interno |

@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Para publicar ajustes preestablecidos de imagen en Brand Portal:
 
 Para cancelar la publicación de un ajuste preestablecido de imagen desde Brand Portal:
 
-1. AEM AEM En la instancia de autor de la, pulse o haga clic en el logotipo de la imagen para acceder a la consola de navegación global, pulse o haga clic en el icono **[!UICONTROL Herramientas]** y vaya a **[!UICONTROL Assets > Ajustes preestablecidos de imagen]**.
+1. AEM AEM En la instancia de autor de la, pulse o haga clic en el logotipo de la imagen para acceder a la consola de navegación global, haga clic en el icono **[!UICONTROL Herramientas]** y vaya a **[!UICONTROL Assets > Ajustes preestablecidos de imagen]**.
 1. Seleccione un ajuste preestablecido de imagen y seleccione **[!UICONTROL Quitar de Brand Portal]** de las opciones disponibles en la parte superior.
 
 ## Esquema de metadatos de Publish a Brand Portal  {#publish-metadata-schema-to-brand-portal}
@@ -71,7 +71,7 @@ AEM Si los usuarios han creado un esquema personalizado en instancia de autor, p
 
 AEM Para publicar un esquema de metadatos de la instancia de autor de la en Brand Portal:
 
-1. AEM AEM En la instancia de autor de la, pulse o haga clic en el logotipo de la aplicación para acceder a la consola de navegación global, pulse o haga clic en el icono Herramientas y vaya a **[!UICONTROL Assets > Esquemas de metadatos]**.
+1. AEM AEM En la instancia de autor de la, pulse o haga clic en el logotipo de la aplicación para acceder a la consola de navegación global, haga clic en el icono Herramientas y vaya a **[!UICONTROL Assets > Esquemas de metadatos]**.
 1. Seleccione un esquema de metadatos y seleccione **[!UICONTROL Publish to Brand Portal]** de las opciones disponibles en la parte superior.
 
 >[!NOTE]
@@ -80,7 +80,7 @@ AEM Para publicar un esquema de metadatos de la instancia de autor de la en Bran
 
 Para cancelar la publicación de un esquema de metadatos desde Brand Portal:
 
-1. AEM AEM En la instancia de autor de la, pulse o haga clic en el logotipo de la aplicación para acceder a la consola de navegación global, pulse o haga clic en el icono Herramientas y vaya a **[!UICONTROL Assets > Esquemas de metadatos]**.
+1. AEM AEM En la instancia de autor de la, pulse o haga clic en el logotipo de la aplicación para acceder a la consola de navegación global, haga clic en el icono Herramientas y vaya a **[!UICONTROL Assets > Esquemas de metadatos]**.
 1. Seleccione un esquema de metadatos y seleccione **[!UICONTROL Quitar de Brand Portal]** de las opciones disponibles en la parte superior.
 
 ## Facetas de búsqueda de Publish a Brand Portal {#publish-search-facets-to-brand-portal}
@@ -98,7 +98,7 @@ Si desea usar el formulario de búsqueda personalizada **[!UICONTROL Carril de b
 
 AEM Para publicar la faceta de búsqueda editada de la instancia de autor de la publicación en Brand Portal, haga lo siguiente:
 
-1. AEM Pulse o haga clic en el logotipo de la y, a continuación, vaya a **[!UICONTROL Herramientas > General > Buscar Forms]**.
+1. AEM Haga clic en el logotipo de la y, a continuación, vaya a **[!UICONTROL Herramientas > General > Buscar Forms]**.
 1. Seleccione el formulario de búsqueda editado y seleccione **[!UICONTROL Publish to Brand Portal]**.
 
    >[!NOTE]
@@ -107,7 +107,7 @@ AEM Para publicar la faceta de búsqueda editada de la instancia de autor de la 
 
 Para cancelar la publicación de formularios de búsqueda desde Brand Portal:
 
-1. AEM AEM En la instancia de autor de la, pulse o haga clic en el logotipo de la aplicación para acceder a la consola de navegación global, pulse o haga clic en el icono Herramientas y vaya a **[!UICONTROL General > Buscar Forms]**.
+1. AEM AEM En la instancia de autor de la, pulse o haga clic en el logotipo de la aplicación para acceder a la consola de navegación global, haga clic en el icono Herramientas y vaya a **[!UICONTROL General > Buscar Forms]**.
 1. Seleccione el formulario de búsqueda y seleccione **[!UICONTROL Quitar de Brand Portal]** de las opciones disponibles en la parte superior.
 
 >[!NOTE]

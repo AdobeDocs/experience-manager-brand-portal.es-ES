@@ -1,18 +1,14 @@
 ---
 title: Acelerar las descargas de Brand Portal
-seo-title: Speed up the Brand Portal downloads
 description: Mejora del rendimiento de descarga desde Brand Portal y los vínculos compartidos.
-seo-description: Enhance download performance from Brand Portal and the shared links.
-uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: Vishabh Gupta
 topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
+source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -56,7 +52,7 @@ A continuación se muestran los dominios de descarga para diferentes regiones ge
 
 ## Rendimiento de descarga de muestra mediante el acelerador de archivos {#expected-download-performance-using-file-accelerator}
 
-La siguiente tabla muestra el rendimiento de descarga de un archivo de 2 GB con el acelerador de descargas de archivos de Aspera Connect:
+La siguiente tabla muestra el rendimiento de descarga de un archivo de 2 GB mediante el acelerador de descargas de archivos de Aspera Connect:
 
 *Los resultados observados varían debido a factores como el ancho de banda de la red, la latencia del servidor y la ubicación del cliente, considerando que el servidor de Brand Portal se encuentra en Oregón (Estados Unidos).*
 
@@ -89,15 +85,15 @@ Para descargar recursos más rápido desde Brand Portal:
 
 1. Se abre el cuadro de diálogo **[!UICONTROL Descargar]** que enumera todos los recursos seleccionados.
 
-   Para conservar la jerarquía de carpetas de Brand Portal al descargar recursos, active la casilla de verificación **[!UICONTROL Crear una carpeta independiente para cada recurso]**.
+   Para conservar la jerarquía de carpetas de Brand Portal al descargar recursos, active la casilla de verificación **[!UICONTROL `Create separate folder for each asset`]**.
 
-   El botón de descarga refleja el recuento de los elementos seleccionados. Una vez que haya terminado de aplicar las reglas, haga clic en **[!UICONTROL Descargar elementos]**. Para obtener más información sobre cómo aplicar reglas, consulte [descargar recursos](../using/brand-portal-download-assets.md#download-assets).
+   El botón de descarga refleja el recuento de los elementos seleccionados. Una vez que haya terminado de aplicar las reglas, haga clic en **[!UICONTROL Descargar elementos]**. Para obtener más información sobre cómo aplicar las reglas, consulte [descargar recursos](../using/brand-portal-download-assets.md#download-assets).
 
    ![cuadro de diálogo de descarga](assets/download-dialog-box-new.png)
 
 1. De manera predeterminada, la configuración **[!UICONTROL Descarga rápida]** está habilitada en **[!UICONTROL Configuración de descarga]**. Por lo tanto, aparece un cuadro de confirmación para descargar recursos mediante IBM® Aspera Connect.
 
-   Si descarga los recursos por primera vez y no tiene IBM® Aspera Connect instalado en el explorador o la versión existente no está actualizada, se le pedirá que instale el acelerador de descargas de Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+   Si ha descargado recursos por primera vez y no tiene IBM® Aspera Connect instalado en el explorador, se le pedirá que lo instale. Si la versión existente no está actualizada, también se le pedirá que instale el [acelerador de descargas de Aspera](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all).
 
    ![](assets/aspera-not-launched.png)
 
@@ -184,12 +180,12 @@ Microsoft® Edge se ejecuta en modo protegido mejorado (EPM), lo que impide la c
 
 ![](assets/switchapps-msedge.png)
 
-Para utilizar la funcionalidad de descarga acelerada en Microsoft® Edge, elimine el sitio de Brand Portal de la lista de sitios de confianza.
+Para utilizar la funcionalidad de descarga acelerada en Microsoft® Edge, elimine el sitio de Brand Portal de la lista Sitio de confianza.
 
 1. Abra el Panel de control de Campaign (**[!UICONTROL Tecla de ventana + X]** y seleccione **[!UICONTROL Panel de control de Campaign]**).
 1. Vaya a **[!UICONTROL Red e Internet]** > **[!UICONTROL Opciones de Internet]**. Haga clic en la ficha **[!UICONTROL Seguridad]**.
 1. Haga clic en la zona de **[!UICONTROL sitios de confianza]** y, a continuación, haga clic en **[!UICONTROL Sitios]**.
-1. Quitar el sitio de Brand Portal de la lista.
+1. Elimine el sitio de Brand Portal de la lista.
 
 ## Preferencias del cliente de Aspera Connect {#aspera-connect-client-preferences}
 
@@ -201,7 +197,7 @@ Puede establecer la ubicación de descarga predeterminada.
 
 ![](assets/aspera-preferences.png)
 
-Además, el cliente de Aspera Connect puede marcarse para que se inicie automáticamente al iniciar el sistema, de modo que el cliente de conexión se esté ejecutando y esté disponible para que la descarga comience más rápido.
+Además, el cliente de Aspera Connect puede marcarse para que se inicie automáticamente al iniciar el sistema. Además, el cliente de Connect se ejecuta y está disponible para que la descarga empiece más rápido.
 
 ![](assets/aspera-automaticallylaunch.png)
 
@@ -213,7 +209,7 @@ Si la aceleración de descarga no funciona para usted, pruebe las siguientes sug
 
    Si los puertos no son correctos, póngase en contacto con el equipo de red y asegúrese de que los puertos 33001 (TCP y UDP) no están bloqueados en el firewall.
 
-1. Si los puertos están correctos, compruebe si la red no es lenta, midiendo el ancho de banda disponible mediante [https://www.speedtest.net/](https://www.speedtest.net/).
+1. Si los puertos están correctos, compruebe si la red no es lenta midiendo el ancho de banda disponible con [https://www.speedtest.net/](https://www.speedtest.net/).
 
    Si el ancho de banda es de unos pocos (1-10 Mbps) o en Kbps, utilice las Preferencias de Aspera y trate de limitar el ancho de banda igual al ancho de banda disponible.
 

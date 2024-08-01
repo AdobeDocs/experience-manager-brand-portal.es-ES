@@ -7,7 +7,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 60104481e8f0b883fbf2cf25c1562e8376882e54
+source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 0%
@@ -148,7 +148,7 @@ Los usuarios de Brand Portal acceden a la carpeta **Contribution** y cargan cont
 
 **Pregunta: ¿Cuál es la frecuencia de un trabajo de importación que se ejecuta periódicamente en Experience Manager?**
 
-**Respuesta:** En Experience Manager Assets, el sondeo se ejecuta cada 5 minutos.
+**Respuesta:** En Experience Manager Assets, el sondeo se ejecuta cada cinco minutos.
 
 
 

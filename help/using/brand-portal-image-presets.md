@@ -6,9 +6,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Los administradores de Experience Manager Assets pueden crear ajustes preestable
 >
 >Si la instancia de autor de Experience Manager Assets se está ejecutando en **modo híbrido de Dynamic Media**, las representaciones de TIFF piramidales de los recursos de imagen se crean y guardan en el repositorio de Experience Manager Assets.
 >
->Mientras que si la instancia de autor de Experience Manager Assets se ejecuta en **Dynamic Media Scene7 mode**, existen representaciones de TIFF piramidales de recursos de imagen en el servidor de Scene7.
+>Sin embargo, si se está ejecutando una instancia de autor de Experience Manager Assets en **Dynamic Media Scene7 mode**, existen representaciones de TIFF piramidales de recursos de imagen en el servidor de Scene7.
 >
 >Cuando estos recursos se publican en Brand Portal, se aplican ajustes preestablecidos de imagen y se muestran representaciones dinámicas.
 

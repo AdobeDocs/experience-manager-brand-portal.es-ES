@@ -1,15 +1,11 @@
 ---
 title: Formatos de archivo compatibles
-seo-title: Supported file formats
 description: Cada Brand Portal de Experience Manager Assets admite formatos de archivo específicos, tal como se indica en la matriz.
-seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
-uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
-discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 63%
@@ -59,8 +55,8 @@ Cada Brand Portal de Experience Manager Assets admite formatos de archivo espec�
 | MIDI | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
 | 3GP | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
 | MP3 | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
-| Mp4 | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
-| Mpg | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
+| MP4 | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
+| MPG | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |
 | OGA | ✓ | ND | ✓ | ND | ✕ | ✓ | ✕ | ✕ |
 | OGG | ✓ | ND | ✓ | ND | ✓ | ✓ | ✕ | ✕ |
 | RA | ✓ | ND | ✓ | ND | ND | ✓ | ✕ | ✕ |

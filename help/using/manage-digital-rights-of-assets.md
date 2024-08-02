@@ -1,26 +1,22 @@
 ---
 title: Administración de los derechos digitales de recursos
-seo-title: Manage digital rights of assets
 description: Las licencias de recursos y la configuración de la caducidad de los recursos y los vínculos compartidos garantizan un uso controlado de estos recursos y los salvaguardan.
-seo-description: Licensing assets and setting expiration for assets and shared links ensure controlled usage of these assets and safeguard them.
-uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: d1487434b10b01eaf55f34672267490fd8fd907e
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '887'
 ht-degree: 3%
 
 ---
 
 # Administración de los derechos digitales de recursos {#manage-digital-rights-of-assets}
 
-Garantizar la distribución y el uso seguros de los recursos creativos y del material de la marca es vital para proteger su marca. AEM Esto se puede aplicar en toda la organización y fuera de ella asociando una fecha de caducidad (y hora) con recursos aprobados publicados desde Brand Portal o mediante la licencia de estos recursos para su uso condicional. Además, Brand Portal le permite especificar una fecha de caducidad para los vínculos a los recursos compartidos desde Brand Portal.
+Garantizar la distribución y el uso seguros de los recursos creativos y del material de la marca es vital para proteger su marca. AEM Este proceso se puede hacer cumplir asociando una fecha de caducidad (y hora) con recursos aprobados publicados desde la publicación en Brand Portal o mediante la licencia de estos recursos para su uso condicional. Además, Brand Portal permite especificar una fecha de caducidad para los vínculos a los recursos compartidos desde Brand Portal.
 
 Siga leyendo para saber cómo están protegidos los recursos en Brand Portal y comprender los permisos de uso asociados.
 
@@ -30,7 +26,7 @@ La caducidad de los recursos es una forma eficaz de controlar el uso de los recu
 
 ### Permisos de uso relacionados con recursos caducados {#usage-permissions-expired-assets}
 
-En Brand Portal, los administradores pueden ver, descargar y agregar recursos caducados a colecciones. Por su parte, los editores y visualizadores solo pueden ver y agregar recursos caducados a las colecciones.
+En Brand Portal, los administradores pueden ver, descargar y agregar recursos caducados a colecciones. Sin embargo, los editores y los visualizadores solo pueden ver y agregar recursos caducados a las colecciones.
 
 Los administradores pueden publicar recursos caducados de AEM Assets en Brand Portal. Sin embargo, los recursos caducados no se pueden compartir mediante un vínculo de Brand Portal. Si selecciona cualquier recurso caducado de una carpeta que contenga recursos caducados y no caducados, la acción **[!UICONTROL Compartir vínculo]** no estará disponible. Sin embargo, si selecciona una carpeta que contiene recursos caducados y no caducados, las acciones [!UICONTROL Compartir] y **[!UICONTROL Compartir vínculo]** están disponibles.
 
@@ -63,19 +59,19 @@ Puede ver el estado de caducidad de los recursos en su **[!UICONTROL vista de ta
 
 ## Caducidad de Asset Link {#asset-link-expiration}
 
-Al compartir recursos mediante vínculos, los administradores y editores pueden establecer una fecha y una hora de caducidad mediante el campo **[!UICONTROL Caducidad]** del cuadro de diálogo **[!UICONTROL Uso compartido de vínculos]**. La caducidad predeterminada del vínculo es de siete días a partir de la fecha en que se comparte.
+Al compartir recursos mediante vínculos, los administradores y editores pueden establecer una fecha y una hora de caducidad mediante el campo **[!UICONTROL Caducidad]** del cuadro de diálogo **[!UICONTROL Uso compartido de vínculos]**. La caducidad predeterminada de un vínculo es de siete días a partir de la fecha en que se comparte.
 
 ![](assets/asset-link-sharing.png)
 
-Garantiza que los recursos compartidos como vínculos caduquen en la fecha y hora establecidas por los administradores y editores de Brand Portal y que ya no se puedan ver ni descargar más allá de la fecha de caducidad. Como los recursos compartidos a través de vínculos también los pueden ver usuarios externos que no forman parte de la organización, al especificar la caducidad, puede asegurarse de que los recursos aprobados estén protegidos y no expuestos a entidades desconocidas más allá de un tiempo especificado.
+Garantiza que los recursos compartidos como vínculos caduquen en la fecha y la hora establecidas por los administradores y editores de Brand Portal. Además, los recursos ya no se pueden ver ni descargar más allá de la fecha de caducidad. Para proteger los recursos aprobados de los usuarios externos, establezca una fecha de caducidad en los vínculos compartidos para garantizar que no se expongan a entidades desconocidas más allá de un tiempo especificado.
 
 Para obtener más información sobre cómo compartir vínculos, consulte [Compartir recursos como vínculo](../using/brand-portal-link-share.md).
 
 ## Assets con licencia {#licensed-assets}
 
-Los activos con licencia están sujetos a la aceptación de un acuerdo de licencia antes de su descarga desde Brand Portal. Este acuerdo para los recursos con licencia se produce cuando se descarga directamente el recurso desde Brand Portal o a través de un vínculo compartido. Ya caducados o no, todos los usuarios pueden ver los recursos protegidos por licencias. Sin embargo, la descarga y el uso de los recursos con licencia caducados son limitados. Para obtener información sobre el comportamiento de los recursos con licencia vencidos y las actividades permisibles en función de las funciones de usuario, consulte [permisos de uso de recursos caducados](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+Los activos con licencia están sujetos a la aceptación de un acuerdo de licencia antes de su descarga desde Brand Portal. Este acuerdo para los recursos con licencia se produce cuando se descarga directamente el recurso desde Brand Portal o mediante un vínculo compartido. Ya haya caducado o no, todos los usuarios pueden ver los recursos protegidos por licencias. Sin embargo, la descarga y el uso de los recursos con licencia caducados son limitados. Para obtener información sobre el comportamiento de los recursos con licencia vencidos y las actividades permisibles en función de las funciones de usuario, consulte [permisos de uso de recursos caducados](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Los recursos protegidos por licencias tienen [acuerdo de licencia adjunto](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html), lo cual se hace estableciendo la propiedad de metadatos del recurso en [!DNL Experience Manager Assets].
+Los recursos protegidos por licencias tienen un [acuerdo de licencia adjunto](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), para lo cual se establece la propiedad de metadatos del recurso en [!DNL Experience Manager Assets].
 
 Un recurso se considera protegido si contiene una de las siguientes propiedades de metadatos (o ambas):
 
@@ -83,14 +79,14 @@ Un recurso se considera protegido si contiene una de las siguientes propiedades 
 * `adobe_dam:restrictions`: el valor de esta propiedad es un HTML sin procesar que especifica el acuerdo de licencia.
 
 
-Si decide descargar recursos protegidos por licencias, se le redirigirá a la página **[!UICONTROL Administración de derechos de autor]** en función de las propiedades de los metadatos.
+Si elige descargar recursos protegidos por licencias, se le redirigirá a la página **[!UICONTROL Administración de derechos de autor]** en función de las propiedades de los metadatos.
 
 | `adobe_dam:restrictions` | `xmpRights:WebStatement` | Administración de copyright |
 | --- | --- | --- |
 | Sí | - | La interfaz aparece en Assets y Brand Portal |
 | - | Sí (ruta no válida) | Sin interfaz |
 | Sí | Sí (ruta no válida) | Sin interfaz |
-| Sí | Sí (ruta válida) | La interfaz aparece en Assets o Brand Portal </br>, dependiendo de si la ruta de acceso es válida para Assets o Brand Portal (o ambos). |
+| Sí | Sí (ruta válida) | La interfaz aparece en Assets o Brand Portal</br>Dependiendo de si la ruta de acceso es válida para Assets o Brand Portal (o ambos). |
 
 ![](assets/asset-copyright-mgmt.png)
 
@@ -106,4 +102,4 @@ Los administradores pueden generar y descargar un informe que enumere todos los 
 
 ![](assets/assets-expired.png)
 
-Para obtener más información sobre la característica de informes, consulte [Trabajar con informes](../using/brand-portal-reports.md#work-with-reports).
+Para obtener más información sobre la característica de informes, ve a [Trabajar con informes](../using/brand-portal-reports.md#work-with-reports).

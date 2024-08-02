@@ -1,18 +1,14 @@
 ---
 title: Compartir una colección
-seo-title: Share a collection
-description: Los administradores de Experience Manager Assets Brand Portal pueden compartir y dejar de compartir una colección o una colección inteligente con usuarios autorizados. Los editores pueden ver y compartir únicamente las colecciones creadas por ellos, compartidas con ellos y públicas.
-seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
-uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
+description: Descubra cómo los administradores de Experience Manager Assets Brand Portal pueden compartir y dejar de compartir una colección o una colección inteligente con usuarios autorizados. Los editores pueden ver y compartir únicamente las colecciones creadas por ellos, compartidas con ellos y públicas.
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -23,17 +19,17 @@ Una colección representa un grupo de recursos relacionados almacenados juntos e
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Las colecciones se comparten como un vínculo por correo electrónico. Todas las personas con acceso al vínculo compartido pueden abrir la colección, mientras que los correos electrónicos compartidos se pueden reenviar a cualquier persona. Además, [los vínculos compartidos](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) son temporales y solo se puede obtener acceso a ellos por una duración limitada. Como alternativa, los usuarios pueden ser invitados como miembros permanentes a colecciones. Existen los siguientes tipos de usuarios para las colecciones:
+Las colecciones se comparten como un vínculo por correo electrónico. Todas las personas con acceso al vínculo para compartir pueden abrir la colección. Sin embargo, los correos electrónicos compartidos se pueden reenviar a cualquier persona. Además, [los vínculos compartidos](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) son temporales y solo se puede obtener acceso a ellos por una duración limitada. Como alternativa, los usuarios pueden ser invitados como miembros permanentes a colecciones. Existen los siguientes tipos de usuarios para las colecciones:
 
 * **Los administradores** pueden compartir o dejar de compartir una colección con usuarios de Brand Portal autorizados. Pueden invitar a otros usuarios a una colección específica y definir su función en esa colección. Además, los administradores pueden crear colecciones públicas.
 
 * **Los editores** tienen permiso para crear y compartir colecciones. Pueden invitar a otros usuarios a una colección específica y definir su función en esa colección. Además, también pueden compartir colecciones si se les ha invitado a la colección como editores o propietarios.
 
-* **Los visualizadores** solo pueden crear colecciones privadas. No se les permite compartir una colección incluso cuando fueron invitados como propietarios.
+* **Los visualizadores** solo pueden crear colecciones privadas. No pueden compartir una colección aunque se les haya invitado como propietarios.
 
 >[!NOTE]
 >
->Los editores no pueden cambiar una colección pública por una colección que no sea pública y, por lo tanto, no tienen la casilla de verificación **[!UICONTROL Colección pública]** disponible en el cuadro de diálogo **[!UICONTROL Configuración de la colección]**.
+>Los editores no pueden cambiar una colección pública por una colección que no sea pública y, por lo tanto, no tienen disponible la casilla de verificación **[!UICONTROL Colección pública]** en el cuadro de diálogo **[!UICONTROL Configuración de la colección]**.
 
 ## Compartir una colección {#share-collection}
 
@@ -63,7 +59,7 @@ A continuación se indican los pasos para compartir una colección con los usuar
 
    ![](assets/collection_sharingadduser.png)
 
-   Los editores no pueden cambiar una colección pública por una colección que no sea pública y, por lo tanto, no tienen la casilla de verificación **[!UICONTROL Colección pública]** disponible en el cuadro de diálogo **[!UICONTROL Configuración de la colección]**.
+   Los editores no pueden cambiar una colección pública por una colección que no sea pública y, por lo tanto, no tienen una casilla de verificación **[!UICONTROL Colección pública]** disponible en el cuadro de diálogo **[!UICONTROL Configuración de la colección]**.
 
    ![](assets/collection-setting-editor.png)
 

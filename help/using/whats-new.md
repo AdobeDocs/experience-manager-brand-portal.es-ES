@@ -6,9 +6,9 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '6550'
+source-wordcount: '6554'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ En función de la configuración, el flujo de trabajo de descarga permanece cons
 
 ## Cambios en la versión 6.4.6 {#what-changed-in-646}
 
-En Brand Portal 6.4.6, se cambia el canal de autorización entre AEM Assets y Brand Portal. Brand Portal ahora es compatible con AEM Assets as a Cloud Service, AEM Assets 6.3 y versiones posteriores. En AEM Assets 6.3 y versiones posteriores, Brand Portal se configuraba anteriormente en la IU clásica a través de la puerta de enlace OAuth heredada, que utiliza el intercambio de tokens JWT para obtener un token de acceso IMS para la autorización. AEM Assets ahora se configura con Brand Portal a través de Adobe Developer Console, que obtiene un token de IMS para la autorización del inquilino de Brand Portal.
+En Brand Portal 6.4.6, se cambia el canal de autorización entre AEM Assets y Brand Portal. Brand Portal ahora es compatible con AEM Assets as a Cloud Service, AEM Assets 6.3 y versiones posteriores. En AEM Assets 6.3 y versiones posteriores, Brand Portal se configuró inicialmente en la IU clásica mediante la puerta de enlace OAuth heredada. Esta puerta de enlace utiliza el intercambio de tokens JWT para obtener un token de acceso IMS para la autorización. AEM Assets ahora se configura con Brand Portal a través de Adobe Developer Console, que obtiene un token de IMS para la autorización del inquilino de Brand Portal.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -593,7 +593,7 @@ La versión ofrece una experiencia de descarga simplificada con un número reduc
 
 ## Cambios en la versión 6.4.2 {#what-changed-in-1}
 
-Brand Portal 6.4.2 incluye funciones para satisfacer las necesidades de distribución de recursos de las organizaciones, lo que permite el acceso global a través del acceso de los invitados y descargas más rápidas. También ofrece un control mejorado con nuevas configuraciones de administración, un informe agregado y aborda las solicitudes de los clientes.
+Brand Portal 6.4.2 incluye funciones para satisfacer las necesidades de distribución de recursos de las organizaciones, lo que permite el alcance global mediante el acceso de Invitados y descargas más rápidas. También ofrece un control mejorado con nuevas configuraciones de administración, un informe agregado y aborda las solicitudes de los clientes.
 
 ### Acceso de invitado
 

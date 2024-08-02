@@ -1,24 +1,20 @@
 ---
-title: Configuración de Experience Manager Assets con Brand Portal
-seo-title: Configure Experience Manager Assets with Brand Portal
+title: Configurar Experience Manager Assets con Brand Portal
 description: Obtenga información sobre la configuración de Experience Manager Assets con Brand Portal.
-seo-description: Get an insight into configuring Experience Manager Assets with Brand Portal.
-uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: 454b05c05359a2068cc29124f826d5bd25a1bad1
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 2%
+source-wordcount: '362'
+ht-degree: 6%
 
 ---
 
-# Configuración de Experience Manager Assets con Brand Portal {#configure-integration}
+# Configurar Experience Manager Assets con Brand Portal {#configure-integration}
 
 La configuración de Adobe Experience Manager Assets con Brand Portal habilita las funciones de publicación, distribución y contribución de recursos para los usuarios de Brand Portal. Permite a los usuarios de Experience Manager Assets publicar y distribuir recursos con los usuarios de Brand Portal. Los usuarios de Brand Portal pueden acceder a los recursos compartidos y contribuir cargando nuevos recursos en las carpetas de contribución de recursos y publicándolos de nuevo en Experience Manager Assets.
 
@@ -33,24 +29,24 @@ Por su parte, Experience Manager Assets (local y servicio administrado) se confi
 
 >[!NOTE]
 >
->***Para Experience Manager Assets 6.5 y versiones posteriores***
+>***Para Experience Manager Assets, 6.5 y versiones posteriores***
 >
->Anteriormente, Brand Portal se configuraba en la interfaz clásica a través de la puerta de enlace OAuth heredada, que utiliza el intercambio de token web JSON (JWT) para obtener un token IMS para la autorización.
+>Anteriormente, la interfaz clásica configuraba Brand Portal mediante la puerta de enlace OAuth heredada, que emplea el intercambio de token web JSON (JWT) para obtener un token IMS para la autorización.
 >
->La configuración mediante OAuth heredado ya no es compatible a partir del 6 de abril de 2020 y se cambia a configuración mediante Adobe Developer Console.
+>La configuración mediante OAuth heredado ya no es compatible a partir del 6 de abril de 2020 y se cambia a mediante Adobe Developer Console.
 
 
 >[!TIP]
 >
 >***Solo para clientes existentes (servicio local y administrado)***
 >
->La configuración heredada de OAuth Gateway seguirá funcionando para los clientes existentes.
+>La configuración heredada de OAuth Gateway sigue funcionando para los clientes existentes.
 >
->En caso de que encuentre problemas con la configuración heredada de OAuth Gateway, elimine la configuración existente y cree una nueva configuración a través de Adobe Developer Console.
+>Si tiene problemas con la configuración heredada de OAuth Gateway, elimine la configuración existente y cree una nueva mediante Adobe Developer Console.
 
 Los pasos para configurar AEM Assets con Brand Portal AEM varían en función de la versión de la aplicación, y de si está configurando por primera vez o actualizando las configuraciones existentes:
 
 | AEM **Versión de la** | **Nueva configuración** | **Actualizar configuración** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Activar Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| AEM **6.5 (6.5.4.0 y superior)** | [Crear configuración](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=es) | [Actualizar configuración](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=es#upgrade-integration-65) |
+| **AEM Assets as a Cloud Service** | [Activar Brand Portal](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
+| AEM **6.5 (6.5.4.0 y superior)** | [Crear configuración](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [Actualizar configuración](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |

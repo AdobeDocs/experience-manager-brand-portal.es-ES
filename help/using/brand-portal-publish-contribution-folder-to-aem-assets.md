@@ -1,25 +1,21 @@
 ---
 title: Cargar recursos y publicar la carpeta Contribution de Brand Portal en Experience Manager Assets
-seo-title: Upload assets and publish the Contribution folder from Brand Portal to Experience Manager Assets
 description: Obtenga información sobre la carga de nuevos recursos y la publicación de la carpeta Contribution de Brand Portal a Experience Manager Assets.
-seo-description: Get an insight into uploading new assets and publishing the contribution folder from Brand Portal to Experience Manager Assets.
-uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
 
 # Carpeta de contribución de Publish a Experience Manager Assets {#using-asset-souring-in-bp}
 
-Los usuarios de Brand Portal con los permisos adecuados pueden cargar varios recursos o carpetas que contengan varios recursos en la carpeta Contribution. Sin embargo, los usuarios de Brand Portal solo pueden cargar recursos en la carpeta **NEW**. La carpeta **SHARED** está diseñada para la distribución de recursos de línea de base (contenido de referencia) que los usuarios de Brand Portal pueden usar al crear nuevos recursos para la contribución.
+Los usuarios de Brand Portal con los permisos adecuados pueden cargar varios recursos o carpetas que contengan varios recursos en la carpeta Contribution. Sin embargo, los usuarios de Brand Portal solo pueden cargar recursos en la carpeta **NEW**. La carpeta **SHARED** está diseñada para la distribución de recursos de línea de base (contenido de referencia) que utilizan los usuarios de Brand Portal al crear nuevos recursos para la contribución.
 
 El usuario de Brand Portal que tiene permiso para acceder a la carpeta de contribuciones puede realizar las siguientes actividades:
 
@@ -29,19 +25,19 @@ El usuario de Brand Portal que tiene permiso para acceder a la carpeta de contri
 
 ## Descargar requisitos de recursos {#download-asset-requirements}
 
-Los usuarios de Brand Portal reciben automáticamente notificaciones por correo electrónico/pulso cada vez que el usuario de Experience Manager Assets comparte una carpeta de contribuciones, lo que les permite descargar el documento breve (requisito de recursos) y los recursos de línea de base (contenido de referencia) de la carpeta **COMPARTIDA** para asegurarse de que comprenden los requisitos de recursos.
+Los usuarios de Brand Portal reciben automáticamente notificaciones por correo electrónico y de Pulse cuando un usuario de Experience Manager Assets comparte una carpeta de contribución. Este flujo de trabajo les permite descargar el documento breve (requisito de recursos) y los recursos de línea de base (contenido de referencia) de la carpeta **SHARED** para comprender los requisitos de recursos.
 
 El usuario de Brand Portal realiza las siguientes actividades para descargar los requisitos de recursos:
 
-* **Descargar informe**: descargue el informe (documento de requisitos del recurso) adjunto a la carpeta Contribution que contiene información relacionada con el recurso, como el tipo de recursos, el propósito, los formatos admitidos, el tamaño máximo del recurso, etc.
-* **Descargar recursos de línea de base**: descargue los recursos de línea de base que se pueden usar para comprender los tipos de recursos necesarios. Los usuarios de Brand Portal pueden utilizar estos recursos como referencia para crear nuevos recursos para la contribución.
+* **Descargar informe**: descargue el informe (documento de requisitos de recursos) adjunto a la carpeta Contribution. Contiene información relacionada con el recurso, como el tipo de recursos, el propósito, los formatos admitidos, el tamaño máximo del recurso y más.
+* **Descargar recursos de línea de base**: descargue los recursos de línea de base, que se pueden utilizar para comprender los tipos de recursos necesarios. Los usuarios de Brand Portal pueden utilizar estos recursos como referencia para crear nuevos recursos para la contribución.
 
-El panel de Brand Portal refleja todas las carpetas existentes permitidas al usuario de Brand Portal junto con la carpeta de contribución recién compartida. En este ejemplo, el usuario de Brand Portal solo tiene acceso a la carpeta de contribución recién creada; no se comparte ninguna otra carpeta con el usuario.
+El panel de Brand Portal refleja todas las carpetas existentes permitidas al usuario de Brand Portal junto con la carpeta de contribución recién compartida. En este ejemplo, el usuario de Brand Portal solo tiene acceso a la carpeta de contribución recién creada. No se comparte ninguna otra carpeta existente con el usuario.
 
 **Para descargar los requisitos de recursos:**
 
 1. Inicie sesión en la instancia de Brand Portal.
-1. Seleccione la carpeta de contribución en el panel de Brand Portal.
+1. Seleccione una carpeta de contribución en el panel de Brand Portal.
 1. Haga clic en **[!UICONTROL Propiedades]**. Se abrirá la ventana Propiedad que contiene los detalles de la carpeta Contribution.
 
    ![](assets/properties.png)
@@ -53,7 +49,7 @@ El panel de Brand Portal refleja todas las carpetas existentes permitidas al usu
    ![](assets/download.png)
 
 1. Vuelva al panel de Brand Portal.
-1. Haga clic para abrir la carpeta Contribution. Puede ver dos subcarpetas: **[!UICONTROL COMPARTIDA]** y **[!UICONTROL NUEVA]** dentro de la carpeta Contribution. La carpeta COMPARTIDA contiene todos los recursos de línea de base (contenido de referencia) compartidos por los administradores.
+1. Haga clic en la carpeta de contribución para abrirla. Puede ver dos subcarpetas: **[!UICONTROL COMPARTIDA]** y **[!UICONTROL NUEVA]** dentro de la carpeta de contribución. La carpeta COMPARTIDA contiene todos los recursos de línea de base (contenido de referencia) compartidos por los administradores.
 1. Puede descargar la carpeta **[!UICONTROL SHARED]** que contiene todos los recursos de línea de base en su equipo local.
 O bien, puede abrir la carpeta **[!UICONTROL SHARED]** y hacer clic en el icono **Descargar** para descargar archivos o carpetas individuales.
 
@@ -63,22 +59,21 @@ O bien, puede abrir la carpeta **[!UICONTROL SHARED]** y hacer clic en el icono 
 
 Consulte el resumen (documento de requisitos de activos) y consulte los activos de línea de base para comprender los requisitos de activos. Ahora puede crear nuevos recursos para su contribución y cargarlos en la carpeta de contribución.
 
-
 ## Cargar recursos a la carpeta de contribuciones {#upload-new-assets-to-contribution-folder}
 
 Después de revisar los requisitos de los recursos, los usuarios de Brand Portal pueden crear nuevos recursos para la contribución y cargarlos en la NUEVA carpeta, dentro de la carpeta de contribución. Un usuario puede cargar varios recursos en una carpeta de contribución de recursos. Sin embargo, solo se puede crear una carpeta a la vez.
 
 >[!NOTE]
 >
->Los usuarios de Brand Portal pueden cargar recursos (un máximo de **2** GB por tamaño de archivo) en la carpeta NEW.
+>Los usuarios de Brand Portal pueden cargar recursos (un máximo de dos gigabytes por tamaño de archivo) en la nueva carpeta.
 >
->El límite máximo de carga para cualquier inquilino de Brand Portal es de **10** GB, que se aplica de forma acumulativa a todas las carpetas de contribución.
+>El límite máximo de carga para cualquier inquilino de Brand Portal es de diez gigabytes, que se aplican de forma acumulativa a todas las carpetas de contribución.
 >
->Los recursos cargados en Brand Portal no se procesan para representaciones y no contiene vistas previas.
+>Los recursos cargados en Brand Portal no se procesan para representaciones y no contienen previsualizaciones.
 
 >[!NOTE]
 >
->Se recomienda liberar el espacio de carga después de publicar la carpeta de contribución en Experience Manager Assets, de modo que esté disponible para los demás usuarios de Brand Portal para contribuir.
+>El Adobe recomienda liberar el espacio de carga después de publicar la carpeta de contribución en Experience Manager Assets para que esté disponible para los demás usuarios de Brand Portal.
 >
 >Si es necesario extender el límite de carga del inquilino de Brand Portal más allá de **10** GB, póngase en contacto con el servicio de atención al cliente especificando el requisito.
 
@@ -109,13 +104,13 @@ Después de cargar todos los recursos o carpetas en la NUEVA carpeta, publique l
 
 Los usuarios de Brand Portal pueden publicar la carpeta Contribution en Experience Manager Assets sin necesidad de acceder a la instancia de autor de Experience Manager.
 
-Asegúrese de haber cumplido los requisitos de los recursos y de cargar los recursos recién creados en la carpeta **NEW** dentro de la carpeta Contribution.
+Asegúrese de haber cumplido los requisitos de los recursos y de cargar los recursos recién creados en la carpeta **NEW** dentro de la carpeta de contribución.
 
-**Para publicar la carpeta Contribution:**
+**Para publicar una carpeta de contribución:**
 
 1. Inicie sesión en la instancia de Brand Portal.
 
-1. Seleccione la carpeta de contribución en el panel de Brand Portal.
+1. Seleccione una carpeta de contribución en el panel de Brand Portal.
 1. Haga clic en **[!UICONTROL Publish AEM para]**.
 
    ![](assets/export.png)
@@ -128,13 +123,13 @@ Se envía una notificación por correo electrónico/pulso al usuario y a los adm
 
 1. **Completado**: se envía una notificación al usuario de Brand Portal y a los administradores de Brand Portal cuando la carpeta Contribution se publica correctamente en Experience Manager Assets.
 
-Después de publicar los recursos recién creados en Experience Manager Assets, los usuarios de Brand Portal pueden eliminarlos de la nueva carpeta. Por su parte, el administrador de Brand Portal puede eliminar los recursos de las carpetas NUEVO y COMPARTIDO.
+Después de publicar los recursos recién creados en Experience Manager Assets, los usuarios de Brand Portal pueden eliminarlos de la nueva carpeta. Sin embargo, el administrador de Brand Portal puede eliminar los recursos de las carpetas NUEVO y COMPARTIDO.
 
 Una vez alcanzado el objetivo de crear la carpeta de contribución, el administrador de Brand Portal puede eliminarla para liberar el espacio de carga para otros usuarios.
 
 ## Estado del trabajo de publicación {#publishing-job-status}
 
-Existen dos informes que los administradores pueden utilizar para ver el estado de las carpetas de contribución de recursos publicadas desde Brand Portal a Experience Manager Assets.
+Los administradores pueden utilizar dos informes para ver el estado de las carpetas de contribución de recursos publicadas desde Brand Portal a Experience Manager Assets.
 
 * En Brand Portal, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Estado de contribución de recursos]**. Este informe refleja el estado de todos los trabajos de publicación en diferentes etapas del flujo de trabajo de publicación.
 
@@ -202,7 +197,7 @@ Para ver y descargar informes de un trabajo de eliminación:
 
 ### Eliminar un informe
 
-Brand Portal también le permite seleccionar uno o varios informes y eliminarlos manualmente.
+Brand Portal también permite seleccionar uno o varios informes y eliminarlos manualmente.
 
 Para eliminar un informe, haga lo siguiente:
 

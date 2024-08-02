@@ -1,19 +1,15 @@
 ---
 title: Uso del formulario de esquema de metadatos
-seo-title: Use the metadata schema form
 description: Un esquema de metadatos describe el diseño de la página Propiedades y las propiedades de metadatos mostradas para los recursos que utilizan el esquema en particular. El esquema que aplique a un recurso determina los campos de metadatos que aparecen en su página Propiedades.
-seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
-uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 8%
+source-wordcount: '1622'
+ht-degree: 5%
 
 ---
 
@@ -45,7 +41,7 @@ Para crear un nuevo formulario de esquema de metadatos, haga lo siguiente:
 
 ## Edición de un formulario de esquema de metadatos {#edit-a-metadata-schema-form}
 
-Puede editar un formulario de esquema de metadatos recién agregado o existente. El formulario de esquema de metadatos contiene contenido derivado de su elemento principal, incluidas pestañas y elementos de formulario dentro de pestañas. Puede asignar o configurar estos elementos de formulario a un campo dentro de un nodo de metadatos.
+Se puede editar cualquier formulario de esquema de metadatos agregado o existente. El formulario de esquema de metadatos contiene contenido derivado de su elemento principal, incluidas pestañas y elementos de formulario dentro de pestañas. Puede asignar o configurar estos elementos de formulario a un campo dentro de un nodo de metadatos.
 
 Puede agregar nuevas pestañas o elementos de formulario al formulario de esquema de metadatos. Las pestañas derivadas y los elementos de formulario (del elemento principal) están en estado bloqueado. No se pueden modificar en el nivel secundario.
 
@@ -66,9 +62,9 @@ Para editar un formulario de esquema de metadatos, haga lo siguiente:
 
 1. En la barra de herramientas de la parte superior, haz clic en **[!UICONTROL Editar]**.
 
-   La página **[!UICONTROL Editor de esquemas de metadatos]** se abre con la ficha **[!UICONTROL Básico]** abierta a la izquierda y la ficha **[!UICONTROL Generar formulario]** abierta a la derecha.
+   La página **[!UICONTROL Editor de esquemas de metadatos]** se abre con la ficha **[!UICONTROL Básico]** abierta a la izquierda. A la derecha, se abre la pestaña **[!UICONTROL Generar formulario]**.
 
-1. En la página **[!UICONTROL Editor de esquemas de metadatos]**, personalice la página **[!UICONTROL Propiedades]** del recurso arrastrando uno o más componentes de una lista de tipos de componentes en la pestaña **[!UICONTROL Generar formulario]** a la pestaña **[!UICONTROL Básico]**.
+1. En la página **[!UICONTROL Editor de esquemas de metadatos]**, personalice la página **[!UICONTROL Propiedades]** del recurso. Basta con arrastrar uno o más componentes de una lista de tipos de componentes en la ficha **[!UICONTROL Generar formulario]**. Arrástrelos a la ficha **[!UICONTROL Básico]**.
 
    ![](assets/metadata-schemaeditor-page.png)
 
@@ -86,10 +82,10 @@ La pestaña **[!UICONTROL Generar formulario]** enumera los elementos que puede 
 | **[!UICONTROL Número]** | Añada un componente de número. |
 | **[!UICONTROL Fecha]** | Añada un componente de fecha. |
 | **[!UICONTROL Menú Desplegable]** | Añada una lista desplegable. |
-| **[!UICONTROL Etiquetas estándar]** | Añada una etiqueta. **Nota:** Los administradores podrían tener que cambiar el valor de la ruta de acceso, por ejemplo, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, si publican el formulario de esquema de metadatos desde Experience Manager Assets, donde la ruta de acceso no incluye información del inquilino, por ejemplo, `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Etiquetas estándar]** | Añada una etiqueta. Es posible que los administradores tengan que cambiar el valor de ruta. Por ejemplo, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, si publican el formulario de esquema de metadatos desde Experience Manager Assets, donde la ruta no incluye información de inquilino, por ejemplo, `/etc/tags/<custom_tag_namespace>`. |
 | **[!UICONTROL Etiquetas inteligentes]** | Etiquetas detectadas automáticamente si ha adquirido y configurado el complemento Experience Manager Assets smart tags. |
 | **[!UICONTROL Campo oculto]** | Agregue un campo oculto. Se envía como parámetro de POST cuando se guarda el recurso. |
-| **[!UICONTROL Recurso Referido Por]** | Agregue este componente para ver la lista de recursos a los que hace referencia el recurso. |
+| **[!UICONTROL Recurso Referido Por]** | Agregue este componente para ver una lista de los recursos a los que hace referencia el recurso. |
 | **[!UICONTROL Referencia de recurso]** | Agregar para mostrar una lista de recursos que hacen referencia al recurso. |
 | **[!UICONTROL Clasificación de recursos]** | Clasificación promedio de un recurso agregado desde Experience Manager Assets antes de publicarse en Brand Portal. |
 | **[!UICONTROL Metadatos contextuales]** | Agregue para controlar la visualización de otras pestañas de metadatos en la página Propiedades de los recursos. |
@@ -108,9 +104,9 @@ Para editar las propiedades de un componente de metadatos en el formulario, haga
 
 Los siguientes son los valores válidos para esta propiedad:
 
-— `./jcr:content/metadata/dc:title`: almacena el valor en el nodo de metadatos del recurso como propiedad [!UICONTROL `dc:title`].
+— `./jcr:content/metadata/dc:title`: almacena el valor en el nodo de metadatos del recurso como propiedad `dc:title`.
 
-— `./jcr:created`: muestra la propiedad jcr en el nodo del recurso. Si configura estas propiedades en propiedades de vista, le recomendamos que las marque como Deshabilitar edición, ya que están protegidas. De lo contrario, se produce el fallo “Error al modificar los recursos” al guardar las propiedades del recurso.
+— `./jcr:created`: muestra la propiedad jcr en el nodo del recurso. Si ha configurado estas propiedades en propiedades de vista, Adobe recomienda marcarlas como Deshabilitar edición, ya que están protegidas. De lo contrario, se produce el error &quot;Assets no pudo modificar&quot; al guardar las propiedades del recurso.
 
 * **[!UICONTROL Marcador de posición]**: utilice esta propiedad para proporcionar al usuario información relevante acerca de la propiedad de metadatos.
 * **[!UICONTROL Requerido]**: utilice esta propiedad para marcar una propiedad de metadatos como obligatoria en la página Propiedades.
@@ -155,13 +151,13 @@ Para aplicar un formulario de esquema de metadatos a una carpeta, haga lo siguie
 
 1. En la barra de herramientas de la parte superior, haga clic en **[!UICONTROL Aplicar a las carpetas]**.
 
-1. En la página **[!UICONTROL Seleccionar carpetas]**, vaya a la carpeta a la que desee aplicar el esquema de metadatos **[!UICONTROL dress]**; por ejemplo, **[!UICONTROL Gloves]**.
+1. Desde la página **[!UICONTROL Seleccionar carpetas]**, vaya a la carpeta a la que desee aplicar el esquema de metadatos **[!UICONTROL dress]**; por ejemplo, **[!UICONTROL Gloves]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
 1. Haga clic en **[!UICONTROL Aplicar]** para aplicar el formulario de esquema de metadatos a la carpeta.
 
-   Los metadatos disponibles en el formulario de esquema de metadatos **[!UICONTROL wear]** se han aplicado a la carpeta **[!UICONTROL Gloves]** y están visibles en la página **[!UICONTROL Properties]** de la carpeta.
+   Los metadatos disponibles en el formulario de esquema de metadatos **[!UICONTROL wear]** se aplican a la carpeta **[!UICONTROL Gloves]** y están visibles en la página **[!UICONTROL Properties]** de la carpeta.
 
    ![](assets/folder_metadata_properties.png)
 
@@ -196,10 +192,10 @@ En este caso, cree un nuevo nodo en [!UICONTROL `/etc/dam/metadataeditor/mimetyp
 | **Nombre** | **Tipo** | **Valor** |
 |---|---|---|
 | exponsedmimetype | Cadena | image/jpeg |
-| mimetipos | Cadena [] | image/png |
+| tipos MIME | Cadena [] | image/png |
 
 * **exponsedmimetype**: nombre del formulario existente que se va a asignar
-* **mimetypes**: lista de tipos MIME que utilizan el formulario definido en el atributo **exponsedmimetype**
+* **tipos MIME**: lista de tipos MIME que utilizan el formulario definido en el atributo **exponsedmimetype**
 
 Brand Portal asigna los siguientes tipos MIME y formularios de esquema:
 
@@ -214,29 +210,29 @@ Brand Portal asigna los siguientes tipos MIME y formularios de esquema:
 | video/quicktime | video/x-quicktime |
 | video/mpeg4 | video/mp4 |
 | video/avi | video/avi, video/msvideo, video/x-msvideo |
-| video/wmv | video/x-ms-wmv |
+| video/wmv | `video/x-ms-wmv` |
 | video/flv | video/x-flv |
 
 A continuación se muestra una lista de propiedades de metadatos predeterminadas:
 
-* jcr:content/metadata/cq:tags
-* jcr:content/metadata/dc:format
-* jcr:content/metadata/dam:status
-* jcr:content/metadata/videoCodec
-* jcr:content/metadata/audioCodec
-* jcr:content/metadata/dc:title
-* jcr:content/metadata/dc:description
-* jcr:content/metadata/xmpMM:InstanceID
-* jcr:content/metadata/xmpMM:DocumentID
-* jcr:content/metadata/dam:sha1
-* jcr:content/metadata/dam:solutionContext
-* jcr:content/metadata/videoBitrate
-* jcr:content/metadata/audioBitrate
-* jcr:content/usages/usedBy
-* jcr:content/jcr:lastModified
-* jcr:content/metadata/prism:expirationDate
-* jcr:content/onTime
-* jcr:content/offTime
-* jcr:content/metadata/dam:size
-* jcr:content/metadata/tiff:ImageWidth
-* jcr:content/metadata/tiff:ImageLength
+* `jcr:content/metadata/cq:tags`
+* `jcr:content/metadata/dc:format`
+* `jcr:content/metadata/dam:status`
+* `jcr:content/metadata/videoCodec`
+* `jcr:content/metadata/audioCodec`
+* `jcr:content/metadata/dc:title`
+* `jcr:content/metadata/dc:description`
+* `jcr:content/metadata/xmpMM:InstanceID`
+* `jcr:content/metadata/xmpMM:DocumentID`
+* `jcr:content/metadata/dam:sha1`
+* `jcr:content/metadata/dam:solutionContext`
+* `jcr:content/metadata/videoBitrate`
+* `jcr:content/metadata/audioBitrate`
+* `jcr:content/usages/usedBy`
+* `jcr:content/jcr:lastModified`
+* `jcr:content/metadata/prism:expirationDate`
+* `jcr:content/onTime`
+* `jcr:content/offTime`
+* `jcr:content/metadata/dam:size`
+* `jcr:content/metadata/tiff:ImageWidth`
+* `jcr:content/metadata/tiff:ImageLength`

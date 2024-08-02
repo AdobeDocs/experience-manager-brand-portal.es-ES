@@ -1,18 +1,15 @@
 ---
 title: Uso compartido de recursos como vínculo
-seo-title: Share assets as a link
-description: Los administradores de Adobe Experience Manager Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores solo pueden ver y compartir los recursos que han compartido con ellos.
-seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
-uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
+description: Descubra cómo los administradores de Adobe Experience Manager Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores solo pueden ver y compartir los recursos que han compartido con ellos.
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1063'
 ht-degree: 6%
 
 ---
@@ -33,7 +30,7 @@ A continuación se indican los pasos para compartir recursos como vínculo:
 
 1. Inicie sesión en su inquilino de Brand Portal. De manera predeterminada, se abre la vista **[!UICONTROL Archivos]** que contiene todos los recursos y carpetas publicados.
 
-1. Seleccione los recursos o las carpetas que desee compartir o vaya a la vista **[!UICONTROL Colecciones]** para compartir las colecciones que ha creado.
+1. Seleccione los recursos o las carpetas que desea compartir o vaya a la vista **[!UICONTROL Colecciones]** para compartir las colecciones que ha creado.
 
    ![select-multiple-assets](assets/select-assets-new.png)
 
@@ -50,9 +47,9 @@ A continuación se indican los pasos para compartir recursos como vínculo:
    * En el cuadro **[!UICONTROL Asunto]**, escriba un asunto para el recurso que desea compartir.
    * En el cuadro **[!UICONTROL Mensaje]**, escriba un mensaje si es necesario.
    * En el campo **[!UICONTROL Caducidad]**, use el selector de fechas para especificar la fecha y hora de caducidad del vínculo. De forma predeterminada, la fecha de caducidad se establece en 7 días a partir de la fecha en que comparta el vínculo.
-   * Active la casilla de verificación **[!UICONTROL Permitir la descarga del archivo original]** para permitir que los destinatarios descarguen la representación original.
+   * Habilite la casilla de verificación **[!UICONTROL Permitir la descarga del archivo original]** para permitir que los destinatarios descarguen la representación original.
 
-   Los recursos compartidos a través del vínculo caducan después de cruzar la fecha y la hora especificadas en el campo **[!UICONTROL Caducidad]**. Para obtener información sobre el comportamiento de los recursos caducados y los cambios en las actividades permitidas en función de las funciones de usuario en Brand Portal, consulte [Administrar los derechos digitales de los recursos](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   Los recursos compartidos a través del vínculo caducan después de cruzar la fecha y la hora especificadas en el campo **[!UICONTROL Caducidad]**. Para obtener más información sobre el comportamiento de los recursos caducados y los cambios en las actividades basadas en funciones en Brand Portal, consulte [Administrar los derechos digitales de los recursos](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
@@ -84,7 +81,7 @@ Para descargar los recursos compartidos:
 
    ![cuadro de diálogo de descarga](assets/download-dialog-box-new.png)
 
-1. De manera predeterminada, la configuración **[!UICONTROL Descarga rápida]** está habilitada en **[!UICONTROL Configuración de descarga]**. Por lo tanto, aparece un cuadro de confirmación para seguir descargando mediante IBM Aspera Connect.
+1. De manera predeterminada, la configuración **[!UICONTROL Descarga rápida]** está habilitada en **[!UICONTROL Configuración de descarga]**. Por lo tanto, aparece un cuadro de confirmación para seguir descargando mediante IBM® Aspera Connect.
 
    Para seguir usando **[!UICONTROL Descarga rápida]**, haz clic en **[!UICONTROL Permitir]**.
 
@@ -94,16 +91,16 @@ Para descargar los recursos compartidos:
    >
    >Se crea una carpeta independiente para cada recurso al descargar los recursos desde un vínculo compartido.
    >
-   >Si se selecciona una carpeta, una colección o más de 20 recursos para la descarga, se omitirá el cuadro de diálogo **[!UICONTROL Descargar]** y todas las representaciones de recursos accesibles para el usuario, excluidas las representaciones dinámicas, se descargarán en una carpeta zip que contiene una carpeta independiente para cada recurso.
+   >Si se selecciona una carpeta, una colección o más de 20 recursos, se omitirá el cuadro de diálogo **[!UICONTROL Descargar]**. Además, todas las representaciones de recursos accesibles (excepto las dinámicas) se descargan en una carpeta zip con carpetas independientes para cada recurso.
 
    >[!NOTE]
    >
-   >Las representaciones originales no se descargan mediante el vínculo compartido si el administrador no autoriza al usuario que compartió los recursos como vínculo a tener acceso a las representaciones originales](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).[
+   >Si el administrador no ha autorizado al usuario que compartió los recursos, el vínculo compartido no descarga las representaciones originales. Ver también [autorizado por el administrador para tener acceso a las representaciones originales](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
 
 >[!NOTE]
 >
->Brand Portal restringe la descarga de carpetas o recursos con un tamaño superior a 5 GB mediante el uso compartido de vínculos.
+>Brand Portal restringe la descarga de carpetas o recursos que tengan un tamaño superior a 5 GB mediante el uso compartido de vínculos.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -202,9 +199,9 @@ La siguiente leyenda explica los símbolos utilizados en la matriz:
 
 Para dejar de compartir recursos compartidos anteriormente como vínculo, haga lo siguiente:
 
-1. Cuando inicia sesión en Brand Portal, la vista **[!UICONTROL Archivo]** se abre de forma predeterminada. Para ver los recursos que compartió como vínculos, vaya a la vista **[!UICONTROL Vínculos compartidos]**.
+1. Al iniciar sesión en Brand Portal, la vista **[!UICONTROL Archivo]** se abrirá de manera predeterminada. Para ver los recursos que compartió como vínculos, vaya a la vista **[!UICONTROL Vínculos compartidos]**.
 
-1. Revise los vínculos que ha compartido desde la lista mostrada.
+1. Revise los vínculos compartidos de la lista mostrada.
 
    ![](assets/shared-links.png)
 

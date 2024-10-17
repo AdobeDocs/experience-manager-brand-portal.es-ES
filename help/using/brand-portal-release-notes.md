@@ -6,9 +6,9 @@ contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 623d78ee5bd82d1cd6c271962e29c6b71192bcfd
+source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1533'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ Adobe Experience Manager AEM () Assets Brand Portal le ayuda a adquirir, control
 Esta versión incluye las siguientes correcciones de errores:
 
 * No se envían las notificaciones por correo electrónico para los eventos de importación de abastecimiento.
-* Al utilizar el filtro de búsqueda, Brand Portal muestra las carpetas duplicadas en la ventana Filtro de búsqueda.
+* Mientras se usa el filtro de búsqueda, [!DNL Brand Portal] muestra carpetas duplicadas en la ventana Filtro de búsqueda.
 * La descarga de colecciones que contienen recursos sin licencia con caracteres especiales en sus nombres no funciona.
 * Al navegar a [!UICONTROL Editor de formularios de búsqueda], las etiquetas no están localizadas.
 * Las etiquetas no están localizadas en la ventana de uso compartido de vínculos.

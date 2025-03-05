@@ -6,9 +6,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1603'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ La página **[!UICONTROL Propiedades]** de cada recurso incluye propiedades de m
 
 Para crear un nuevo formulario de esquema de metadatos, haga lo siguiente:
 
-1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo de Experience Manager para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -47,7 +47,7 @@ Puede agregar nuevas pestañas o elementos de formulario al formulario de esquem
 
 Para editar un formulario de esquema de metadatos, haga lo siguiente:
 
-1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo de Experience Manager para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -75,7 +75,7 @@ Para editar un formulario de esquema de metadatos, haga lo siguiente:
 La pestaña **[!UICONTROL Generar formulario]** enumera los elementos que puede usar en el formulario de esquema. La ficha **[!UICONTROL Configuración]** proporciona los atributos de cada elemento que selecciona en la ficha **[!UICONTROL Generar formulario]**. En la tabla siguiente se enumeran los elementos de formulario disponibles en la ficha **[!UICONTROL Generar formulario]**:
 
 | Nombre del componente | Descripción |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----|----|
 | **[!UICONTROL Encabezado de sección]** | Añada un encabezado de sección para una lista de componentes comunes. |
 | **[!UICONTROL Texto de una sola línea]** | Agregue una propiedad de texto de una sola línea. Se almacena como una cadena. |
 | **[!UICONTROL Texto con varios valores]** | Agregue una propiedad de texto de varios valores. Se almacena como una matriz de cadenas. |
@@ -84,11 +84,12 @@ La pestaña **[!UICONTROL Generar formulario]** enumera los elementos que puede 
 | **[!UICONTROL Menú Desplegable]** | Añada una lista desplegable. |
 | **[!UICONTROL Etiquetas estándar]** | Añada una etiqueta. Es posible que los administradores tengan que cambiar el valor de ruta. Por ejemplo, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, si publican el formulario de esquema de metadatos desde Experience Manager Assets, donde la ruta no incluye información de inquilino, por ejemplo, `/etc/tags/<custom_tag_namespace>`. |
 | **[!UICONTROL Etiquetas inteligentes]** | Etiquetas detectadas automáticamente si ha adquirido y configurado el complemento Experience Manager Assets smart tags. |
-| **[!UICONTROL Campo oculto]** | Agregue un campo oculto. Se envía como parámetro de POST cuando se guarda el recurso. |
+| **[!UICONTROL Campo oculto]** | Agregue un campo oculto. Se envía como parámetro POST cuando se guarda el recurso. |
 | **[!UICONTROL Recurso Referido Por]** | Agregue este componente para ver una lista de los recursos a los que hace referencia el recurso. |
 | **[!UICONTROL Referencia de recurso]** | Agregar para mostrar una lista de recursos que hacen referencia al recurso. |
-| **[!UICONTROL Clasificación de recursos]** | Clasificación promedio de un recurso agregado desde Experience Manager Assets antes de publicarse en Brand Portal. |
 | **[!UICONTROL Metadatos contextuales]** | Agregue para controlar la visualización de otras pestañas de metadatos en la página Propiedades de los recursos. |
+
+<!--| **[!UICONTROL Asset Rating]** |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal. |-->
 
 >[!NOTE]
 >
@@ -115,7 +116,7 @@ Los siguientes son los valores válidos para esta propiedad:
 * **[!UICONTROL Descripción]**: utilice esta propiedad para agregar una descripción breve para el componente de metadatos.
 * **[!UICONTROL Icono Eliminar]**: Haga clic en este icono para eliminar un componente del formulario de esquema.
 
-![](assets/delete_icon_editmetadataschemaform.png)
+  ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
@@ -129,7 +130,7 @@ El formulario de esquema predeterminado incluye las fichas **[!UICONTROL Básico
 
 * Para agregar una nueva pestaña en un formulario de esquema, haga clic en **[!UICONTROL +]**. De forma predeterminada, la nueva pestaña tiene el nombre &quot;Unnamed-1&quot;. Puede modificar el nombre desde la ficha **[!UICONTROL Configuración]**.
 
-![](assets/add-tab-metadata-form.png)
+  ![](assets/add-tab-metadata-form.png)
 
 * Para eliminar una ficha, haga clic en **[!UICONTROL x]**. Haga clic en **[!UICONTROL Guardar]** para guardar los cambios.
 
@@ -139,7 +140,7 @@ Brand Portal permite personalizar y controlar el esquema de metadatos para que l
 
 Para aplicar un formulario de esquema de metadatos a una carpeta, haga lo siguiente:
 
-1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo de Experience Manager para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 

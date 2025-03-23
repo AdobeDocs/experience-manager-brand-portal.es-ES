@@ -10,10 +10,10 @@ topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
 audience: author, marketer
-version: 6.5
+version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Además, todas las funciones existentes permanecen sin cambios. Los usuarios de 
 
 ## Requisitos previos {#prerequisites}
 
-* Experience Manager Assets as a Cloud Service instance, Experience Manager Assets 6.5.2 o superior.
+* Instancia de Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.2 o superior.
 * Asegúrese de que la instancia de Experience Manager Assets esté configurada con Brand Portal. [Configurar Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
@@ -108,9 +108,9 @@ Una carpeta de contribución solo se puede compartir con los usuarios activos de
 
 >[!NOTE]
 >
->El formato del archivo CSV es el mismo que se admite en el Admin Console para la importación masiva de usuarios. El correo electrónico, el nombre y los apellidos son obligatorios.
+>El formato del archivo CSV es el mismo que se admite en Admin Console para la importación masiva de usuarios. El correo electrónico, el nombre y los apellidos son obligatorios.
 
-Los administradores pueden agregar nuevos usuarios al Admin Console. Ve a [Administrar usuarios](brand-portal-adding-users.md) para obtener información detallada. Después de agregar usuarios en el Admin Console, estos usuarios se pueden agregar al archivo de configuración de usuarios de Brand Portal y, a continuación, se les asigna un permiso para acceder a la carpeta Contribution.
+Los administradores pueden agregar nuevos usuarios en Admin Console. Ve a [Administrar usuarios](brand-portal-adding-users.md) para obtener información detallada. Después de agregar usuarios en Admin Console, estos usuarios pueden agregarse al archivo de configuración de usuario de Brand Portal y, a continuación, se les asigna un permiso para acceder a la carpeta Contribution.
 
 **Para cargar la lista de usuarios de Brand Portal:**
 
@@ -126,8 +126,8 @@ Examine desde su equipo local y cargue un **archivo de configuración (.csv)** q
 
 Los administradores pueden proporcionar acceso a usuarios específicos desde esta lista de usuarios mientras configuran una carpeta de contribución. Solo los usuarios asignados a una carpeta de contribución tienen acceso a la carpeta de contribución y publican recursos de Brand Portal en Experience Manager Assets.
 
-## Ver también {#reference-articles}
+## Vea también {#reference-articles}
 
 * [Configuración y publicación de una carpeta de contribución en Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Carpeta de contribución de Publish a Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Publicar carpeta de contribución en Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)

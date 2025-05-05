@@ -27,7 +27,7 @@ Una vez creado el ajuste preestablecido, aparece como una representación dinám
 
 >[!NOTE]
 >
->AEM Si la instancia de autor de la no se está ejecutando en **[!UICONTROL Modo Dynamic Media]** (el cliente no ha comprado Dynamic Media), la representación de los recursos por parte del TIFF de la pirámide **[!UICONTROL 3} no se creará en el momento de la carga.]** Los ajustes preestablecidos de imagen o las representaciones dinámicas funcionan en **[!UICONTROL TIFF piramidal]** de un recurso. Por lo tanto, si **[!UICONTROL TIFF AEM piramidal]** no está disponible en la instancia de autor, no estará disponible en la instancia de autor, en la instancia de Brand Portal. Como resultado, no hay representaciones dinámicas presentes en el carril de representaciones de la página de detalles del recurso y el cuadro de diálogo de descarga.
+>AEM Si la instancia de autor de la no se está ejecutando en **[!UICONTROL Modo Dynamic Media]** (el cliente no ha comprado Dynamic Media), la representación de los recursos por parte del TIFF de la pirámide **[!UICONTROL 3&rbrace; no se creará en el momento de la carga.]** Los ajustes preestablecidos de imagen o las representaciones dinámicas funcionan en **[!UICONTROL TIFF piramidal]** de un recurso. Por lo tanto, si **[!UICONTROL TIFF AEM piramidal]** no está disponible en la instancia de autor, no estará disponible en la instancia de autor, en la instancia de Brand Portal. Como resultado, no hay representaciones dinámicas presentes en el carril de representaciones de la página de detalles del recurso y el cuadro de diálogo de descarga.
 
 Para publicar ajustes preestablecidos de imagen en Brand Portal:
 

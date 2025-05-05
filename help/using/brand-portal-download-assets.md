@@ -183,7 +183,7 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
    Para seguir usando **[!UICONTROL Descarga rápida]**, haz clic en **[!UICONTROL Permitir]**. Todas las representaciones seleccionadas se descargan en una carpeta zip mediante IBM® Aspera Connect.
 
-   Si no quieres usar IBM® Aspera Connect, haz clic en **[!UICONTROL Denegar]**. Si se deniega la descarga rápida **[!UICONTROL 1} o se produce un error, el sistema rellena un mensaje de error.]** Haga clic en el botón **[!UICONTROL Descarga normal]** para continuar descargando los recursos.
+   Si no quieres usar IBM® Aspera Connect, haz clic en **[!UICONTROL Denegar]**. Si se deniega la descarga rápida **[!UICONTROL 1&rbrace; o se produce un error, el sistema rellena un mensaje de error.]** Haga clic en el botón **[!UICONTROL Descarga normal]** para continuar descargando los recursos.
 
 <!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]

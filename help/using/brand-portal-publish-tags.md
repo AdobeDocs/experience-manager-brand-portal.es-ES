@@ -43,10 +43,13 @@ AEM AEM Inicie sesión en una instancia de autor de la con privilegios administr
 1. Especifique:
 
    * **[!UICONTROL Título]**
+
      *(obligatorio)* Un título para mostrar para la etiqueta.
    * **[!UICONTROL Nombre]**
+
      *(obligatorio)* Un nombre para la etiqueta. Si no se especifica, se crea un nombre de nodo válido a partir del Título. Consulte [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Descripción**
+
      *(opcional)* Una descripción de la etiqueta.
    * **Ruta de la etiqueta**
 Ruta JCR de la etiqueta.
@@ -57,7 +60,7 @@ Ruta JCR de la etiqueta.
 
 1. **Publish cambió la etiqueta a Brand Portal**.
 
-   AEM Vaya a la consola **[!UICONTROL Etiquetas]** ([!UICONTROL Herramientas | Etiquetado | AEM Etiquetas ]), seleccione la etiqueta que desee y Publish a Brand Portal.
+   AEM Vaya a la consola **[!UICONTROL Etiquetas]** ([!UICONTROL Herramientas | Etiquetado | AEM Etiquetas &#x200B;]), seleccione la etiqueta que desee y Publish a Brand Portal.
 
 1. **Adjunte la etiqueta a un recurso (o colección)**.
 

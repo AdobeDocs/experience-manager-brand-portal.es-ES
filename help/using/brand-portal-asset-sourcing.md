@@ -49,7 +49,7 @@ Además, todas las funciones existentes permanecen sin cambios. Los usuarios de 
 >
 >Hay un problema conocido en Experience Manager Assets 6.5.4. Los usuarios de Brand Portal no pueden publicar los recursos de la carpeta Contribution en Experience Manager Assets al actualizar a Adobe Developer Console.
 >
->El problema se corrige en Experience Manager Assets 6.5.5. Puede actualizar su instancia de Experience Manager Assets al Service Pack más reciente y [actualizar sus configuraciones](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) en Adobe Developer Console.
+>El problema se corrige en Experience Manager Assets 6.5.5. Puede actualizar su instancia de Experience Manager Assets al Service Pack más reciente y [actualizar sus configuraciones](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) en Adobe Developer Console.
 
 <!--
 

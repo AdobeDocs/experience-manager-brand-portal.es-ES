@@ -57,11 +57,11 @@ Para trabajar con vídeos dinámicos en Brand Portal, asegúrese de lo siguiente
 
 * **Iniciar Experience Manager Author en modo Dynamic Media**
 
-  Inicie la instancia de autor del Experience Manager (con la que está configurado Brand Portal) en [Dynamic Media - [!DNL Scene7] mode](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode) o en [Dynamic Media - Modo híbrido](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dynamic) o
+  Inicie la instancia de autor del Experience Manager (con la que está configurado Brand Portal) en [Dynamic Media - [!DNL Scene7] mode](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode) o en [Dynamic Media - Modo híbrido](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/config-dynamic) o
 
 * **Configuración de Cloud Service de Dynamic Media en la instancia de autor del Experience Manager**
 
-  En función del modo Dynamic Media (modo Scene7 o híbrido) en el que se está ejecutando Experience Manager Author, establezca [Cloud Service Dynamic Media ([!DNL Scene7] modo)](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) o [Cloud Service Dynamic Media (modo híbrido)](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) en Experience Manager Author de **Herramientas** | **Cloud Service** | **Dynamic Media**.
+  En función del modo Dynamic Media (modo Scene7 o híbrido) en el que se está ejecutando Experience Manager Author, establezca [Cloud Service Dynamic Media ([!DNL Scene7] modo)](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) o [Cloud Service Dynamic Media (modo híbrido)](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) en Experience Manager Author de **Herramientas** | **Cloud Service** | **Dynamic Media**.
 
 * **Configurar Dynamic Media en Brand Portal**
 
@@ -71,11 +71,11 @@ Para trabajar con vídeos dinámicos en Brand Portal, asegúrese de lo siguiente
 
 * **Carpetas de Publish con codificaciones de vídeo aplicadas a Brand Portal**
 
-  Aplique [codificaciones de vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles) y publique en Brand Portal la carpeta que contiene los recursos de medios enriquecidos de la instancia de autor de Experience Manager.
+  Aplique [codificaciones de vídeo](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/video-profiles) y publique en Brand Portal la carpeta que contiene los recursos de medios enriquecidos de la instancia de autor de Experience Manager.
 
 * **IP de salida de Lista de permitidos en SPS si la vista previa segura está habilitada**
 
-  Si usa Dynamic Media-**[!DNL Scene7]** (con [vista previa segura habilitada](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) para una empresa), se recomienda que **[!DNL Scene7]** administrador de la empresa [realice la lista de permitidos de las direcciones IP de salida pública](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) para las regiones respectivas mediante la interfaz de usuario de Flash de SPS (**[!UICONTROL Scene7]** Publishing System).
+  Si usa Dynamic Media-**[!DNL Scene7]** (con [vista previa segura habilitada](https://experienceleague.adobe.com/es/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) para una empresa), se recomienda que **[!DNL Scene7]** administrador de la empresa [realice la lista de permitidos de las direcciones IP de salida pública](https://experienceleague.adobe.com/es/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service) para las regiones respectivas mediante la interfaz de usuario de Flash de SPS (**[!UICONTROL Scene7]** Publishing System).
 
   Las IP de salida son las siguientes:
 
@@ -85,7 +85,7 @@ Para trabajar con vídeos dinámicos en Brand Portal, asegúrese de lo siguiente
   | EMEA | 185.34.189.3, 51.132.146.75 |
   | APAC | 63 140 44 54 |
 
-  Para realizar la lista de permitidos de cualquiera de estas direcciones IP de salida, consulte [Preparar su cuenta para un servicio de pruebas seguro](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service).
+  Para realizar la lista de permitidos de cualquiera de estas direcciones IP de salida, consulte [Preparar su cuenta para un servicio de pruebas seguro](https://experienceleague.adobe.com/es/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service).
 
 ## Prácticas recomendadas
 
@@ -112,9 +112,9 @@ Asegúrese de que los detalles de configuración sean los mismos en Brand Portal
 
 ### Lista de permitidos de direcciones IP de salida públicas para el modo Scene7 de Dynamic Media
 
-Si se usa Dynamic Media **[!UICONTROL Scene7]** con [vista previa segura habilitada](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) para proporcionar recursos de vídeo a Brand Portal, **[!UICONTROL Scene7]** creará un servidor de imágenes dedicado para entornos de ensayo o aplicaciones internas. Cualquier solicitud a este servidor comprueba la dirección IP de origen. Si la solicitud entrante no se encuentra dentro de la lista aprobada de direcciones IP, se devuelve una respuesta de error.
+Si se usa Dynamic Media **[!UICONTROL Scene7]** con [vista previa segura habilitada](https://experienceleague.adobe.com/es/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) para proporcionar recursos de vídeo a Brand Portal, **[!UICONTROL Scene7]** creará un servidor de imágenes dedicado para entornos de ensayo o aplicaciones internas. Cualquier solicitud a este servidor comprueba la dirección IP de origen. Si la solicitud entrante no se encuentra dentro de la lista aprobada de direcciones IP, se devuelve una respuesta de error.
 Por lo tanto, el administrador de la empresa **[!UICONTROL Scene7]** configura una lista aprobada de direcciones IP para el entorno **[!UICONTROL Secure Testing]** de su empresa, a través de la interfaz de usuario flash de **[!UICONTROL SPS]** (Scene7 Publishing System). Asegúrese de que la IP de salida de su región respectiva (de la siguiente lista) se añada a esa lista aprobada.
-Para realizar la lista de permitidos de cualquiera de estas direcciones IP de salida, consulte [Preparar su cuenta para un servicio de pruebas seguro](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service).
+Para realizar la lista de permitidos de cualquiera de estas direcciones IP de salida, consulte [Preparar su cuenta para un servicio de pruebas seguro](https://experienceleague.adobe.com/es/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service).
 Las direcciones IP de salida son las siguientes:
 
 | **Región** | **IP de salida** |
@@ -129,7 +129,7 @@ Si la instancia de autor de Experience Manager se está ejecutando en modo híbr
 
 >[!NOTE]
 >
->Los [perfiles de codificación de vídeo](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles) no se han publicado en Brand Portal. En su lugar, se recuperan del servidor **[!UICONTROL Scene7]**. Por lo tanto, para que las codificaciones de vídeo se reproduzcan correctamente en Brand Portal, asegúrese de que los detalles de configuración sean los mismos que los [Cloud Service de Dynamic Media ([!DNL Scene7] modo)](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) de la instancia de autor de Experience Manager.
+>Los [perfiles de codificación de vídeo](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/video-profiles) no se han publicado en Brand Portal. En su lugar, se recuperan del servidor **[!UICONTROL Scene7]**. Por lo tanto, para que las codificaciones de vídeo se reproduzcan correctamente en Brand Portal, asegúrese de que los detalles de configuración sean los mismos que los [Cloud Service de Dynamic Media ([!DNL Scene7] modo)](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) de la instancia de autor de Experience Manager.
 
 Para establecer las configuraciones de Dynamic Media en los inquilinos de Brand Portal:
 

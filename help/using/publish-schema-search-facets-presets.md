@@ -81,7 +81,7 @@ Para cancelar la publicación de un esquema de metadatos desde Brand Portal:
 
 ## Facetas de búsqueda de Publish a Brand Portal {#publish-search-facets-to-brand-portal}
 
-Los formularios de búsqueda proporcionan la capacidad de [búsqueda con facetas](../using/brand-portal-search-facets.md) a los usuarios de Brand Portal. Las facetas de búsqueda proporcionan una mayor granularidad a las búsquedas en Brand Portal. Todos los [predicados agregados](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/search-facets) en el formulario de búsqueda están disponibles para los usuarios como facetas de búsqueda en los filtros de búsqueda.
+Los formularios de búsqueda proporcionan la capacidad de [búsqueda con facetas](../using/brand-portal-search-facets.md) a los usuarios de Brand Portal. Las facetas de búsqueda proporcionan una mayor granularidad a las búsquedas en Brand Portal. Todos los [predicados agregados](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/search-facets) en el formulario de búsqueda están disponibles para los usuarios como facetas de búsqueda en los filtros de búsqueda.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)

@@ -97,19 +97,19 @@ La migración no afecta al conjunto de datos, los recursos, los usuarios ni a ni
 
 ### Artículos de referencia {#reference-articles}
 
-* [Introducción a perfiles de Adobe](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html?lang=es)
+* [Introducción a perfiles de Adobe](https://helpx.adobe.com/es/enterprise/kb/introducing-adobe-profiles.html?lang=es)
 
-* [Administrar perfiles de Adobe](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html?lang=es)
+* [Administrar perfiles de Adobe](https://helpx.adobe.com/es/enterprise/using/manage-adobe-profiles.html?lang=es)
 
-* [Actualización para la experiencia de inicio de sesión para usuarios y administradores](https://helpx.adobe.com/enterprise/using/storage-for-business.html?lang=es#new-admin-sign-in-exp)
+* [Actualización para la experiencia de inicio de sesión para usuarios y administradores](https://helpx.adobe.com/es/enterprise/using/storage-for-business.html?lang=es#new-admin-sign-in-exp)
 
-* [Restricción de inicio de sesión durante la migración](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html?lang=es)
+* [Restricción de inicio de sesión durante la migración](https://helpx.adobe.com/es/enterprise/kb/account-temporarily-unavailable.html?lang=es)
 
-* [Administrar usuarios en Admin Console](https://helpx.adobe.com/enterprise/using/manage-users-individually.html?lang=es)
+* [Administrar usuarios en Admin Console](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html?lang=es)
 
-* [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=es#assign-users)
+* [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html?lang=es#assign-users)
 
-* [Confianza de dominio](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html?lang=es#directory-trusting)
+* [Confianza de dominio](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/set-up-identity.html?lang=es#directory-trusting)
 
 
 <!--   

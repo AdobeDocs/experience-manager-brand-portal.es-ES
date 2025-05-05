@@ -45,7 +45,7 @@ En esta guía se muestran los detalles de las ofertas y los flujos de trabajo cl
 | [Formatos de archivo admitidos](brand-portal-supported-formats.md) | Formatos de archivo admitidos en Brand Portal para su previsualización y descarga. |
 | [Publicar recursos en Brand Portal](brand-portal-sharing-folders.md) | Cómo publicar carpetas, colecciones, vínculos, ajustes preestablecidos, esquemas, facetas y etiquetas en Brand Portal. |
 | [Abastecimiento de recursos en Brand Portal](brand-portal-asset-sourcing.md) | Cómo configurar el abastecimiento de recursos en AEM Assets, cargar recursos en Brand Portal y volver a publicar la carpeta de contribuciones en AEM Assets. |
-| [Vídeos de características de Brand Portal](https://experienceleague.adobe.com/?lang=es&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Aprenda a utilizar Experience Manager Assets Brand Portal con la ayuda de tutoriales de vídeo. |
+| [Vídeos de características de Brand Portal](https://experienceleague.adobe.com/es?lang=es&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Aprenda a utilizar Experience Manager Assets Brand Portal con la ayuda de tutoriales de vídeo. |
 
 ### Recursos útiles
 

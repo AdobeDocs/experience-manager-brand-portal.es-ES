@@ -71,7 +71,7 @@ Para obtener más información sobre cómo compartir vínculos, consulte [Compar
 
 Los activos con licencia están sujetos a la aceptación de un acuerdo de licencia antes de su descarga desde Brand Portal. Este acuerdo para los recursos con licencia se produce cuando se descarga directamente el recurso desde Brand Portal o mediante un vínculo compartido. Ya haya caducado o no, todos los usuarios pueden ver los recursos protegidos por licencias. Sin embargo, la descarga y el uso de los recursos con licencia caducados son limitados. Para obtener información sobre el comportamiento de los recursos con licencia vencidos y las actividades permisibles en función de las funciones de usuario, consulte [permisos de uso de recursos caducados](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Los recursos protegidos por licencias tienen un [acuerdo de licencia adjunto](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), para lo cual se establece la propiedad de metadatos del recurso en [!DNL Experience Manager Assets].
+Los recursos protegidos por licencias tienen un [acuerdo de licencia adjunto](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/drm), para lo cual se establece la propiedad de metadatos del recurso en [!DNL Experience Manager Assets].
 
 Un recurso se considera protegido si contiene una de las siguientes propiedades de metadatos (o ambas):
 

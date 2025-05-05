@@ -28,7 +28,7 @@ Además, todas las funciones existentes permanecen sin cambios. Los usuarios de 
 
 ![Abastecimiento de recursos Brand Portal](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/32891/?quality=12&captions=spa)
 
 ## Requisitos previos {#prerequisites}
 

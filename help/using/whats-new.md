@@ -6,10 +6,10 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d93a009d556a2330d000331a69ce7b6a2881f49d
-workflow-type: ht
-source-wordcount: '6576'
-ht-degree: 100%
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+workflow-type: tm+mt
+source-wordcount: '6357'
+ht-degree: 99%
 
 ---
 
@@ -97,19 +97,19 @@ La migración no afecta al conjunto de datos, los recursos, los usuarios ni a ni
 
 ### Artículos de referencia {#reference-articles}
 
-* [Introducción a perfiles de Adobe](https://helpx.adobe.com/es/enterprise/kb/introducing-adobe-profiles.html?lang=es)
+* [Introducción a perfiles de Adobe](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html?lang=es)
 
-* [Administrar perfiles de Adobe](https://helpx.adobe.com/es/enterprise/using/manage-adobe-profiles.html?lang=es)
+* [Administrar perfiles de Adobe](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html?lang=es)
 
-* [Actualización para la experiencia de inicio de sesión para usuarios y administradores](https://helpx.adobe.com/es/enterprise/using/storage-for-business.html?lang=es#new-admin-sign-in-exp)
+* [Actualización para la experiencia de inicio de sesión para usuarios y administradores](https://helpx.adobe.com/enterprise/using/storage-for-business.html?lang=es#new-admin-sign-in-exp)
 
-* [Restricción de inicio de sesión durante la migración](https://helpx.adobe.com/es/enterprise/kb/account-temporarily-unavailable.html?lang=es)
+* [Restricción de inicio de sesión durante la migración](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html?lang=es)
 
-* [Administrar usuarios en Admin Console](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html?lang=es)
+* [Administrar usuarios en Admin Console](https://helpx.adobe.com/enterprise/using/manage-users-individually.html?lang=es)
 
-* [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html?lang=es#assign-users)
+* [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=es#assign-users)
 
-* [Confianza de dominio](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/set-up-identity.html?lang=es#directory-trusting)
+* [Confianza de dominio](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html?lang=es#directory-trusting)
 
 
 <!--   
@@ -163,31 +163,40 @@ Brand Portal 2021.06.0 es una versión interna que incluye correcciones a proble
 
 Brand Portal 2021.02.0 mejora AEM Assets as a Cloud Service con el flujo de trabajo de activación y la función de obtención de recursos. También mejora la experiencia de descarga de recursos e incluye correcciones críticas. Además, permite a los administradores configurar el comportamiento de descarga predeterminado de carpetas, colecciones y descarga masiva de recursos en el nivel de inquilino. El **[!UICONTROL Informe de uso]** de Brand Portal también se ha modificado para reflejar los usuarios activos de Brand Portal.
 
-### Activar Brand Portal en AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
+>[!IMPORTANT]
+>
+> * Brand Portal se encuentra actualmente en mantenimiento.
+> * Puede ponerse en contacto con su representante de Adobe para obtener más información sobre su caso de uso y los requisitos específicos para activar Brand Portal mediante Cloud Manager.
+> * Brand Portal no está disponible con Assets Prime ni con Assets Ultimate. Sin embargo, los clientes existentes de Assets Cloud Services que ya tienen acceso a Brand Portal pueden conservarlo cuando realicen la transición a Assets Ultimate.
 
-AEM Assets as a Cloud Service ahora permite tener una instancia preconfigurada de Brand Portal. El usuario de Cloud Manager puede activar Brand Portal en la instancia de as a Cloud Service de AEM Assets.
+<!--
 
-Anteriormente, AEM Assets as a Cloud Service se configuraba manualmente con Brand Portal mediante Adobe Developer Console.
+### Activate Brand Portal on AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-El usuario de Cloud Manager activa el flujo de trabajo de activación que crea las configuraciones necesarias en el back-end y activa Brand Portal en la misma organización de IMS que la instancia de as a Cloud Service de AEM Assets.
+AEM Assets as a Cloud Service is now entitled to have a pre-configured Brand Portal instance. The Cloud Manager user can activate Brand Portal on the AEM Assets as a Cloud Service instance.
 
-Para activar Brand Portal en la instancia de as a Cloud Service de AEM Assets:
+Earlier, AEM Assets as a Cloud Service was manually configured with Brand Portal using Adobe Developer Console.
 
-1. Inicie sesión en Adobe Cloud Manager y vaya a **[!UICONTROL Entornos]**.
-1. Seleccione los entornos (uno a uno) de la lista. Una vez que encuentre el entorno asociado con Brand Portal, haga clic en el botón **[!UICONTROL Activar Brand Portal]** para comenzar el flujo de trabajo de activación.
-1. Una vez activado el inquilino de Brand Portal, el estado cambia a Activado.
+The Cloud Manager user triggers the activation workflow that creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the AEM Assets as a Cloud Service instance. 
 
-![Ver estado](assets/create-environment5.png)
+To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
-Consulte [activar Brand Portal en AEM Assets as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+1. Log in to Adobe Cloud Manager and navigate to **[!UICONTROL Environments]**.
+1. Select the environments (one by one) from the list. Once you find the environment associated with Brand Portal, click on the **[!UICONTROL Activate Brand Portal]** button to begin the activation workflow. 
+1. Once the Brand Portal tenant is activated, the status changes to Activated.
 
-### Abastecimiento de recursos en AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
+![View Status](assets/create-environment5.png)
 
-La función de obtención de recursos ya está disponible en AEM Assets as a Cloud Service. La función está habilitada de forma predeterminada para todos los usuarios del servicio en la nube. Los usuarios de Brand Portal autorizados pueden contribuir al abastecimiento de recursos cargando nuevos recursos en las carpetas de contribución y publicando la carpeta de contribución de Brand Portal en la instancia de as a Cloud Service de AEM Assets. Los administradores pueden revisar y aprobar las contribuciones de los usuarios de Brand Portal antes de distribuirlas a otros usuarios.
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
-Anteriormente, el abastecimiento de recursos solo estaba disponible en AEM Assets (in situ y servicio administrado).
+### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-Vea [Abastecimiento de recursos en Brand Portal](https://experienceleague.adobe.com/es/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. The feature is by default enabled for all the cloud service users. The permitted Brand Portal users can contribute to Asset Sourcing by uploading new assets to the contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. Administrators can review and approve contributions from Brand Portal users before distributing them to other users.     
+
+Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
+
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+-->
 
 ### Descarga de recursos  {#asset-download-setting}
 
@@ -645,7 +654,7 @@ Las tarjetas de carpetas, en la Vista de tarjetas, ahora muestran información d
 
 La información de jerarquía de carpetas es especialmente útil para diferenciar las carpetas. Es decir, carpetas con nombres similares a otras carpetas compartidas desde una jerarquía de carpetas diferente. Si los usuarios no administradores no son conscientes de la estructura de carpetas de los recursos compartidos con ellos, los recursos o carpetas con nombres similares parecen confusos.
 
-* Las rutas mostradas en las respectivas tarjetas se truncan para ajustarse a los tamaños de tarjeta. Sin embargo, los usuarios pueden ver la trayectoria completa como información del objeto pasando el ratón por encima de la trayectoria truncada.
+* Las rutas mostradas en las respectivas tarjetas se truncan para ajustarse a los tamaños de tarjeta. Sin embargo, los usuarios pueden ver la trayectoria completa como información del objeto pasando el puntero por encima de la trayectoria truncada.
 
 ![](assets/folder-hierarchy1-1.png)
 
@@ -766,7 +775,7 @@ El informe de uso ahora está consolidado con otros informes y se puede ver desd
 **Mejora de la experiencia del usuario con los informes**
 La interfaz de creación de informes en Brand Portal se ha vuelto más intuitiva y proporciona un mayor control a las organizaciones. Además de crear varios informes, los administradores ahora pueden volver a visitar los informes generados y descargarlos o eliminarlos, ya que estos informes se guardan en Brand Portal.
 
-Cada uno de los informes que se están creando se puede personalizar añadiendo o eliminando columnas predeterminadas. Además, se pueden añadir columnas personalizadas para Descargar, Vencimiento y Publicar informes, para controlar su grado de granularidad.
+Cada uno de los informes que se están creando se puede personalizar añadiendo o eliminando columnas predeterminadas. Además, se pueden añadir columnas personalizadas para Descargar, Caducidad y Publicar informes, para controlar su grado de granularidad.
 
 ### Herramientas de administración mejoradas
 

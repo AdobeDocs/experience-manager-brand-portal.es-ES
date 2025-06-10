@@ -1,16 +1,16 @@
 ---
 title: Configurar Experience Manager Assets con Brand Portal
-description: Obtenga información sobre la configuración de Experience Manager Assets con Brand Portal.
+description: Obtenga información de insight sobre la configuración de Experience Manager Assets con Brand Portal.
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 6%
+source-wordcount: '361'
+ht-degree: 18%
 
 ---
 
@@ -23,9 +23,9 @@ La configuración de Experience Manager Assets con Brand Portal se admite en:
 * Experience Manager Assets as a Cloud Service
 * Experience Manager Assets (local y servicio administrado) 6.5 y versiones posteriores
 
-Experience Manager Assets as a Cloud Service se configura automáticamente con Brand Portal activando Brand Portal desde Cloud Manager. El flujo de trabajo de activación crea las configuraciones necesarias en el back-end de y activa Brand Portal en la misma organización de IMS que la instancia as a Cloud Service de Experience Manager Assets.
+Experience Manager Assets as a Cloud Service se configura automáticamente con Brand Portal activando Brand Portal desde Cloud Manager. El flujo de trabajo de activación crea las configuraciones necesarias en el back-end de y activa Brand Portal en la misma organización de IMS que la instancia de Experience Manager Assets as a Cloud Service.
 
-Por su parte, Experience Manager Assets (local y servicio administrado) se configura manualmente con Brand Portal mediante Adobe Developer Console, que obtiene un token de Adobe de Identity Management Services (IMS) para la autorización del inquilino de Brand Portal.
+Por su parte, Experience Manager Assets (local y servicio administrado) se configura manualmente con Brand Portal mediante Adobe Developer Console, que obtiene un token de Adobe Identity Management Services (IMS) para la autorización del inquilino de Brand Portal.
 
 >[!NOTE]
 >
@@ -44,9 +44,9 @@ Por su parte, Experience Manager Assets (local y servicio administrado) se confi
 >
 >Si tiene problemas con la configuración heredada de OAuth Gateway, elimine la configuración existente y cree una nueva mediante Adobe Developer Console.
 
-Los pasos para configurar AEM Assets con Brand Portal AEM varían en función de la versión de la aplicación, y de si está configurando por primera vez o actualizando las configuraciones existentes:
+Los pasos para configurar AEM Assets con Brand Portal son diferentes según la versión de AEM y si está configurando por primera vez o actualizando las configuraciones existentes:
 
-| AEM **Versión de la** | **Nueva configuración** | **Actualizar configuración** |
+| **Versión de AEM** | **Nueva configuración** | **Actualizar configuración** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Activar Brand Portal](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
-| AEM **6.5 (6.5.4.0 y superior)** | [Crear configuración](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [Actualizar configuración](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
+| **AEM 6.5 (6.5.4.0 y posteriores)** | [Creación de configuración](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [Actualizar configuración](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |

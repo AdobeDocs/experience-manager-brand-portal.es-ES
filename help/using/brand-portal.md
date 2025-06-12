@@ -37,7 +37,7 @@ La configuración de Adobe Experience Manager Assets con Brand Portal habilita l
 >
 > * Brand Portal está en modo de mantenimiento. Todas las innovaciones de productos nuevos están disponibles en [Content Hub](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
 > * Si todavía necesita activar Brand Portal, póngase en contacto con su representante de Adobe e incluya información sobre su caso de uso y otros requisitos específicos en el mensaje.
-> * Brand Portal no está disponible con [Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) o [Assets Ultimate](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Sin embargo, los clientes existentes de Assets as a Cloud Service, que ya tienen acceso a Brand Portal, pueden seguir utilizándolo cuando realicen la transición a Assets Ultimate.
+> * Brand Portal no está disponible con [Assets Prime](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-prime) o [Assets Ultimate](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Sin embargo, los clientes existentes de Assets as a Cloud Service, que ya tienen acceso a Brand Portal, pueden seguir utilizándolo cuando realicen la transición a Assets Ultimate.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
@@ -241,4 +241,4 @@ Puede descartar esta notificación y seguir utilizando Brand Portal. Esta notifi
 * [Adobe Customer Support]()
 -->
 
-* [Foros de AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [Foros de AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=es)

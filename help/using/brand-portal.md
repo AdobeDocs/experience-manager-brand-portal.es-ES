@@ -5,9 +5,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1629'
 ht-degree: 6%
 
 ---
@@ -35,9 +35,9 @@ La configuración de Adobe Experience Manager Assets con Brand Portal habilita l
 
 >[!IMPORTANT]
 >
-> * Brand Portal se encuentra actualmente en mantenimiento.
-> * Puede ponerse en contacto con su representante de Adobe para obtener más información sobre su caso de uso y los requisitos específicos para activar Brand Portal mediante Cloud Manager.
-> * Brand Portal no está disponible con Assets Prime ni con Assets Ultimate. Sin embargo, los clientes existentes de Assets Cloud Services que ya tienen acceso a Brand Portal pueden conservarlo cuando realicen la transición a Assets Ultimate.
+> * Brand Portal está en modo de mantenimiento. Todas las innovaciones de productos nuevos están disponibles en [Content Hub](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
+> * Si todavía necesita activar Brand Portal, póngase en contacto con su representante de Adobe e incluya información sobre su caso de uso y otros requisitos específicos en el mensaje.
+> * Brand Portal no está disponible con [Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime) o [Assets Ultimate](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Sin embargo, los clientes existentes de Assets as a Cloud Service, que ya tienen acceso a Brand Portal, pueden seguir utilizándolo cuando realicen la transición a Assets Ultimate.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
@@ -241,4 +241,4 @@ Puede descartar esta notificación y seguir utilizando Brand Portal. Esta notifi
 * [Adobe Customer Support]()
 -->
 
-* [Foros de AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=es)
+* [Foros de AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

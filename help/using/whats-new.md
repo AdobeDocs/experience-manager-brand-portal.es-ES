@@ -7,9 +7,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6373'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -97,19 +97,19 @@ La migración no afecta al conjunto de datos, los recursos, los usuarios ni a ni
 
 ### Artículos de referencia {#reference-articles}
 
-* [Introducción a perfiles de Adobe](https://helpx.adobe.com/es/enterprise/kb/introducing-adobe-profiles.html?lang=es)
+* [Introducción a perfiles de Adobe](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html?lang=es)
 
-* [Administrar perfiles de Adobe](https://helpx.adobe.com/es/enterprise/using/manage-adobe-profiles.html?lang=es)
+* [Administrar perfiles de Adobe](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html?lang=es)
 
-* [Actualización para la experiencia de inicio de sesión para usuarios y administradores](https://helpx.adobe.com/es/enterprise/using/storage-for-business.html?lang=es#new-admin-sign-in-exp)
+* [Actualización para la experiencia de inicio de sesión para usuarios y administradores](https://helpx.adobe.com/enterprise/using/storage-for-business.html?lang=es#new-admin-sign-in-exp)
 
-* [Restricción de inicio de sesión durante la migración](https://helpx.adobe.com/es/enterprise/kb/account-temporarily-unavailable.html?lang=es)
+* [Restricción de inicio de sesión durante la migración](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html?lang=es)
 
-* [Administrar usuarios en Admin Console](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html?lang=es)
+* [Administrar usuarios en Admin Console](https://helpx.adobe.com/enterprise/using/manage-users-individually.html?lang=es)
 
-* [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html?lang=es#assign-users)
+* [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=es#assign-users)
 
-* [Confianza de dominio](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/set-up-identity.html?lang=es#directory-trusting)
+* [Confianza de dominio](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html?lang=es#directory-trusting)
 
 
 <!--   
@@ -166,8 +166,8 @@ Brand Portal 2021.02.0 mejora AEM Assets as a Cloud Service con el flujo de trab
 >[!IMPORTANT]
 >
 > * Brand Portal está en modo de mantenimiento. Todas las innovaciones de productos nuevos están disponibles en [Content Hub](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
-> * Si todavía necesita activar Brand Portal, póngase en contacto con su representante de Adobe e incluya información sobre su caso de uso y otros requisitos específicos en el mensaje.
-> * Brand Portal no está disponible con [Assets Prime](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-prime) o [Assets Ultimate](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Sin embargo, los clientes existentes de Assets as a Cloud Service, que ya tienen acceso a Brand Portal, pueden seguir utilizándolo cuando realicen la transición a Assets Ultimate.
+> * Si todavía necesita activar Brand Portal, póngase en contacto con su representante de Adobe e incluya información sobre su caso de uso y otros requisitos específicos.
+> * Brand Portal no está disponible con [Assets Prime](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-prime) ni con [Assets Ultimate](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Sin embargo, los clientes existentes de Assets as a Cloud Service que ya tienen acceso a Brand Portal pueden conservarlo cuando realicen la transición a Assets Ultimate.
 
 <!--
 
@@ -187,7 +187,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -195,7 +195,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/es/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### Descarga de recursos  {#asset-download-setting}

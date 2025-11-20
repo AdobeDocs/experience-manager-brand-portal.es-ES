@@ -9,9 +9,9 @@ user-guide-description: Utilice Experience Manager Assets Brand Portal para sati
 feature: Brand Portal
 role: User
 source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
    + [Acceso de invitado a Brand Portal](/help/using/guest-access.md)
    + [Conocer Brand Portal con Experience Manager Assets](https://experienceleague.adobe.com/es/docs/experience-manager-brand-portal/using/home)
    + [Examinar los recursos en Brand Portal](/help/using/browse-assets-brand-portal.md)
-+ Publicar desde Experience Manager Assets a Brand Portal {#publish}
++ Publicar desde Experience Manager Assets en Brand Portal {#publish}
    + [Configurar Experience Manager Assets con Brand Portal](/help/using/configure-aem-assets-with-brand-portal.md)
    + [Publicar recursos en Brand Portal](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
    + [Publicar carpetas en Brand Portal](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
@@ -40,20 +40,20 @@ ht-degree: 100%
    + [Información general de Abastecimiento de recursos](/help/using/brand-portal-asset-sourcing.md)
    + [Configurar la carpeta de contribución en AEM Assets](/help/using/brand-portal-publish-contribution-folder-to-brand-portal.md)
    + [Publicar carpeta de contribución en Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-aem-assets.md)
-+ Compartir los recursos con los usuarios {#share}
++ Uso compartido de recursos con usuarios {#share}
    + [Compartir una colección](/help/using/brand-portal-share-collection.md)
    + [Compartir carpetas](/help/using/brand-portal-sharing-folders.md)
    + [Compartir recursos como un vínculo](/help/using/brand-portal-link-share.md)
-+ Uso de las capacidades de búsqueda{#search-capabilities}
++ Uso de funcionalidades de búsqueda {#search-capabilities}
    + [Buscar recursos en Brand Portal](/help/using/brand-portal-searching.md)
    + [Uso de facetas de búsqueda personalizadas](/help/using/brand-portal-search-facets.md)
-+ Uso de las funciones de descarga {#download}
++ Uso de funcionalidades de descarga {#download}
    + [Descarga de recursos](/help/using/brand-portal-download-assets.md)
    + [Compatibilidad con vídeos dinámicos en Brand Portal](/help/using/dynamic-video-brand-portal.md)
    + [Administración de la colección Lightbox](/help/using/brand-portal-light-box.md)
    + [Administración de los derechos digitales de recursos](/help/using/manage-digital-rights-of-assets.md)
    + [Guía para acelerar las descargas desde Brand Portal](/help/using/accelerated-download.md)
-+ Uso de las herramientas administrativas {#admin-tools}
++ Uso de herramientas administrativas {#admin-tools}
    + [Administrar el acceso de los usuarios en Brand Portal](/help/using/access-configurations-brand-portal.md)
    + [Administrar configuraciones de inquilino generales](/help/using/brand-portal-general-configuration.md)
    + [Experiencia del primer inicio de sesión](/help/using/brand-portal-onboarding.md)

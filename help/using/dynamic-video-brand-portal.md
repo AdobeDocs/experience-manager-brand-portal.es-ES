@@ -31,8 +31,8 @@ Para obtener una vista previa, reproducir y descargar vídeos, Brand Portal expo
 
 * [Configuración híbrida de Dynamic Media](#configure-dm-hybrid-settings)
 Si la instancia de autor de Experience Manager se está ejecutando en Dynamic Media (modo híbrido).
-* [Configuración de Dynamic Media [!DNL Scene7] 2}
-Si la instancia de autor de Experience Manager se está ejecutando en Dynamic Media: modo ](#configure-dm-scene7-settings).
+* [&#128279;](#configure-dm-scene7-settings)Configuración de Dynamic Media [!DNL Scene7] 2&rbrace;
+Si la instancia de autor de Experience Manager se está ejecutando en Dynamic Media: modo .
 **[!DNL Scene7]**
 Establezca cualquiera de estas configuraciones en función de las configuraciones establecidas en la instancia de autor de Experience Manager con la que se replica el inquilino de Brand Portal.
 

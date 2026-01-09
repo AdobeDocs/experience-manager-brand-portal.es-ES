@@ -1,19 +1,19 @@
 ---
 title: Configuración y publicación de una carpeta Contribution de Experience Manager Assets a Brand Portal
-description: Obtenga información sobre la configuración y publicación de una carpeta Contribution de Experience Manager Assets a Brand Portal.
+description: Obtenga un insight para configurar y publicar una carpeta Contribution de Experience Manager Assets a Brand Portal.
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 9e51048d21c5b4a34696e668309657d2091a8b04
+source-git-commit: 8cde9e84262e25ff22d5b2d06e3c5df9cc2ae557
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 0%
+source-wordcount: '1057'
+ht-degree: 1%
 
 ---
 
-# Configuración de la carpeta Contribution en Experience Manager Assets {#configure-contribution-folder}
+# Configurar la carpeta de contribución en AEM Assets {#configure-contribution-folder}
 
 Para la obtención colaborativa de recursos, los usuarios de Experience Manager Assets (administradores y no administradores con permiso) pueden crear carpetas de tipo **Contribución de recursos**, asegurándose de que la carpeta creada esté abierta para el envío de recursos por parte de los usuarios de Brand Portal.  Este método almacena en déclencheur automáticamente un flujo de trabajo que crea dos subcarpetas adicionales, llamadas **SHARED** y **NEW**, dentro de la carpeta **Contribution** recién creada.
 
@@ -28,7 +28,7 @@ El usuario de Experience Manager Assets realiza las siguientes actividades al co
 * [Creación de una carpeta de contribución](#create-contribution-folder)
 * [Cargar requisitos de recursos y asignar colaboradores](#configure-contribution-folder-properties)
 * [Cargar recursos de línea base](#uplad-new-assets-to-contribution-folder)
-* [Carpeta de contribución de Publish de Experience Manager Assets a Brand Portal](#publish-contribution-folder-to-brand-portal)
+* [Publicar carpeta de contribución de Experience Manager Assets en Brand Portal](#publish-contribution-folder-to-brand-portal)
 
 ## Crear carpeta de contribuciones {#create-contribution-folder}
 
@@ -53,13 +53,14 @@ Puede configurar las propiedades de la carpeta Contribution por separado y al cr
 1. Haga clic en **[!UICONTROL Crear]** para crear una carpeta nueva. Se abre el cuadro de diálogo **[!UICONTROL Crear carpeta]**.
 
 1. Escriba **[!UICONTROL Title]** y **[!UICONTROL Name]** de la carpeta y active la casilla de verificación **[!UICONTROL Contribución de recursos]**.
-El Adobe recomienda usar letras minúsculas sin ningún espacio para asignar un nombre a la carpeta.
+Adobe recomienda utilizar letras minúsculas sin ningún espacio para asignar un nombre a la carpeta.
 
 1. Haga clic en **[!UICONTROL Crear]**. Puede ver la carpeta de contribución en la lista del repositorio de Experience Manager Assets.
 
    >[!NOTE]
    >
-   >Un usuario no administrador puede crear y compartir una carpeta de contribución de recursos, pero no puede modificarla ni eliminarla.
+   > * Una carpeta de abastecimiento no puede estar vacía y debe contener al menos un recurso, ya que las carpetas vacías no se pueden publicar desde Brand Portal a AEM.
+   > * Un usuario no administrador puede crear y compartir una carpeta de contribución de recursos, pero no puede modificarla ni eliminarla.
 
 
    ![](assets/create-contribution-folder.png)
@@ -109,7 +110,7 @@ Los administradores pueden descargar el archivo `user.csv` de [!DNL Admin Consol
 
 [Obtener archivo](assets/users.csv)
 
-## Cargar recursos a la carpeta de contribuciones {#uplad-new-assets-to-contribution-folder}
+## Cargar recursos en carpeta de contribución {#uplad-new-assets-to-contribution-folder}
 
 El usuario de Experience Manager Assets carga un conjunto de recursos de línea de base en la carpeta **SHARED** para garantizar que los usuarios de Brand Portal tengan la información que necesitan.
 
@@ -136,7 +137,7 @@ El usuario de Experience Manager Assets carga un conjunto de recursos de línea 
 Después de cargar todos los recursos o carpetas en la NUEVA carpeta, publique la carpeta Contribution en Experience Manager Assets.
 
 
-## Carpeta de contribución de Publish a Brand Portal {#publish-contribution-folder-to-brand-portal}
+## Publicar carpeta de contribución en Brand Portal {#publish-contribution-folder-to-brand-portal}
 
 Una vez configurada la carpeta de contribución, el usuario de Experience Manager Assets (administrador/usuario no administrador) puede publicar la carpeta de contribución de Experience Manager Assets a Brand Portal. Los usuarios de Brand Portal que tengan permiso para acceder a la carpeta de contribución reciben un correo electrónico o una notificación push al finalizar la acción de publicación.
 
@@ -146,7 +147,7 @@ Una vez configurada la carpeta de contribución, el usuario de Experience Manage
 1. Inicie sesión en la instancia de Experience Manager Assets.
 
 1. Vaya a **[!UICONTROL Assets > Archivos]** y busque la carpeta de contribución en la que desea publicar en Brand Portal.
-1. Seleccione una carpeta de contribución y haga clic en **[!UICONTROL Quick Publish]** > **[!UICONTROL Publish to Brand Portal]**.
+1. Seleccione una carpeta de contribución y haga clic en **[!UICONTROL Publicación rápida]** > **[!UICONTROL Publicar en Brand Portal]**.
 
    ![](assets/publish-contribution-folder-to-bp.png)
 

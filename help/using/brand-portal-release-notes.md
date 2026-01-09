@@ -1,38 +1,49 @@
 ---
 title: Notas de la versión
-description: Obtenga información sobre las funciones, las mejoras, los problemas críticos, corregidos y conocidos de la versión 2024.10.0 de Adobe Experience Manager Assets Brand Portal.
+description: Obtenga información sobre las funciones, las mejoras, los problemas críticos, corregidos y conocidos de la versión 2026.01.01 de Adobe Experience Manager Assets Brand Portal.
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
+source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 100%
+source-wordcount: '1595'
+ht-degree: 96%
 
 ---
 
 # Notas de la versión {#release-notes}
 
-Obtenga información sobre las nuevas funciones y mejoras y los problemas críticos corregidos y los conocidos de la versión 2024.10.0 de Adobe Experience Manager Assets Brand Portal.
+Obtenga información sobre las nuevas funciones y mejoras y los problemas críticos corregidos y los conocidos de la versión 2026.01.01 de Adobe Experience Manager Assets Brand Portal.
 
 ## Información de la versión {#release-information}
 
 | Producto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versión | 2024.10.0 |
-| Fecha | Octubre de 2024 |
+| Versión | 2026.01.01 |
+| Fecha | Enero de 2026 |
 
 ## Información general {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal le ayuda a adquirir, controlar y distribuir de forma segura recursos creativos aprobados a terceros externos y usuarios internos de la empresa a través de dispositivos. Ayuda a mejorar la eficacia del uso compartido de recursos, acelera el tiempo de salida al mercado de recursos y reduce el riesgo de incumplimiento y acceso no autorizado. Brand Portal permite a los usuarios examinar, buscar, previsualizar, descargar y exportar recursos en formatos aprobados por la empresa, en cualquier momento y en cualquier lugar.
 
-## Novedades de la versión 2024.10.0 {#whats-new-in-2024.10.0}
+## Novedades de la versión 2026.1.01 {#whats-new-in-2026.01.01}
 
 ### Problemas críticos corregidos {#critical-issues-fixed}
 
-#### Correcciones de errores {#bug-fixes}
+#### Mejoras {#enhancements}
+
+Esta versión incorpora las siguientes mejoras:
+
+* En el panel Herramientas administrativas > Configuración de Dynamic Media, ahora puede usar el botón **[!UICONTROL Restablecer]** para borrar cualquier cambio, restablecer la contraseña y restaurar la configuración a su estado predeterminado.
+
+* Brand Portal valida la carpeta de origen para asegurarse de que contiene al menos un recurso antes de publicarlo en AEM, lo que ayuda a evitar publicaciones incompletas.
+
+## Versiones anteriores
+
+### Versión de octubre de 2024 {#oct-2024}
+
+**Correcciones de errores y mejoras**
 
 Esta versión incluye las siguientes correcciones de errores:
 
@@ -44,8 +55,6 @@ Esta versión incluye las siguientes correcciones de errores:
 * No se puede descargar el vídeo con caracteres especiales en su nombre.
 * No funciona correctamente la publicación y cancelación de la publicación de recursos de [!DNL Adobe Experience Manager Assets] en Brand Portal.
 * No se pueden reproducir los vídeos descargados de Brand Portal.
-
-## Versiones anteriores
 
 ### Versión de febrero de 2024 {#feb-2024}
 
@@ -102,7 +111,7 @@ Esta versión incluye las siguientes correcciones de errores:
 **Correcciones de errores**
 Esta versión incluye correcciones a los siguientes problemas críticos:
 
-* Si se produce un error al descargar un recurso desde un vínculo compartido, las etiquetas `Notice` y `Close` del mensaje de error no se localizan.
+* Si se produce un error al descargar un recurso desde un vínculo compartido, las etiquetas `Notice` y `Close` de la indicación de error no se localizan.
 * Brand Portal muestra el error **Campos de encabezado de solicitud demasiado grandes** al acceder a los filtros de búsqueda mediante el panel `Filter`.
 
 **Problemas conocidos**
@@ -127,7 +136,7 @@ Esta versión incluye correcciones a los siguientes problemas críticos:
 Esta versión incorpora las siguientes mejoras:
 
 * Ahora hay disponible un nuevo visor de PDF moderno para obtener una vista previa mejorada de los recursos de PDF.
-* Ahora puede activar o desactivar las notificaciones de abastecimiento de recursos para los administradores. Vaya a [!UICONTROL Configuración general] y después habilite o deshabilite [!UICONTROL `Notify Administrator of asset contribution`].
+* Ahora puede habilitar o deshabilitar las notificaciones de abastecimiento de recursos para los administradores. Vaya a [!UICONTROL Configuración general] y después habilite o deshabilite [!UICONTROL `Notify Administrator of asset contribution`].
 
   ![Notificar al administrador de la contribución de recursos](assets/notify-admin.png)
 
@@ -200,7 +209,7 @@ Esta versión incluye correcciones a los siguientes problemas críticos:
 * Los usuarios no pueden buscar, navegar ni abrir carpetas. La interfaz de usuario refleja el mensaje de error: `Failed to load data`.
 * El panel **[!UICONTROL Representaciones]** no enumera todas las representaciones estáticas de los recursos publicados en Brand Portal.
 * El panel **[!UICONTROL Representaciones]** enumera las representaciones de recorte inteligente del recurso; sin embargo, el usuario no puede obtener una vista previa ni descargar las representaciones de recorte inteligente.
-* El cuadro de diálogo de descarga muestra las representaciones de recortes inteligentes del recurso seleccionado. Sin embargo, el usuario no puede descargar estas representaciones.
+* El cuadro de diálogo de descarga muestra las representaciones de recortes inteligentes del recurso seleccionado. Sin embargo, el usuario no puede descargar las representaciones de recortes inteligentes.
 * Un usuario no administrador solo obtiene la representación del recurso original al descargar un recurso. El sistema y las representaciones personalizadas no se descargan.
 * Al aplicar el filtro de búsqueda para descargar un recurso, el botón `Download` se deshabilita en el cuadro de diálogo de descarga y no permite al usuario descargar el recurso.
 * Si `Smart Tags` y (o) `Color Tags` están habilitados, el cuadro de diálogo de descarga muestra los `json` archivos como representaciones y descarga estos `json` archivos en la carpeta zip archivada.

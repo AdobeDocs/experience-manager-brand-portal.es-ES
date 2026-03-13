@@ -515,7 +515,7 @@ Brand Portal 6.4.3 introduce un alias alternativo para las direcciones URL de ac
 
 ### Navegación de jerarquía de carpetas para no administradores
 
-Los administradores ahora pueden configurar cómo se muestran las carpetas a los usuarios no administradores (editores, visualizadores y usuarios invitados) al iniciar sesión. [La configuración Habilitar la jerarquía de carpetas ](../using/brand-portal-general-configuration.md) se ha agregado en **Configuración general**, en el panel Herramientas de administración. Si la configuración es:
+Los administradores ahora pueden configurar cómo se muestran las carpetas a los usuarios no administradores (editores, visualizadores y usuarios invitados) al iniciar sesión. [La configuración Habilitar la jerarquía de carpetas &#x200B;](../using/brand-portal-general-configuration.md) se ha agregado en **Configuración general**, en el panel Herramientas de administración. Si la configuración es:
 
 * **habilitado**, el árbol de carpetas que comienza en la carpeta raíz es visible para los usuarios que no son administradores. De este modo, se les concede una experiencia de navegación similar a la de los administradores.
 * **deshabilitadas**, solo se muestran las carpetas compartidas en la página de destino.

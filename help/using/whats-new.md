@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+source-git-commit: 0ef13db15f5282364cf8f2ca86ebefdfe6caca37
 workflow-type: tm+mt
-source-wordcount: '6400'
-ht-degree: 100%
+source-wordcount: '6645'
+ht-degree: 98%
 
 ---
 
@@ -100,19 +100,19 @@ La migración no afecta al conjunto de datos, los recursos, los usuarios ni a ni
 
 ### Artículos de referencia {#reference-articles}
 
-* [Introducción a perfiles de Adobe](https://helpx.adobe.com/es/enterprise/kb/introducing-adobe-profiles.html?lang=es)
+* [Presentación de perfiles de Adobe](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html?lang=es)
 
-* [Administrar perfiles de Adobe](https://helpx.adobe.com/es/enterprise/using/manage-adobe-profiles.html?lang=es)
+* [Administrar perfiles de Adobe](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html?lang=es)
 
-* [Actualización para la experiencia de inicio de sesión para usuarios y administradores](https://helpx.adobe.com/es/enterprise/using/storage-for-business.html?lang=es#new-admin-sign-in-exp)
+* [Actualización de la experiencia de inicio de sesión para usuarios y administradores](https://helpx.adobe.com/enterprise/using/storage-for-business.html?lang=es#new-admin-sign-in-exp)
 
-* [Restricción de inicio de sesión durante la migración](https://helpx.adobe.com/es/enterprise/kb/account-temporarily-unavailable.html?lang=es)
+* [Restricción de inicio de sesión durante la migración](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html?lang=es)
 
-* [Administrar usuarios en Admin Console](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html?lang=es)
+* [Administración de usuarios en Admin Console](https://helpx.adobe.com/enterprise/using/manage-users-individually.html?lang=es)
 
-* [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html?lang=es#assign-users)
+* [Administración de perfiles de producto para usuarios empresariales](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=es#assign-users)
 
-* [Confianza de dominio](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/set-up-identity.html?lang=es#directory-trusting)
+* [Confianza de dominio](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html?lang=es#directory-trusting)
 
 
 <!--   
@@ -190,7 +190,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -198,10 +198,10 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/es/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
-### Descarga de recursos  {#asset-download-setting}
+### Descarga de recursos {#asset-download-setting}
 
 Además de la **[!UICONTROL Configuración de descarga]** existente, los administradores de Brand Portal ahora pueden configurar la configuración de **[!UICONTROL Descarga de recursos]**. Esta configuración permite a los administradores controlar el comportamiento de descarga predeterminado de carpetas, colecciones y descarga masiva de recursos (más de 20 recursos) en el nivel de inquilino.
 
@@ -379,7 +379,8 @@ En función de la configuración, el flujo de trabajo de descarga permanece cons
 
 En Brand Portal 6.4.6, se cambia el canal de autorización entre AEM Assets y Brand Portal. Brand Portal ahora es compatible con AEM Assets as a Cloud Service, AEM Assets 6.3 y versiones posteriores. En AEM Assets 6.3 y versiones posteriores, Brand Portal se configuró inicialmente en la IU clásica mediante la puerta de enlace OAuth heredada. Esta puerta de enlace utiliza el intercambio de tokens JWT para obtener un token de acceso IMS para la autorización. Los recursos de AEM se configuran ahora con Brand Portal a través de Adobe Developer Console, que obtiene un token IMS para la autorización de su inquilino de Brand Portal.
 
-<!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
+<!-- 
+The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
 
 <!--
@@ -391,23 +392,25 @@ En Brand Portal 6.4.6, se cambia el canal de autorización entre AEM Assets y Br
 | **AEM 6.3** |[Create new integration](../using/brand-portal-configure-integration-63.md) |[Upgrade existing integration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
 | **AEM 6.2** | | 
 
-   -->
+-->
 
 Los pasos para configurar AEM Assets con Brand Portal son diferentes según la versión de AEM y si está configurando por primera vez o actualizando las configuraciones existentes:
 
-<!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
+<!--
+| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
 | **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
 | **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
 | **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
-
 -->
 
 
-<!-- AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
+<!-- 
+AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
 * AEM 6.5.4.0 and above
 * AEM 6.4.8.0 and above
-* AEM 6.3.3.8 and above -->
+* AEM 6.3.3.8 and above 
+-->
 
 | **Versión de AEM** | **Nueva configuración** | **Actualizar configuración** |
 |---|---|---|
@@ -512,7 +515,7 @@ Brand Portal 6.4.3 introduce un alias alternativo para las direcciones URL de ac
 
 ### Navegación de jerarquía de carpetas para no administradores
 
-Los administradores ahora pueden configurar cómo se muestran las carpetas a los usuarios no administradores (editores, visualizadores y usuarios invitados) al iniciar sesión. La configuración de [Habilitar jerarquía de carpetas](../using/brand-portal-general-configuration.md) se ha añadido en **Configuración general**, en el panel de herramientas de administración. Si la configuración es:
+Los administradores ahora pueden configurar cómo se muestran las carpetas a los usuarios no administradores (editores, visualizadores y usuarios invitados) al iniciar sesión. [La configuración Habilitar la jerarquía de carpetas ](../using/brand-portal-general-configuration.md) se ha agregado en **Configuración general**, en el panel Herramientas de administración. Si la configuración es:
 
 * **habilitado**, el árbol de carpetas que comienza en la carpeta raíz es visible para los usuarios que no son administradores. De este modo, se les concede una experiencia de navegación similar a la de los administradores.
 * **deshabilitadas**, solo se muestran las carpetas compartidas en la página de destino.

@@ -56,7 +56,7 @@ La vista de tarjeta muestra tarjetas de información para cada elemento del nive
 * Tamaño
 * Dimensiones
 
-Puede desplazarse hacia abajo en la jerarquía haciendo clic en las tarjetas (con cuidado de evitar las acciones rápidas) o hacia arriba de nuevo mediante las [rutas de exploración del encabezado](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+Puede desplazarse hacia abajo en la jerarquía haciendo clic en las tarjetas (con cuidado de evitar las acciones rápidas) o hacia arriba de nuevo mediante las [rutas de exploración del encabezado](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 
@@ -106,7 +106,7 @@ La vista de lista muestra información para cada recurso en el nivel actual. La 
 * Ruta de carpeta que muestra la jerarquía de recursos
 * Fecha de publicación del recurso en Brand Portal
 
-La columna de ruta permite identificar fácilmente la ubicación de los recursos en la jerarquía de carpetas. Para desplazarse hacia abajo en la jerarquía, haga clic en el nombre del recurso y retroceda utilizando las [rutas de exploración del encabezado](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+La columna de ruta permite identificar fácilmente la ubicación de los recursos en la jerarquía de carpetas. Para desplazarse hacia abajo en la jerarquía, haga clic en el nombre del recurso y retroceda utilizando las [rutas de exploración del encabezado](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."

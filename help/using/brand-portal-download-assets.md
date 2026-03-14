@@ -156,7 +156,7 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
      >
      >Si los recursos que descargó también incluyen recursos con licencia, se le redirigirá a la página **[!UICONTROL Administración de copyright]**. En esta página, seleccione los recursos, haga clic en **[!UICONTROL Aceptar]** y, a continuación, haga clic en **[!UICONTROL Descargar]**. Si decide no estar de acuerdo, los recursos con licencia no se descargan.
      > 
-     >Los recursos protegidos por licencias tienen un [acuerdo de licencia adjunto](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), para lo cual se establece la [propiedad de metadatos](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) del recurso en Experience Manager Assets.
+     >Los recursos protegidos por licencias tienen un [acuerdo de licencia adjunto](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/drm), para lo cual se establece la [propiedad de metadatos](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/drm) del recurso en Experience Manager Assets.
 
 
      ![recurso con licencia](assets/licensed-asset-new.png)

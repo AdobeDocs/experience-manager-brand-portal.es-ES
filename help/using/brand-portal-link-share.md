@@ -1,5 +1,5 @@
 ---
-title: Uso compartido de recursos como vínculo
+title: Compartir recursos como un vínculo
 description: Descubra cómo los administradores de Adobe Experience Manager Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores solo pueden ver y compartir los recursos que han compartido con ellos.
 contentOwner: bdhar
 content-type: reference
@@ -7,20 +7,21 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 6%
+source-wordcount: '969'
+ht-degree: 5%
 
 ---
 
-# Uso compartido de recursos como vínculo {#share-assets-as-a-link}
+# Compartir recursos como un vínculo {#share-assets-as-a-link}
 
 Los administradores de Adobe Experience Manager Assets Brand Portal pueden compartir vínculos de varios recursos con usuarios internos autorizados y entidades externas, incluidos socios y proveedores. Los editores solo pueden ver y compartir los recursos que han compartido con ellos.
 
 Compartir recursos a través de un vínculo es una forma cómoda de ponerlos a disposición de terceros, ya que los receptores no tienen que iniciar sesión en Brand Portal para acceder a los recursos.
 
-<!-- Link sharing access is restricted to editors and administrators. 
+<!-- 
+Link sharing access is restricted to editors and administrators. 
 -->
 
 Para obtener más información, vea [Administrar usuarios, grupos y funciones de usuario](../using/brand-portal-adding-users.md#manage-user-roles).
@@ -65,7 +66,7 @@ A continuación se indican los pasos para compartir recursos como vínculo:
 
 ## Descarga de recursos desde vínculos compartidos {#download-assets-from-shared-links}
 
-Haga clic en el vínculo del correo electrónico para acceder al recurso compartido. AEM Se abre la página Uso compartido de vínculos.
+Haga clic en el vínculo del correo electrónico para acceder al recurso compartido. Se abre la página Compartir vínculos de AEM.
 
 Para descargar los recursos compartidos:
 
@@ -193,7 +194,7 @@ La siguiente leyenda explica los símbolos utilizados en la matriz:
 | ✓ | Este formato de archivo admite esta función |
 | ✕ | Este formato de archivo no admite esta función |
 | ND | Esta función no es aplicable a este formato de archivo |
-| &#42; | AEM Esta función requiere la compatibilidad de complementos para este formato de archivo en la instancia de autor, pero no en Brand Portal, una vez publicados los recursos en Brand Portal. |
+| &#42; | Esta función requiere la compatibilidad de complementos para este formato de archivo en la instancia de autor de AEM, pero no en Brand Portal, una vez publicados los recursos en Brand Portal |
 
 ## Dejar de compartir recursos compartidos como vínculo {#unshare-assets-shared-as-a-link}
 

@@ -6,10 +6,10 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: f483ac280a5e89ca25305eae09380d70ad661752
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 5%
+source-wordcount: '1957'
+ht-degree: 11%
 
 ---
 
@@ -81,11 +81,11 @@ Además de la **[!UICONTROL Configuración de descarga]**, los administradores d
 
 Inicie sesión en su inquilino de Brand Portal como administrador y vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Usuarios]**. En la página **[!UICONTROL Funciones de usuario]**, vaya a la pestaña **[!UICONTROL Grupos]** para configurar la configuración de vista y (o) descarga de los grupos de usuarios.
 
-![permiso de visualización/descarga](assets/download-permissions.png)
+![permiso-visualización-descarga](assets/download-permissions.png)
 
 >[!NOTE]
 >
->Si se agrega un usuario a varios grupos y si uno de esos grupos tiene restricciones, estas se aplican al usuario.
+>Si se añade un usuario a varios grupos y si uno de esos grupos tiene restricciones, estas se aplican al usuario.
 
 En función de la configuración, el flujo de trabajo de descarga permanece constante para los recursos independientes, varios recursos, carpetas que contienen recursos, recursos con o sin licencia y la descarga de recursos mediante un vínculo compartido.
 
@@ -116,11 +116,11 @@ Los usuarios de Brand Portal pueden descargar varios recursos, carpetas que cont
 
 Si el usuario tiene acceso a las representaciones, se le proporcionará el cuadro de diálogo **[!UICONTROL Descargar]** mejorado con las siguientes capacidades:
 
-* Vea todas las representaciones disponibles de cualquier recurso en la lista de descarga.
+* Ver todas las representaciones disponibles de cualquier recurso en la lista de descarga.
 * Excluya las representaciones de recursos que no sean necesarios para la descarga.
-* Aplique el mismo conjunto de representaciones a todos los tipos de recursos similares con un solo clic.
-* Aplique un conjunto diferente de representaciones para diferentes tipos de recursos.
-* Cree una carpeta independiente para cada recurso.
+* Aplicar el mismo conjunto de representaciones a todos los tipos de recursos similares con un solo clic.
+* Aplicar un conjunto diferente de representaciones para diferentes tipos de recursos.
+* Crear una carpeta independiente para cada recurso.
 * Descargar los recursos seleccionados y sus representaciones.
 
 ![cuadro de diálogo de descarga](assets/download-dialog-box.png)
@@ -156,7 +156,7 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
      >
      >Si los recursos que descargó también incluyen recursos con licencia, se le redirigirá a la página **[!UICONTROL Administración de copyright]**. En esta página, seleccione los recursos, haga clic en **[!UICONTROL Aceptar]** y, a continuación, haga clic en **[!UICONTROL Descargar]**. Si decide no estar de acuerdo, los recursos con licencia no se descargan.
      > 
-     >Los recursos protegidos por licencias tienen un [acuerdo de licencia adjunto](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/drm), para lo cual se establece la [propiedad de metadatos](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/drm) del recurso en Experience Manager Assets.
+     >Los recursos protegidos por licencias tienen un [acuerdo de licencia adjunto](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), para lo cual se establece la [propiedad de metadatos](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) del recurso en Experience Manager Assets.
 
 
      ![recurso con licencia](assets/licensed-asset-new.png)
@@ -183,9 +183,10 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
    Para seguir usando **[!UICONTROL Descarga rápida]**, haz clic en **[!UICONTROL Permitir]**. Todas las representaciones seleccionadas se descargan en una carpeta zip mediante IBM® Aspera Connect.
 
-   Si no quieres usar IBM® Aspera Connect, haz clic en **[!UICONTROL Denegar]**. Si se deniega la descarga rápida **[!UICONTROL 1&rbrace; o se produce un error, el sistema rellena un mensaje de error.]** Haga clic en el botón **[!UICONTROL Descarga normal]** para continuar descargando los recursos.
+   Si no quieres usar IBM® Aspera Connect, haz clic en **[!UICONTROL Denegar]**. Si se deniega la descarga rápida **[!UICONTROL 1} o se produce un error, el sistema rellena un mensaje de error.]** Haga clic en el botón **[!UICONTROL Descarga normal]** para continuar descargando los recursos.
 
-<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+<!-- 
+   removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
@@ -207,7 +208,7 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
 >[!NOTE]
 >
->Brand Portal admite la configuración de Dynamic Media en los modos Híbrido e Scene7.
+>Brand Portal admite la configuración de Dynamic Media en los modos Híbrido y Scene7.
 >
 >(*Si la instancia de autor de Experience Manager Assets se está ejecutando en **modo híbrido de Dynamic Media***)
 >
@@ -217,7 +218,8 @@ Si el administrador [no le ha autorizado a tener acceso a las representaciones o
 
 ![mensaje-sin-acceso](assets/no-access-message.png)
 
-<!-- This issue has been resolved, check with engineering.
+<!-- 
+This issue has been resolved, check with engineering.
 >[!NOTE]
 >
 >Once you have downloaded the asset renditions, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
@@ -241,7 +243,7 @@ A continuación se indican los pasos para descargar representaciones de recursos
 
    Seleccione las representaciones específicas que desee descargar y haga clic en **[!UICONTROL Descargar elementos]**.
 
-   ![representaciones-panel](assets/renditions-panel.png)
+   ![panel-representaciones](assets/renditions-panel.png)
 
 
 1. De manera predeterminada, la configuración **[!UICONTROL Descarga rápida]** está habilitada en **[!UICONTROL Configuración de descarga]**. Por lo tanto, aparece un cuadro de confirmación para permitir la descarga acelerada mediante IBM® Aspera Connect.
@@ -250,7 +252,8 @@ A continuación se indican los pasos para descargar representaciones de recursos
 
    Si deniega el uso de **[!UICONTROL Descarga rápida]**, el sistema rellenará un mensaje de error. Haga clic en el botón **[!UICONTROL Descarga normal]** para continuar descargando los recursos.
 
-<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+<!-- 
+removed the known issue from step 3 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
    >
    >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
@@ -275,7 +278,8 @@ A continuación se indican los pasos para descargar representaciones de recursos
 >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 -->
 
-<!-- Backup of content before updating the new feature docs.
+<!-- 
+Backup of content before updating the new feature docs.
 ## Configure asset download {#configure-download}
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 

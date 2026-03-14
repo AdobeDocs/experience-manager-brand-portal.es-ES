@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 6%
+source-wordcount: '1044'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Experience Manager Assets Brand Portal ofrece varias funciones y elementos de interfaz de usuario que facilitan la exploración de recursos, la navegación por jerarquías de recursos y la búsqueda de recursos mediante diferentes opciones de vista.
 
-El logotipo de Experience Manager de la barra de herramientas de la parte superior facilita a los usuarios administradores el acceso al panel de herramientas administrativas.
+El logotipo de Experience Manager en la barra de herramientas de la parte superior facilita a los usuarios administradores el acceso al panel de herramientas administrativas.
 
 ![](assets/aemlogo.png)
 
@@ -40,7 +40,7 @@ Puede ver, navegar y seleccionar sus recursos (para realizar más acciones) con 
 
 * Vista de columna
 * Vista de tarjeta
-* Vista de lista   
+* Vista de lista
 
 ### Vista de tarjeta
 
@@ -52,11 +52,11 @@ La vista de tarjeta muestra tarjetas de información para cada elemento del nive
 * Tipo
 * Título
 * Nombre
-* Fecha y hora en que se publicó el recurso en Brand Portal AEM desde el momento de su publicación en el
+* Fecha y hora en que se publicó el recurso en Brand Portal desde AEM
 * Tamaño
 * Dimensiones
 
-Puede desplazarse hacia abajo en la jerarquía haciendo clic en las tarjetas (con cuidado de evitar las acciones rápidas) o hacia arriba de nuevo mediante las [rutas de exploración del encabezado](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+Puede desplazarse hacia abajo en la jerarquía haciendo clic en las tarjetas (con cuidado de evitar las acciones rápidas) o hacia arriba de nuevo mediante las [rutas de exploración del encabezado](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 
@@ -77,7 +77,7 @@ La opción Información general está disponible para los usuarios no administra
 * En la barra de herramientas, en la parte superior, al seleccionar un recurso o una carpeta.
 * En la lista desplegable, seleccione el selector de carril.
 
-Al seleccionar la opción **[!UICONTROL Información general]** mientras se selecciona un recurso o una carpeta, los usuarios pueden ver el título, la ruta y la hora de creación del recurso. Mientras que en la página de detalles del recurso, seleccionar la opción Información general permite a los usuarios ver los metadatos del recurso.
+Al seleccionar la opción **[!UICONTROL Información general]** mientras se selecciona un recurso o una carpeta, los usuarios pueden ver el título, la ruta y la hora de creación del recurso. En la página de detalles del recurso, seleccionar la opción Información general permite a los usuarios ver los metadatos del recurso.
 
 ![](assets/overview-option.png)
 
@@ -89,7 +89,7 @@ El cuadro de diálogo **[!UICONTROL Ver configuración]** se abre seleccionando 
 
 ![](assets/cardviewsettings.png)
 
-### Vista de lista   
+### Vista de lista
 
 ![](assets/list-view.png)
 
@@ -106,7 +106,7 @@ La vista de lista muestra información para cada recurso en el nivel actual. La 
 * Ruta de carpeta que muestra la jerarquía de recursos
 * Fecha de publicación del recurso en Brand Portal
 
-La columna de ruta permite identificar fácilmente la ubicación de los recursos en la jerarquía de carpetas. Para desplazarse hacia abajo en la jerarquía, haga clic en el nombre del recurso y retroceda utilizando las [rutas de exploración del encabezado](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+La columna de ruta permite identificar fácilmente la ubicación de los recursos en la jerarquía de carpetas. Para desplazarse hacia abajo en la jerarquía, haga clic en el nombre del recurso y retroceda utilizando las [rutas de exploración del encabezado](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
@@ -114,7 +114,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Configuración de vista en la vista de lista
 
-La vista de lista muestra el recurso **[!UICONTROL Name]** como la primera columna de forma predeterminada. También se muestra información adicional, como el recurso **[!UICONTROL Title]**, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimension]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]** y el estado de publicación. Sin embargo, puede seleccionar las columnas que se mostrarán con **[!UICONTROL Ver configuración]**.
+La vista de lista muestra el recurso **[!UICONTROL Name]** como la primera columna de forma predeterminada. También se muestra información adicional, como el recurso **[!UICONTROL Title]**, **[!UICONTROL Locale]**, **[!UICONTROL Type]**, **[!UICONTROL Dimensiones]**, **[!UICONTROL Size]**, **[!UICONTROL Rating]** y el estado de publicación. Sin embargo, puede seleccionar las columnas que se mostrarán con **[!UICONTROL Ver configuración]**.
 
 ![](assets/list-view-setting.png)
 
@@ -138,7 +138,7 @@ Cuando se selecciona un recurso en la vista de columna, se muestra una represent
 * Título
 * Nombre
 * Dimensiones
-* Fecha y hora en que se publicó el recurso en Brand Portal AEM desde el momento de su publicación en el
+* Fecha y hora en que se publicó el recurso en Brand Portal desde AEM
 * Tamaño
 * Tipo
 * Opción Más detalles que va con la página de detalles del recurso
@@ -253,7 +253,8 @@ Puede ver todas las representaciones disponibles del recurso en la página de de
 
 ![](assets/renditions.png)
 
-<!-- removed as it is fixed in 2022.02.0 release
+<!-- 
+removed as it is fixed in 2022.02.0 release
 >[!CAUTION]
 >
 >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
@@ -267,4 +268,4 @@ Para abrir la página de propiedades del recurso, use la opción **[!UICONTROL P
 
 ![](assets/asset-properties.png)
 
-AEM AEM También puede ver una lista de todos sus recursos relacionados (recursos de origen o derivados, en la página de propiedades de un recurso), ya que la relación de recursos también se publica desde la a Brand Portal.
+También puede ver una lista de todos sus recursos relacionados (recursos de origen o derivados en AEM) en la página de propiedades de un recurso, ya que la relación de recursos también se publica desde AEM a Brand Portal.

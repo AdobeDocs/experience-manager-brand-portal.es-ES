@@ -1,10 +1,16 @@
 ---
-source-git-commit: 30985e5880bae72339b3e4730655b9d6880abc47
+source-git-commit: be824a4b2f05f01d72b9dff30eda71782b42f82c
 workflow-type: tm+mt
-source-wordcount: '6'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-# ARCHIVADO
+# Documentación de Adobe Experience Manager Brand Portal
 
-Este repositorio ha migrado a <https://github.com/Adobe-Enterprise-Docs/experience-manager-brand-portal.es-ES>
+El repositorio de la documentación de Adobe Experience Manager Brand Portal.
+
+Sus contribuciones a la documentación son bienvenidas. Consulte los siguientes recursos:
+
+* [contributing.md](contributing.md) Para obtener una descripción general de cómo contribuir a la documentación.
+* [guidelines.md](guidelines.md) Para obtener información general sobre lo que se espera en las contribuciones y cómo componer las contribuciones de documentación.
+* [code-of-conduct.md](code-of-conduct.md) Para obtener una descripción general de los estándares de comportamiento que Adobe espera al contribuir en este proyecto de documentación.

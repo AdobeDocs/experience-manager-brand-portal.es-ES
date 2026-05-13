@@ -6,10 +6,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 exl-id: 1f52045b-afb1-4501-878d-c327d394e258
 TQID: https://experienceleague.adobe.com/hHVL1ersk74XAckuul6nwPhS-qaR1bi3sersJnnoO9g
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: cda65036-5305-4f01-89da-9b3506ae8c50
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 282

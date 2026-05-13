@@ -1,19 +1,22 @@
 ---
 title: Cargar recursos y publicar la carpeta Contribution de Brand Portal en Experience Manager Assets
-description: Obtenga información sobre la carga de nuevos recursos y la publicación de la carpeta Contribution de Brand Portal a Experience Manager Assets.
+description: Incluya un insight en la carga de nuevos recursos y la publicación de la carpeta Contribution de Brand Portal a Experience Manager Assets.
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/u5hGJpkNkUSrnC50ydHo4iERbyBn9uu4FItvZa-N34M
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 0%
+source-wordcount: 1469
+ht-degree: 10%
 
 ---
 
-# Carpeta de contribución de Publish a Experience Manager Assets {#using-asset-souring-in-bp}
+# Publicar carpeta de contribución en Experience Manager Assets {#using-asset-souring-in-bp}
 
 Los usuarios de Brand Portal con los permisos adecuados pueden cargar varios recursos o carpetas que contengan varios recursos en la carpeta Contribution. Sin embargo, los usuarios de Brand Portal solo pueden cargar recursos en la carpeta **NEW**. La carpeta **SHARED** está diseñada para la distribución de recursos de línea de base (contenido de referencia) que utilizan los usuarios de Brand Portal al crear nuevos recursos para la contribución.
 
@@ -21,7 +24,7 @@ El usuario de Brand Portal que tiene permiso para acceder a la carpeta de contri
 
 * [Descargar requisitos de recursos](#download-asset-requirements)
 * [Carga de nuevos recursos a la carpeta Contribution](#uplad-new-assets-to-contribution-folder)
-* [Carpeta de contribución de Publish a Experience Manager Assets](#publish-contribution-folder-to-aem)
+* [Publicar carpeta de contribución en Experience Manager Assets](#publish-contribution-folder-to-aem)
 
 ## Descargar requisitos de recursos {#download-asset-requirements}
 
@@ -59,7 +62,7 @@ O bien, puede abrir la carpeta **[!UICONTROL SHARED]** y hacer clic en el icono 
 
 Consulte el resumen (documento de requisitos de activos) y consulte los activos de línea de base para comprender los requisitos de activos. Ahora puede crear nuevos recursos para su contribución y cargarlos en la carpeta de contribución.
 
-## Cargar recursos a la carpeta de contribuciones {#upload-new-assets-to-contribution-folder}
+## Cargar recursos en carpeta de contribución {#upload-new-assets-to-contribution-folder}
 
 Después de revisar los requisitos de los recursos, los usuarios de Brand Portal pueden crear nuevos recursos para la contribución y cargarlos en la NUEVA carpeta, dentro de la carpeta de contribución. Un usuario puede cargar varios recursos en una carpeta de contribución de recursos. Sin embargo, solo se puede crear una carpeta a la vez.
 
@@ -73,7 +76,7 @@ Después de revisar los requisitos de los recursos, los usuarios de Brand Portal
 
 >[!NOTE]
 >
->El Adobe recomienda liberar el espacio de carga después de publicar la carpeta de contribución en Experience Manager Assets para que esté disponible para los demás usuarios de Brand Portal.
+>Adobe recomienda liberar espacio de carga después de publicar la carpeta de contribución en Experience Manager Assets para que esté disponible para los demás usuarios de Brand Portal.
 >
 >Si es necesario extender el límite de carga del inquilino de Brand Portal más allá de **10** GB, póngase en contacto con el servicio de atención al cliente especificando el requisito.
 
@@ -100,7 +103,7 @@ El panel de Brand Portal refleja todas las carpetas existentes permitidas al usu
 Después de cargar todos los recursos o carpetas en la NUEVA carpeta, publique la carpeta Contribution en Experience Manager Assets.
 
 
-## Carpeta de contribución de Publish a Experience Manager Assets {#publish-contribution-folder-to-aem}
+## Publicar carpeta de contribución en Experience Manager Assets {#publish-contribution-folder-to-aem}
 
 Los usuarios de Brand Portal pueden publicar la carpeta Contribution en Experience Manager Assets sin necesidad de acceder a la instancia de autor de Experience Manager.
 
@@ -111,7 +114,7 @@ Asegúrese de haber cumplido los requisitos de los recursos y de cargar los recu
 1. Inicie sesión en la instancia de Brand Portal.
 
 1. Seleccione una carpeta de contribución en el panel de Brand Portal.
-1. Haga clic en **[!UICONTROL Publish AEM para]**.
+1. Haga clic en **[!UICONTROL Publicar en AEM]**.
 
    ![](assets/export.png)
 
@@ -155,25 +158,25 @@ Los administradores pueden utilizar dos informes para ver el estado de las carpe
 
 ## Eliminación automática de recursos publicados en Experience Manager Assets desde la carpeta Contribution {#automatically-delete-published-assets-from-contribution-folder}
 
-Brand Portal AEM ahora ejecuta trabajos automáticos cada doce horas para analizar todas las carpetas de contribuciones y eliminar todos los recursos publicados en los que se ha realizado la publicación de los recursos de la. Como resultado, no es necesario eliminar manualmente los recursos de la carpeta Contribution para mantener el tamaño de la carpeta por debajo del [límite de umbral](#upload-new-assets-to-contribution-folder). También puede monitorizar el estado de los trabajos de eliminación ejecutados automáticamente durante los últimos siete días. El informe de un trabajo proporciona los siguientes detalles:
+Brand Portal ahora ejecuta trabajos automáticos cada doce horas para analizar todas las carpetas de contribución y eliminar todos los recursos publicados en AEM. Como resultado, no es necesario eliminar manualmente los recursos de la carpeta Contribution para mantener el tamaño de la carpeta por debajo del [límite de umbral](#upload-new-assets-to-contribution-folder). También puede monitorizar el estado de los trabajos de eliminación ejecutados automáticamente durante los últimos siete días. El informe de un trabajo proporciona los siguientes detalles:
 
 * Hora de inicio del trabajo
 * Hora de finalización del trabajo
 * Estado del trabajo
-* Activos totales incluidos en un trabajo
-* Activos totales eliminados correctamente en un trabajo
+* Recursos totales incluidos en un trabajo
+* Recursos totales eliminados correctamente en un trabajo
 * Almacenamiento total disponible como resultado de la ejecución del trabajo
 
   ![Informe de eliminación](assets/deletion-reports.png)
 
-También puede profundizar más para ver los detalles de cada recurso incluido en un trabajo de eliminación. En el informe se incluyen detalles como el título del recurso, el tamaño, el autor, el estado de eliminación y el tiempo de eliminación.
+También puede profundizar más para ver los detalles de cada recurso incluido en un trabajo de eliminación. En el informe se incluyen detalles como el título del recurso, el tamaño, el autor, el estado de eliminación y la hora de eliminación.
 
 ![Informe de eliminación detallado](assets/deletion-reports-detailed.png)
 
 >[!NOTE]
 >
-> * Los clientes pueden solicitar al Servicio de atención al cliente de Adobe que deshabilite y vuelva a habilitar la eliminación automática de trabajos o que cambie la  de su ejecución.
-> * Esta función está disponible con Experience Manager 6.5.13.0 y versiones posteriores.
+> * Los clientes pueden solicitar al Servicio de atención al cliente de Adobe que deshabilite y vuelva a habilitar la capacidad de eliminación automática de trabajos o que cambie la frecuencia de su ejecución.
+> * Esta característica está disponible con Experience Manager 6.5.13.0 y versiones posteriores.
 
 ### Ver y descargar informes de eliminación {#view-delete-jobs}
 
@@ -183,7 +186,7 @@ Para ver y descargar informes de un trabajo de eliminación:
 
 1. Seleccione un trabajo y haga clic en **[!UICONTROL Ver]** para ver el informe.
 
-   Ver los detalles de cada recurso incluido en un trabajo de eliminación. En el informe se incluyen detalles como el título del recurso, el tamaño, el autor, el estado de eliminación y el tiempo de eliminación. Haga clic en **[!UICONTROL Descargar]** para descargar el informe del trabajo en formato CSV.
+   Ver los detalles de cada recurso incluido en un trabajo de eliminación. En el informe se incluyen detalles como el título del recurso, el tamaño, el autor, el estado de eliminación y la hora de eliminación. Haga clic en **[!UICONTROL Descargar]** para descargar el informe del trabajo en formato CSV.
 
    El estado de eliminación de un recurso en el informe puede tener los siguientes valores posibles:
 
@@ -191,7 +194,7 @@ Para ver y descargar informes de un trabajo de eliminación:
 
    * **No encontrado** - Brand Portal no pudo encontrar el recurso en la carpeta Contribution. El recurso ya se ha eliminado manualmente de la carpeta.
 
-   * **Omitido**: Brand Portal omitió la eliminación de recursos porque hay una nueva versión disponible para el recurso en la carpeta Contribution que aún no se ha publicado en el Experience Manager.
+   * **Omitido**: Brand Portal omitió la eliminación de recursos porque hay una nueva versión disponible para el recurso en la carpeta Contribution que aún no se ha publicado en Experience Manager.
 
    * **Error**: Brand Portal no pudo eliminar el recurso. Hay tres intentos de reintento para eliminar un recurso con un estado de eliminación de `Failed`. Si el recurso no supera el tercer intento de eliminación de reintentos, debe eliminarlo manualmente.
 

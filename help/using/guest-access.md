@@ -6,10 +6,16 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 0%
+source-wordcount: 1051
+ht-degree: 3%
 
 ---
 
@@ -40,7 +46,7 @@ Para ingresar a Brand Portal de forma anónima, seleccione **[!UICONTROL Haga cl
 Una sesión de usuario invitado permanece activa durante 15 minutos.
 Este proceso conserva el estado de **[!UICONTROL Lightbox]** durante 15 minutos a partir de la hora de inicio de la sesión. Después, se reinicia la sesión de invitado actual, lo que provoca que se pierda el estado de Lightbox.
 
-Por ejemplo, un usuario invitado inicia sesión en Brand Portal a las 15:00 horas y agrega recursos a **[!UICONTROL Lightbox]** para su descarga a las 15:05 horas. Si el usuario no descarga la colección **[!UICONTROL Lightbox]** (o sus recursos) antes de las 15:15 horas (en los 15 minutos posteriores al inicio de sesión), tendrá que reiniciar la sesión. **[!UICONTROL Lightbox]** está vacío, lo que significa que los recursos cargados ya no están disponibles si se perdió la sesión.
+Por ejemplo, un usuario invitado inicia sesión en Brand Portal a las 15:00 horas y agrega recursos a **[!UICONTROL Lightbox]** para su descarga a las 15:05 horas. Si el usuario no descarga la colección **[!UICONTROL Lightbox]** (o sus recursos) antes de las 15:15 horas (dentro de los 15 minutos posteriores al inicio de sesión), tendrá que reiniciar la sesión. **[!UICONTROL Lightbox]** está vacío, lo que significa que los recursos cargados ya no están disponibles si se perdió la sesión.
 
 ## Sesiones de invitado simultáneas permitidas {#concurrent-guest-sessions-allowed}
 

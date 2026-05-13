@@ -5,10 +5,15 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+TQID: https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: a0cde32c-c339-4649-bd06-f1111bc952fcid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 96%
+source-wordcount: 1633
+ht-degree: 93%
 
 ---
 
@@ -115,7 +120,7 @@ Esta versión incluye correcciones a los siguientes problemas críticos:
 * Brand Portal muestra el error **Campos de encabezado de solicitud demasiado grandes** al acceder a los filtros de búsqueda mediante el panel `Filter`.
 
 **Problemas conocidos**
-Esta versión incluye los siguientes problemas conocidos:
+Esta versión de incluye los siguientes problemas conocidos:
 
 * Localización parcial en el contenido del informe de abastecimiento de recursos.
 * Algunos campos del perfil de usuario no se pueden editar en el perfil de usuario.
@@ -187,7 +192,7 @@ Esta versión incluye correcciones a los siguientes problemas críticos:
 
 **Nuevas funciones**
 
-Brand Portal ahora ejecuta trabajos automáticos cada doce horas para eliminar todos los recursos de Brand Portal que se publican en AEM. Como resultado, no es necesario eliminar manualmente los recursos de la carpeta Contribution para mantener el tamaño de la carpeta por debajo del límite de umbral. 
+Brand Portal ahora ejecuta trabajos automáticos cada doce horas para eliminar todos los recursos de Brand Portal que se publican en AEM. Como resultado, no es necesario eliminar manualmente los recursos de la carpeta Contribution para mantener el tamaño de la carpeta por debajo del límite de umbral.
 
 **Problemas críticos corregidos**
 
@@ -399,7 +404,7 @@ Para ver qué plataformas están certificadas para esta versión de Brand Portal
 
 ## Vínculos {#links}
 
-* [Página de producto de Adobe Experience Manager en adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html?lang=es)
+* [Página de productos de Adobe Experience Manager en adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html?lang=es)
 * [Documentación de Assets Brand Portal](https://experienceleague.adobe.com/es/docs/experience-manager-brand-portal/using/home)
 
 ## Acceso y asistencia de producto (sitios restringidos) {#product-access-and-support-restricted-sites}

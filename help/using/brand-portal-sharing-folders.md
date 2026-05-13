@@ -1,20 +1,26 @@
 ---
 title: Compartir carpetas
-description: Brand Portal requiere que los recursos se publiquen desde una instancia preconfigurada de autor de Experience Manager Assets. Los usuarios no administradores solo pueden acceder a los recursos publicados si se configuran durante la configuración de replicación con Experience Manager, y los recursos deben compartirse con ellos.
+description: Brand Portal requiere que los recursos se publiquen desde una instancia preconfigurada de autor de Experience Manager Assets. Los usuarios no administradores solo pueden acceder a los recursos publicados si se configuran durante la configuración de replicación con Experience Manager y los recursos deben compartirse con ellos.
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 1%
+source-wordcount: 1108
+ht-degree: 2%
 
 ---
 
 # Compartir carpetas en Brand Portal {#share-folders}
 
-Assets debe publicarse en Brand Portal desde una instancia preconfigurada de autor de Experience Manager, ya que Brand Portal no admite la ingesta de recursos.
+Assets debe publicarse en Brand Portal desde una instancia de autor de Experience Manager preconfigurada, ya que Brand Portal no admite la ingesta de recursos.
 
 ## Flujo de trabajo de uso compartido de carpetas en Brand Portal {#folder-sharing-workflow-in-brand-portal}
 
@@ -28,27 +34,27 @@ A continuación se describe el flujo de trabajo del recurso compartido de carpet
 
 ### Compartir carpetas con grupos de usuarios en Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Los derechos de acceso a los recursos de una carpeta dependen de los derechos de acceso de su carpeta principal, independientemente de la configuración de las carpetas secundarias. AEM [ACL](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/security/security) en las rigen este comportamiento, con carpetas secundarias que heredan ACL de sus carpetas principales. Por ejemplo, supongamos que la carpeta A contiene la carpeta B, que contiene la carpeta C. A continuación, un grupo de usuarios (o usuarios) con derechos de acceso en la carpeta A también tienen los mismos derechos de acceso en las carpetas B y C. La carpeta B, que es la carpeta secundaria de A, hereda sus ACL, y la carpeta C, que es la carpeta secundaria de B, hereda sus ACL.
+Los derechos de acceso a los recursos de una carpeta dependen de los derechos de acceso de su carpeta principal, independientemente de la configuración de las carpetas secundarias. [ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security) en AEM rigen este comportamiento, con carpetas secundarias que heredan ACL de sus carpetas principales. Por ejemplo, supongamos que la carpeta A contiene la carpeta B, que contiene la carpeta C. A continuación, un grupo de usuarios (o usuarios) con derechos de acceso en la carpeta A también tienen los mismos derechos de acceso en las carpetas B y C. La carpeta B, que es la carpeta secundaria de A, hereda sus ACL, y la carpeta C, que es la carpeta secundaria de B, hereda sus ACL.
 
-Del mismo modo, los grupos de usuarios (o usuarios) que tienen permisos para acceder solo a la carpeta B tienen los mismos permisos de acceso en la carpeta C, pero no en la carpeta A. El Adobe recomienda organizar el contenido para que los recursos más expuestos se coloquen en carpetas secundarias, lo que permite restringir el acceso desde las carpetas secundarias hasta la carpeta raíz.
+Del mismo modo, los grupos de usuarios (o usuarios) que tienen permisos para acceder solo a la carpeta B tienen los mismos permisos de acceso en la carpeta C, pero no en la carpeta A. Adobe recomienda organizar el contenido para que los recursos más expuestos se coloquen en carpetas secundarias, lo que permite restringir el acceso desde las carpetas secundarias hasta la carpeta raíz.
 
 ### Publicación de carpeta pública {#public-folder-publish}
 
-Los usuarios que no son administradores (como editores y visores) pueden acceder a los recursos publicados de AEM Assets en Brand Portal solo si la opción **[!UICONTROL Publish de carpeta pública]** está seleccionada durante la configuración de replicación de Brand Portal.
+Los usuarios que no son administradores (como editores y visores) pueden acceder a los recursos publicados por los AEM Assets en Brand Portal solo si la opción **[!UICONTROL Publicación de carpetas públicas]** está seleccionada durante la configuración de replicación de Brand Portal.
 
 ![](assets/assetbpreplication.png)
 
-Si la opción **[!UICONTROL Publish de carpeta pública]** está deshabilitada, los administradores deberán compartir estos recursos específicamente con usuarios que no sean administradores mediante la capacidad de uso compartido.
+Si la opción **[!UICONTROL Publicar carpeta pública]** está deshabilitada, los administradores deben compartir estos recursos específicamente con usuarios que no sean administradores mediante la capacidad de uso compartido.
 
 >[!NOTE]
 >
->La opción para habilitar **[!UICONTROL Publish AEM de carpeta pública]** está disponible a partir de la versión 6.3.2.1 de la versión en adelante de la versión 6.3.1.
+>La opción para habilitar la publicación de **[!UICONTROL carpetas públicas]** está disponible a partir de AEM 6.3.2.1.
 
 ## Acceso a carpetas compartidas {#access-to-shared-folders}
 
 La siguiente matriz analiza los derechos de acceso y los derechos para compartir o dejar de compartir recursos para varias funciones de usuario:
 
-|               | Acceso a todas las carpetas publicadas desde AEM Assets en Brand Portal | Acceso a carpetas compartidas | Compartir o dejar de compartir derechos de carpeta |
+|               | Acceso a todas las carpetas publicadas desde AEM Assets a Brand Portal | Acceso a carpetas compartidas | Compartir o dejar de compartir derechos de carpeta |
 |---------------|-----------|-----------|------------|
 | Administrador | Sí | Sí | Sí |
 | Editor | No* | Sí, solo si se comparte con ellos o con el grupo al que pertenecen | Sí, solo para las carpetas compartidas con ellos o con el grupo al que pertenecen |
@@ -57,7 +63,7 @@ La siguiente matriz analiza los derechos de acceso y los derechos para compartir
 
 >[!NOTE]
 >
->De manera predeterminada, la opción **[!UICONTROL Publish de carpeta pública]** está deshabilitada al configurar la replicación de Brand Portal AEM con Autor de. Si la opción está activada, las carpetas publicadas en Brand Portal son accesibles para todos los usuarios (usuarios no administradores también) de forma predeterminada.
+>De manera predeterminada, la opción **[!UICONTROL Publicar carpeta pública]** está deshabilitada al configurar la replicación de Brand Portal con AEM Author. Si la opción está activada, las carpetas publicadas en Brand Portal son accesibles para todos los usuarios (usuarios no administradores también) de forma predeterminada.
 
 ### Acceso de usuarios no administradores a carpetas compartidas {#non-admin-user-access-to-shared-folders}
 

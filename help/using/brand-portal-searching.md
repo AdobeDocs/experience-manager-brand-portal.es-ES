@@ -1,19 +1,25 @@
 ---
-title: Búsqueda de recursos en Brand Portal
+title: Buscar recursos en Brand Portal
 description: La función de búsqueda de Brand Portal le permite buscar rápidamente recursos relevantes mediante Omnisearch, y los filtros de búsqueda le ayudan a acotar aún más la búsqueda. Guarde las búsquedas como colecciones inteligentes para el futuro.
 contentOwner: bdhar
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 0%
+source-wordcount: 1361
+ht-degree: 3%
 
 ---
 
-# Búsqueda de recursos en Brand Portal {#search-assets-on-brand-portal}
+# Buscar recursos en Brand Portal {#search-assets-on-brand-portal}
 
 La función de búsqueda de Brand Portal le permite buscar rápidamente recursos relevantes mediante Omnisearch, y la búsqueda de facetas que utiliza filtros para ayudarle a reducir aún más la búsqueda. Puede buscar recursos en el nivel de archivos o carpetas y guardar los resultados de búsqueda como colecciones inteligentes.
 
@@ -52,7 +58,7 @@ Para obtener más información acerca del comportamiento de búsqueda con recurs
 
 Las facetas de búsqueda en el panel Filtros añaden granularidad a la experiencia de búsqueda y hacen que la funcionalidad de búsqueda sea más eficiente. Las facetas de búsqueda utilizan varias dimensiones (predicados) que le permiten realizar búsquedas complejas. Puede explorar en profundidad fácilmente el nivel de detalle deseado para lograr una búsqueda más enfocada.
 
-Por ejemplo, si está buscando una imagen, puede elegir si desea un mapa de bits o una imagen vectorial. Puede reducir aún más el ámbito de búsqueda especificando el tipo MIME de la imagen en la faceta de búsqueda Tipo de archivo. Del mismo modo, al buscar documentos, puede especificar el formato, por ejemplo, formato PDF o formato MS® Word.
+Por ejemplo, si está buscando una imagen, puede elegir si desea un mapa de bits o una imagen vectorial. Puede reducir aún más el ámbito de búsqueda especificando el tipo MIME de la imagen en la faceta de búsqueda Tipo de archivo. Del mismo modo, al buscar documentos, puede especificar el formato, por ejemplo, formato PDF o MS® Word.
 
 ![Panel Filtros en Brand Portal](assets/file-type-search.png "Panel Filtros en Brand Portal")
 
@@ -89,7 +95,7 @@ Por ejemplo, utilice los siguientes filtros estándar:
      Por ejemplo, si el predicado de propiedad está asignado a `jcr:content/metadata/dc:title`, puede buscar recursos en función de su título.\
      El [!UICONTROL Predicado de propiedad] admite búsquedas de texto para:
 
-     **Frases parciales**
+     **frases parciales**
 Para permitir la búsqueda de recursos utilizando frases parciales en el predicado de propiedad, habilite la casilla de verificación **[!UICONTROL Búsqueda parcial]** en el formulario de búsqueda. Este método permite buscar los recursos deseados aunque no especifique las palabras o frases exactas utilizadas en los metadatos del recurso.
 
      >[!NOTE]

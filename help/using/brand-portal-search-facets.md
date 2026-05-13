@@ -1,19 +1,24 @@
 ---
-title: Usar facetas de búsqueda personalizadas
+title: Uso de facetas de búsqueda personalizadas
 description: Los administradores pueden agregar predicados de búsqueda al panel Filtros para personalizar la búsqueda y hacer que la funcionalidad de búsqueda sea versátil.
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/SYuZB0vfNFNK55QKcIQeROLmufoUIXMrgtXEPGkTo8A
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ce44533e-8ec8-4e11-a9e9-78b0fe561832id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 8%
+source-wordcount: 1363
+ht-degree: 9%
 
 ---
 
-# Usar facetas de búsqueda personalizadas {#use-custom-search-facets}
+# Uso de facetas de búsqueda personalizadas {#use-custom-search-facets}
 
 Los administradores pueden agregar predicados de búsqueda al panel [!UICONTROL Filtros] para personalizar la búsqueda y hacer que la funcionalidad de búsqueda sea versátil.
 
@@ -23,11 +28,11 @@ Puede utilizar varios predicados de búsqueda para personalizar el panel **[!UIC
 
 >[!NOTE]
 >
->Experience Manager Assets AEM permite que las organizaciones [publiquen los formularios de búsqueda personalizados de Autor de la](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) en Brand Portal, en lugar de volver a crear el mismo formulario en Brand Portal.
+>Experience Manager Assets permite que las organizaciones [publiquen los formularios de búsqueda personalizados de Autor de AEM](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) en Brand Portal, en lugar de volver a crear el mismo formulario en Brand Portal.
 
 ## Añadir un predicado de búsqueda al panel Filtros {#add-a-search-predicate}
 
-1. Para acceder a las herramientas administrativas, haga clic en el logotipo del Experience Manager en la barra de herramientas de la parte superior.
+1. Para acceder a las herramientas administrativas, haga clic en el logotipo de Experience Manager en la barra de herramientas de la parte superior.
 
    ![](assets/aemlogo.png)
 
@@ -85,10 +90,10 @@ De forma similar a como se agrega un predicado **[!UICONTROL Property]**, se pue
 
 | **Nombre de predicado** | **Descripción** | **Propiedades** |
 |-------|-------|----------|
-| **[!UICONTROL Navegador de rutas]** | El predicado de búsqueda para buscar recursos en una ubicación concreta. **Nota:** *Para un usuario que ha iniciado sesión, el Explorador de rutas en el filtro solo muestra la estructura de contenido de las carpetas (y sus antecesores) compartidas con el usuario.* <br> Los usuarios administradores pueden buscar recursos en cualquier carpeta navegando a ella mediante el Explorador de rutas. <br> Mientras que los usuarios no administradores pueden buscar recursos en una carpeta (a la que tienen acceso) navegando a esa carpeta en el Explorador de rutas. | <ul><li>Etiqueta de campo</li><li>Ruta</li><li>Descripción</li></ul> |
-| **[!UICONTROL Propiedad]** | Busque recursos en función de una propiedad de metadatos determinada. **Nota:** *Al seleccionar Búsqueda parcial, se selecciona Ignorar mayúsculas y minúsculas de forma predeterminada*. | <ul><li>Etiqueta de campo</li><li>Marcador de posición</li><li>Nombre de la propiedad</li><li>Búsqueda parcial</li><li>Ignorar mayúsculas y minúsculas</li><li> Descripción</li></ul> |
-| **[!UICONTROL Propiedad de varios valores]** | Similar a un predicado de propiedad, pero permite varios valores de entrada, separados por un delimitador (el valor predeterminado es una coma). Los recursos que coinciden con cualquiera de los valores de entrada se devuelven en los resultados. | <ul><li>Etiqueta de campo</li><li>Marcador de posición</li><li>Nombre de la propiedad</li><li>Compatibilidad con el delimitador</li><li>Ignorar mayúsculas y minúsculas</li><li>Descripción</li></ul> |
-| **[!UICONTROL Etiquetas]** | El predicado de búsqueda para buscar recursos en función de etiquetas. Puede configurar la propiedad Ruta para rellenar varias etiquetas en la lista Etiquetas. Es posible que los administradores tengan que cambiar el valor de la ruta de acceso, por ejemplo, [!UICONTROL /`etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]. AEM Es necesario si publican el formulario de búsqueda desde el que se publica, donde la ruta de acceso no incluye información del inquilino, por ejemplo, [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Ruta</li><li>Descripción</li></ul> |
+| **[!UICONTROL Navegador de rutas]** | El predicado de búsqueda para buscar recursos en una ubicación concreta. **Nota:** *Para un usuario que ha iniciado sesión, el Explorador de rutas en el filtro solo muestra la estructura de contenido de las carpetas (y sus antecesores) compartidas con el usuario.* <br> Los usuarios administradores pueden buscar recursos en cualquier carpeta navegando a ella mediante el Explorador de rutas. <br> Mientras que los usuarios no administradores pueden buscar recursos en una carpeta (a la que pueden acceder) navegando a esa carpeta en el Explorador de rutas. | <ul><li>Etiqueta de campo</li><li>Ruta</li><li>Descripción</li></ul> |
+| **[!UICONTROL Propiedad]** | Busque recursos en función de una propiedad de metadatos determinada. **Nota:** *Al seleccionar Búsqueda parcial, se selecciona Ignorar mayúsculas y minúsculas de forma predeterminada*. | <ul><li>Etiqueta de campo</li><li>Marcador de posición</li><li>Nombre de propiedad</li><li>Búsqueda parcial</li><li>Ignorar mayúsculas y minúsculas</li><li> Descripción</li></ul> |
+| **[!UICONTROL Propiedad de varios valores]** | Similar a un predicado de propiedad, pero permite varios valores de entrada, separados por un delimitador (el valor predeterminado es una coma). Los recursos que coinciden con cualquiera de los valores de entrada se devuelven en los resultados. | <ul><li>Etiqueta de campo</li><li>Marcador de posición</li><li>Nombre de la propiedad</li><li>Compatibilidad con delimitadores</li><li>Ignorar mayúsculas y minúsculas</li><li>Descripción</li></ul> |
+| **[!UICONTROL Etiquetas]** | El predicado de búsqueda para buscar recursos en función de etiquetas. Puede configurar la propiedad Ruta para rellenar varias etiquetas en la lista Etiquetas. Es posible que los administradores tengan que cambiar el valor de la ruta de acceso, por ejemplo, [!UICONTROL /`etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]. Es necesario si publican el formulario de búsqueda desde AEM, donde la ruta no incluye información del inquilino, por ejemplo, [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Ruta</li><li>Descripción</li></ul> |
 | **[!UICONTROL Ruta]** | El predicado de búsqueda para buscar recursos en una ubicación concreta. | <ul><li>Etiqueta de campo</li><li>Ruta</li><li>Descripción</li></ul> |
 | **[!UICONTROL Fecha relativa]** | El predicado de búsqueda para buscar recursos en función de la fecha relativa de su creación. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Fecha relativa</li></ul> |
 | **[!UICONTROL Intervalo]** | El predicado de búsqueda para buscar recursos que se encuentren dentro de un rango especificado de valores de propiedad. En el panel Filtros, puede especificar los valores de propiedad mínimos y máximos del rango. | <ul><li>Etiqueta de campo</li><li>Nombre de la propiedad</li><li>Descripción</li></ul> |
@@ -105,14 +110,14 @@ De forma similar a como se agrega un predicado **[!UICONTROL Property]**, se pue
 
 >[!NOTE]
 >
->* No use **[!UICONTROL Predicado de opciones]**, **[!UICONTROL Predicado de estado de Publish]** y **[!UICONTROL Predicado de clasificación]**, ya que estos predicados no funcionan en Brand Portal.
+>* No use **[!UICONTROL Predicado de opciones]**, **[!UICONTROL Predicado de estado de publicación]** y **[!UICONTROL Predicado de clasificación]**, ya que estos predicados no funcionan en Brand Portal.
 >* El predicado de tipo de carpeta `(nt:folder type)` no se admite en Brand Portal y puede causar problemas de rendimiento. Si está presente en un formulario de búsqueda personalizado publicado, se puede eliminar editando el formulario de búsqueda.
 
 ## Eliminar un predicado de búsqueda {#delete-a-search-predicate}
 
 Para eliminar un predicado de búsqueda, siga estos pasos:
 
-1. Haga clic en el logotipo del Adobe para acceder a las herramientas administrativas.
+1. Haga clic en el logotipo de Adobe para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 

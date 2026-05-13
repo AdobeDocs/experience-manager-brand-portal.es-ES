@@ -12,10 +12,15 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 2865a95e52679e853c6b125e8b1de1c23e84d30d
+TQID: https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 11%
+source-wordcount: 662
+ht-degree: 12%
 
 ---
 
@@ -27,7 +32,7 @@ Además, todas las funciones existentes permanecen sin cambios. Los usuarios de 
 
 ![Abastecimiento de recursos Brand Portal](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/32891/?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## Requisitos previos {#prerequisites}
 

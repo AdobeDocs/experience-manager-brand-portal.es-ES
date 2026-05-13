@@ -5,10 +5,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
+TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 6%
+source-wordcount: 1714
+ht-degree: 14%
 
 ---
 
@@ -36,8 +42,8 @@ La configuración de Adobe Experience Manager Assets con Brand Portal habilita l
 >[!IMPORTANT]
 >
 > * Brand Portal está en modo de mantenimiento. Todas las innovaciones de productos nuevos están disponibles en [Content Hub](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
-> * Si todavía necesita activar Brand Portal, póngase en contacto con su representante de Adobe e incluya información sobre su caso de uso y otros requisitos específicos en el mensaje.
-> * Brand Portal no está disponible con [Assets Prime](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-prime) o [Assets Ultimate](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Sin embargo, los clientes existentes de Assets as a Cloud Service, que ya tienen acceso a Brand Portal, pueden seguir utilizándolo cuando realicen la transición a Assets Ultimate.
+> * Si todavía necesita activar Brand Portal, póngase en contacto con su representante de Adobe e incluya información sobre su caso de uso y otros requisitos específicos.
+> * Brand Portal no está disponible con [Assets Prime](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-prime) ni con [Assets Ultimate](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Sin embargo, los clientes existentes de Assets as a Cloud Service que ya tienen acceso a Brand Portal pueden conservarlo cuando realicen la transición a Assets Ultimate.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
@@ -134,7 +140,7 @@ Además de las tareas anteriores, un autor de AEM Assets puede realizar las sigu
 
 * [Configuración de AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 * [Publicar carpetas en Brand Portal](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [Publicar colecciones en Brand Portal](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [Publicación de colecciones en Brand Portal](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Alias alternativo para la URL de Brand Portal {#tenant-alias-for-portal-url}
 
@@ -156,7 +162,7 @@ Los usuarios pueden solicitar acceso a Brand Portal desde la pantalla de inicio 
 
 Para solicitar acceso, haga lo siguiente:
 
-1. En la página de inicio de sesión de Brand Portal, seleccione **[!UICONTROL Haga clic aquí]** correspondiente a **[!UICONTROL Necesita acceso?]**. Sin embargo, para entrar a la sesión de invitados, seleccione **[!UICONTROL Haga clic aquí]** correspondiente a **[!UICONTROL Acceso de invitados?]**.
+1. En la página de inicio de sesión de Brand Portal, seleccione **[!UICONTROL Haga clic aquí]** correspondiente a **[!UICONTROL ¿Necesita acceso?]**. Sin embargo, para entrar a la sesión de invitados, seleccione **[!UICONTROL Haga clic aquí]** correspondiente a **[!UICONTROL Acceso de invitados?]**.
 
    ![Pantalla de inicio de sesión de Brand Portal](assets/bp-login-requestaccess.png)
 
@@ -241,4 +247,4 @@ Puede descartar esta notificación y seguir utilizando Brand Portal. Esta notifi
 * [Adobe Customer Support]()
 -->
 
-* [Foros de AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=es)
+* [Foros de AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

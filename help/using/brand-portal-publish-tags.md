@@ -24,7 +24,7 @@ ht-degree: 2%
 
 Obtenga información sobre cómo publicar etiquetas de Experience Manager Assets en Brand Portal.
 
-Las etiquetas son útiles para organizar los recursos y mejorar la capacidad de búsqueda de los recursos a los que están asociados. Las etiquetas se pueden considerar palabras clave o etiquetas (metadatos) que se adjuntan a los recursos y permiten encontrarlos rápidamente como resultado de una búsqueda. Para saber cómo asignar etiquetas a los recursos en Experience Manager Assets, consulte [usar etiquetas para organizar los recursos](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets).
+Las etiquetas son útiles para organizar los recursos y mejorar la capacidad de búsqueda de los recursos a los que están asociados. Las etiquetas se pueden considerar palabras clave o etiquetas (metadatos) que se adjuntan a los recursos y permiten encontrarlos rápidamente como resultado de una búsqueda. Para saber cómo asignar etiquetas a los recursos en Experience Manager Assets, consulte [usar etiquetas para organizar los recursos](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/managing/organize-assets).
 
 Las etiquetas (asociadas a recursos y colecciones en AEM) se publican automáticamente en Brand Portal cuando los recursos (y colecciones) con etiquetas asociadas se publican en Brand Portal. Las etiquetas publicadas son útiles para permitir que las búsquedas encuentren los recursos asociados.
 
@@ -53,7 +53,7 @@ Inicie sesión en una instancia de autor de AEM con privilegios administrativos 
    * **[!UICONTROL Título]**
      *(obligatorio)* Un título para mostrar para la etiqueta.
    * **[!UICONTROL Nombre]**
-     *(obligatorio)* Un nombre para la etiqueta. Si no se especifica, se crea un nombre de nodo válido a partir del Título. Consulte [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
+     *(obligatorio)* Un nombre para la etiqueta. Si no se especifica, se crea un nombre de nodo válido a partir del Título. Consulte [TagID](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Descripción**
      *(opcional)* Una descripción de la etiqueta.
    * **Ruta de etiqueta**
@@ -69,7 +69,7 @@ Ruta JCR de la etiqueta.
 
 1. **Adjunte la etiqueta a un recurso (o colección)**.
 
-   Seleccione un recurso (o una colección) y adjunte la etiqueta deseada mediante la sección Propiedades o Administrar etiquetas de ese recurso. Para obtener más información sobre cómo asignar etiquetas a los recursos de los AEM Assets, ve a [usar etiquetas para organizar los recursos](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets).
+   Seleccione un recurso (o una colección) y adjunte la etiqueta deseada mediante la sección Propiedades o Administrar etiquetas de ese recurso. Para obtener más información sobre cómo asignar etiquetas a los recursos de los AEM Assets, ve a [usar etiquetas para organizar los recursos](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/managing/organize-assets).
 
 1. **Publicar recursos (o colecciones) en Brand Portal**.\
    Al publicar un recurso (o una colección) en Brand Portal, la etiqueta adjunta también está disponible en Brand Portal.

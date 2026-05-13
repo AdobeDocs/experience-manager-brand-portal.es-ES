@@ -6,10 +6,24 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/XWG-kCasFqDycZEmxS6SBEVh4Jz-79p-u56SilhfprY
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+subfeature_v2:
+  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+  - id: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 2%
+source-wordcount: 817
+ht-degree: 3%
 
 ---
 
@@ -19,7 +33,7 @@ Al igual que una macro, un ajuste preestablecido de imagen es una colección pre
 
 Se utiliza un ajuste preestablecido de imagen para generar representaciones dinámicas de imágenes que se pueden previsualizar y descargar. Al obtener una vista previa de las imágenes y sus representaciones, puede elegir un ajuste preestablecido para cambiar el formato de las imágenes a las especificaciones establecidas por el administrador.
 
-(*Si la instancia de autor de Experience Manager Assets se está ejecutando en **modo híbrido de Dynamic Media***). Para ver las representaciones dinámicas de un recurso en Brand Portal, asegúrese de que su representación de TIFF piramidal exista en la instancia de autor de Experience Manager Assets desde la que publica en Brand Portal. Cuando publica el recurso, su representación PTIFF también se publica en Brand Portal.
+(*Si la instancia de autor de Experience Manager Assets se está ejecutando en **modo híbrido de Dynamic Media***). Para ver las representaciones dinámicas de un recurso en Brand Portal, asegúrese de que su representación en TIFF piramidal exista en la instancia de autor de Experience Manager Assets desde la que publica en Brand Portal. Cuando publica el recurso, su representación PTIFF también se publica en Brand Portal.
 
 >[!NOTE]
 >
@@ -34,16 +48,16 @@ Los administradores de Experience Manager Assets pueden crear ajustes preestable
 
 >[!NOTE]
 >
->Las representaciones dinámicas de una imagen se crean mediante su TIFF piramidal. Si el TIFF piramidal no está disponible para ningún recurso, no se podrán recuperar las representaciones dinámicas de ese recurso en Brand Portal.
+>Las representaciones dinámicas de una imagen se crean mediante su TIFF piramidal. Si TIFF piramidal no está disponible para ningún recurso, no se podrán recuperar las representaciones dinámicas de ese recurso en Brand Portal.
 >
->Si la instancia de autor de Experience Manager Assets se está ejecutando en **modo híbrido de Dynamic Media**, las representaciones de TIFF piramidales de los recursos de imagen se crean y guardan en el repositorio de Experience Manager Assets.
+>Si la instancia de autor de Experience Manager Assets se está ejecutando en **modo híbrido de Dynamic Media**, las representaciones de recursos de imagen de Pyramid TIFF se crean y guardan en el repositorio de Experience Manager Assets.
 >
->Sin embargo, si se está ejecutando una instancia de autor de Experience Manager Assets en **Dynamic Media Scene7 mode**, existen representaciones de TIFF piramidales de recursos de imagen en el servidor de Scene7.
+>Sin embargo, si una instancia de autor de Experience Manager Assets se está ejecutando en **Modo Scene7 de Dynamic Media**, entonces existen representaciones de recursos de imagen de TIFF piramidales en el servidor Scene7.
 >
 >Cuando estos recursos se publican en Brand Portal, se aplican ajustes preestablecidos de imagen y se muestran representaciones dinámicas.
 
 
-1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo de Experience Manager para acceder a las herramientas administrativas.
 
 1. En el panel de herramientas administrativas, haga clic en **[!UICONTROL Ajustes preestablecidos de imagen]**.
 

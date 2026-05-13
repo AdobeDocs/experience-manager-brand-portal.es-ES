@@ -5,10 +5,32 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 0ef13db15f5282364cf8f2ca86ebefdfe6caca37
+TQID: https://experienceleague.adobe.com/-mH8aSfC9V8seE8ynUPNeJeE2Jt79S6etcyDlK14jL0
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+  - id: e17747bc-9b7b-44e6-a443-f54229a02620
+subfeature_v2:
+  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+  - id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '6645'
-ht-degree: 98%
+source-wordcount: 6645
+ht-degree: 97%
 
 ---
 
@@ -515,7 +537,7 @@ Brand Portal 6.4.3 introduce un alias alternativo para las direcciones URL de ac
 
 ### Navegación de jerarquía de carpetas para no administradores
 
-Los administradores ahora pueden configurar cómo se muestran las carpetas a los usuarios no administradores (editores, visualizadores y usuarios invitados) al iniciar sesión. [La configuración Habilitar la jerarquía de carpetas &#x200B;](../using/brand-portal-general-configuration.md) se ha agregado en **Configuración general**, en el panel Herramientas de administración. Si la configuración es:
+Los administradores ahora pueden configurar cómo se muestran las carpetas a los usuarios no administradores (editores, visualizadores y usuarios invitados) al iniciar sesión. La configuración de [Habilitar jerarquía de carpetas](../using/brand-portal-general-configuration.md) se ha añadido en **Configuración general**, en el panel de herramientas de administración. Si la configuración es:
 
 * **habilitado**, el árbol de carpetas que comienza en la carpeta raíz es visible para los usuarios que no son administradores. De este modo, se les concede una experiencia de navegación similar a la de los administradores.
 * **deshabilitadas**, solo se muestran las carpetas compartidas en la página de destino.
@@ -768,12 +790,12 @@ Brand Portal 6.4.1 es una versión de actualización de la plataforma. Incorpora
 
 ### Funcionalidades mejoradas de creación de informes
 
-**Se ha introducido el informe Vínculos compartidos**
+**Presentó El Informe De Vínculos Compartidos**
 Se ha introducido un nuevo informe, para proporcionar información sobre los vínculos compartidos. El informe Vínculos compartidos muestra todas las direcciones URL de los recursos compartidos con usuarios internos y externos. Elabora informes para los usuarios de toda la organización en el lapso de tiempo especificado. También informa de cuándo se compartió el vínculo, quién lo compartió y cuándo caduca.
 
 ![](assets/navigatereport.png)
 
-**Se ha modificado el punto de entrada para obtener acceso al informe de uso**
+**Se ha modificado el punto de entrada para acceder al informe de uso**
 El informe de uso ahora está consolidado con otros informes y se puede ver desde la consola Informes de recursos. Para llegar a la consola Informes de recursos, vaya a **Crear/administrar informes** desde el panel de herramientas administrativas.
 
 ![](assets/accessassetreport.png)

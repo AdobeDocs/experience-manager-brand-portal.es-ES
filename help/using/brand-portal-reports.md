@@ -1,19 +1,30 @@
 ---
-title: Trabajo con informes
+title: Trabajar con informes
 description: Los administradores de Experience Manager Assets Brand Portal pueden ver informes sobre el uso de Brand Portal y crear, administrar y ver informes sobre los recursos descargados, caducados, publicados y compartidos a través de Brand Portal.
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
+TQID: https://experienceleague.adobe.com/4p-phv75ZqbWNLAxXeZ-QEpZxSTgv-oV8AEIbue9Zvw
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 0%
+source-wordcount: 1010
+ht-degree: 4%
 
 ---
 
-# Trabajo con informes {#work-with-reports}
+# Trabajar con informes {#work-with-reports}
 
 La capacidad de creación de informes es fundamental para evaluar el uso de Brand Portal y conocer cómo los usuarios internos y externos interactúan con los recursos aprobados. Los administradores pueden ver el informe Uso de Brand Portal, que siempre está disponible en la página Informes de recursos. Sin embargo, los informes de inicios de sesión de usuarios y recursos descargados, caducados, publicados y compartidos a través de vínculos se pueden generar y ver desde la página Informes de recursos. Estos informes son útiles para analizar la implementación de recursos, lo que le permite derivar métricas de éxito clave para medir la adopción de recursos aprobados dentro y fuera de la organización.
 
@@ -23,7 +34,7 @@ La interfaz de administración de informes es intuitiva e incluye opciones y con
 
 Para ver un informe, siga estos pasos:
 
-1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo de Experience Manager para acceder a las herramientas administrativas.
 
    ![](assets/aemlogo.png)
 
@@ -35,11 +46,11 @@ Para ver un informe, siga estos pasos:
 
    >[!NOTE]
    >
-   >El informe de uso es un informe predeterminado generado en Brand Portal. No se puede crear ni eliminar. Sin embargo, puede crear, descargar y eliminar los informes Descargar, Caducidad, Publish, `Link Share` e inicios de sesión de usuarios.
+   >El informe de uso es un informe predeterminado generado en Brand Portal. No se puede crear ni eliminar. Sin embargo, puede crear, descargar y eliminar los informes Descargar, Caducidad, Publicar, `Link Share` e inicios de sesión de usuarios.
 
    Para ver un informe, haga clic en el vínculo del informe. También puede seleccionar el informe y hacer clic en el icono Ver de la barra de herramientas.
 
-   El **[!UICONTROL Informe de uso]** muestra información sobre la cantidad de usuarios activos de Brand Portal, el espacio de almacenamiento ocupado por todos los recursos y el recuento total de recursos en Brand Portal. Los usuarios de Brand Portal que no están asignados a ningún perfil de producto en el Admin Console se consideran usuarios inactivos y no se reflejan en el **[!UICONTROL Informe de uso]**.
+   El **[!UICONTROL Informe de uso]** muestra información sobre la cantidad de usuarios activos de Brand Portal, el espacio de almacenamiento ocupado por todos los recursos y el recuento total de recursos en Brand Portal. Los usuarios de Brand Portal que no están asignados a ningún perfil de producto en Admin Console se consideran usuarios inactivos y no se reflejan en el **[!UICONTROL Informe de uso]**.
 El informe también muestra la capacidad permitida para cada una de estas métricas de información.
 
    ![](assets/usage-report.png)
@@ -60,13 +71,13 @@ El informe también muestra la capacidad permitida para cada una de estas métri
 
    ![](assets/expiration-report.png)
 
-   El informe **[!UICONTROL Publish]** enumera y proporciona información sobre todos los recursos publicados de Experience Manager Assets a Brand Portal en un lapso de tiempo específico.
+   El informe **[!UICONTROL Publicar]** enumera y proporciona información sobre todos los recursos que se publican desde Experience Manager Assets a Brand Portal en un lapso de tiempo especificado.
 
    ![](assets/publish-report.png)
 
    >[!NOTE]
    >
-   >El informe de Publish no muestra información sobre los fragmentos de contenido, ya que estos no se pueden publicar en Brand Portal.
+   >Publicar informe no muestra información sobre los fragmentos de contenido, ya que estos no se pueden publicar en Brand Portal.
 
    El informe **[!UICONTROL Vínculos compartidos]** enumera todos los recursos compartidos a través de vínculos de la interfaz de Brand Portal en un lapso de tiempo específico. El informe detalla cuándo se compartió el recurso mediante un vínculo, qué usuario lo compartió y la fecha de caducidad del vínculo. También informa del número de vínculos compartidos para el inquilino y los usuarios. Las columnas del informe de vínculos compartidos no se pueden personalizar.
 
@@ -88,9 +99,9 @@ Los administradores pueden generar y administrar los siguientes informes estánd
 * Publicación
 * Vínculos compartidos
 
-Las columnas de los informes Descarga, Caducidad y Publish se pueden personalizar para su visualización. Para generar un informe, siga estos pasos:
+Las columnas de los informes Descargar, Caducidad y Publicar se pueden personalizar para su visualización. Para generar un informe, siga estos pasos:
 
-1. En la barra de herramientas de la parte superior, haga clic en el logotipo del Experience Manager para acceder a las herramientas administrativas.
+1. En la barra de herramientas de la parte superior, haga clic en el logotipo de Experience Manager para acceder a las herramientas administrativas.
 
 1. En el panel de herramientas administrativas, haga clic en **[!UICONTROL Crear/administrar informes]** para abrir la página **[!UICONTROL Informes de recursos]**.
 
@@ -101,7 +112,7 @@ Las columnas de los informes Descarga, Caducidad y Publish se pueden personaliza
 
    ![](assets/crete-report.png)
 
-1. Configure los detalles del informe. Especifique el título, la descripción, la estructura de carpetas (donde el informe debe ejecutarse y generar estadísticas) y el intervalo de fechas para los informes **[!UICONTROL Descargar]**, **[!UICONTROL Caducidad]** y **[!UICONTROL Publish]**.
+1. Configure los detalles del informe. Especifique el título, la descripción, la estructura de carpetas (donde el informe debe ejecutarse y generar estadísticas) y el intervalo de fechas para los informes **[!UICONTROL Descargar]**, **[!UICONTROL Caducidad]** y **[!UICONTROL Publicar]**.
 
    ![](assets/create-report-page.png)
 
@@ -113,14 +124,14 @@ Las columnas de los informes Descarga, Caducidad y Publish se pueden personaliza
    >
    >Al generar el informe, se reemplazan los caracteres especiales `#` y `%` del título por un guión (-).
 
-1. Haga clic en **[!UICONTROL Siguiente]** para configurar las columnas de los informes Descargar, Caducidad y Publish.
+1. Haga clic en **[!UICONTROL Siguiente]** para configurar las columnas de los informes Descargar, Caducidad y Publicar.
 1. Seleccione o anule la selección de las casillas de verificación adecuadas según sea necesario. Por ejemplo, para ver los nombres de los usuarios (que descargaron los recursos) en el informe **[!UICONTROL Descargar]**, seleccione **[!UICONTROL Descargado por]**. La siguiente imagen ilustra la selección de las columnas predeterminadas en el informe de descarga.
 
    ![](assets/createdownloadreport.png)
 
    También puede agregar Columnas personalizadas a estos informes para mostrar más datos según sus necesidades personalizadas.
 
-   Para agregar columnas personalizadas al informe Descarga, Publish o Caducidad, haga lo siguiente:
+   Para agregar columnas personalizadas al informe Descarga, Publicación o Caducidad, haga lo siguiente:
 
    1. Para mostrar una columna personalizada, haga clic en **[!UICONTROL Agregar]** en [!UICONTROL Columnas personalizadas].
    1. Especifique el nombre de la columna en el campo **[!UICONTROL Nombre de columna]**.

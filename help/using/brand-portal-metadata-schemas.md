@@ -6,9 +6,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
+TQID: https://experienceleague.adobe.com/ryUuWxT-VBz4IY7C7ojw5OhwuZQuuBltv7hHdwDU1BY
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: 1617
 ht-degree: 6%
 
 ---
@@ -158,17 +169,17 @@ Para aplicar un formulario de esquema de metadatos a una carpeta, haga lo siguie
 
 1. Haga clic en **[!UICONTROL Aplicar]** para aplicar el formulario de esquema de metadatos a la carpeta.
 
-   Los metadatos disponibles en el formulario de esquema de metadatos **[!UICONTROL dress]** se aplican a la carpeta **[!UICONTROL Gloves]** y están visibles en la página **[!UICONTROL Properties]** de la carpeta.
+   Los metadatos disponibles en el formulario de esquema de metadatos **[!UICONTROL wear]** se aplican a la carpeta **[!UICONTROL Gloves]** y están visibles en la página **[!UICONTROL Properties]** de la carpeta.
 
    ![](assets/folder_metadata_properties.png)
 
 >[!NOTE]
 >
->Si aplica un esquema que incluye esquemas anidados a una carpeta que contiene archivos de vídeo, es posible que las propiedades de metadatos de los archivos de vídeo no se representen correctamente. Para garantizar que las propiedades de metadatos se representen correctamente, quite los esquemas anidados y aplique sólo el esquema principal a la carpeta.
+>Si aplica un esquema que incluye esquemas anidados a una carpeta que contiene archivos de vídeo, es posible que las propiedades de metadatos de los archivos de vídeo no se representen correctamente. Para garantizar que las propiedades de metadatos se representen correctamente, elimine los esquemas anidados y aplique solo el esquema principal a la carpeta.
 
 ## Eliminar un formulario de esquema de metadatos {#delete-a-metadata-schema-form}
 
-Brand Portal solo permite eliminar formularios de esquema personalizados. No permite eliminar los formularios o plantillas de esquema predeterminados. Sin embargo, puede eliminar cualquier cambio personalizado en estos formularios.
+Brand Portal solo permite eliminar formularios de esquema personalizados. No permite eliminar los formularios o las plantillas de esquema predeterminados. Sin embargo, puede eliminar cualquier cambio personalizado en estos formularios.
 
 Para eliminar un formulario, selecciónelo y haga clic en el icono **[!UICONTROL Eliminar]**.
 
@@ -176,31 +187,31 @@ Para eliminar un formulario, selecciónelo y haga clic en el icono **[!UICONTROL
 
 >[!NOTE]
 >
->Después de eliminar los cambios personalizados realizados en un formulario predeterminado, el símbolo **[!UICONTROL Lock]** vuelve a aparecer antes del nombre del formulario en la interfaz Esquema de metadatos para indicar que el formulario vuelve a su estado predeterminado.
+>Después de eliminar los cambios personalizados realizados en un formulario predeterminado, el símbolo **[!UICONTROL Lock]** vuelve a aparecer antes del nombre del formulario en la interfaz del esquema de metadatos para indicar que el formulario se ha revertido a su estado predeterminado.
 
 ## Formularios de esquema para TIPOS MIME {#schema-forms-for-mime-types}
 
 ### Adición de nuevos formularios para tipos MIME {#adding-new-forms-for-mime-types}
 
-Además de los formularios predeterminados, puede agregar formularios personalizados para activos de diversos tipos MIME o crear un nuevo formulario bajo un tipo de formulario adecuado. Por ejemplo, para agregar una nueva plantilla para el subtipo **[!UICONTROL imagen/png]**, cree el formulario en los formularios de “imagen”. El título del formulario de esquema es el nombre del subtipo. En este caso, el título es &quot;png&quot;.
+Además de los formularios predeterminados, puede agregar formularios personalizados para recursos de varios tipos MIME o crear un nuevo formulario en un tipo de formulario adecuado. Por ejemplo, para agregar una nueva plantilla para el subtipo **[!UICONTROL imagen/png]**, cree el formulario en los formularios de “imagen”. El título del formulario de esquema es el nombre del subtipo. En este caso, el título es &quot;png&quot;.
 
 #### Uso de una plantilla de esquema existente para varios tipos MIME {#using-an-existing-schema-template-for-various-mime-types}
 
-Puede utilizar una plantilla existente para un tipo MIME diferente. Por ejemplo, use el formulario **image/jpeg** para activos del tipo MIME **image/png**.
+Puede utilizar una plantilla existente para un tipo MIME diferente. Por ejemplo, use el formulario **image/jpeg** para los recursos de tipo MIME **image/png**.
 
-En este caso, cree un nuevo nodo en [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] en el repositorio CRX. Especifique un nombre para el nodo y defina las siguientes propiedades:
+En este caso, cree un nuevo nodo en [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] en el repositorio de CRX. Especifique un nombre para el nodo y defina las siguientes propiedades:
 
 | **Nombre** | **Tipo** | **Valor** |
 |---|---|---|
-| exposedmimetype | Cadena | image/jpeg |
-| tipos MIME | Cadena[] | image/png |
+| exponsedmimetype | Cadena | image/jpeg |
+| tipos MIME | Cadena [] | image/png |
 
-* **exposedmimetype**: nombre del formulario existente que se va a asignar
-* **tipos MIME**: lista de tipos MIME que usan el formulario definido en el atributo **exposedmimetype**
+* **exponsedmimetype**: nombre del formulario existente que se va a asignar
+* **tipos MIME**: lista de tipos MIME que utilizan el formulario definido en el atributo **exponsedmimetype**
 
 Brand Portal asigna los siguientes tipos MIME y formularios de esquema:
 
-| **Formulario de esquema** | **Tipos MIME** |
+| **Formulario de esquema** | **tipos MIME** |
 |---|---|
 | image/jpeg | image/pjpeg |
 | image/tiff | image/x-tiff |
@@ -208,11 +219,11 @@ Brand Portal asigna los siguientes tipos MIME y formularios de esquema:
 | application/x-ImageSet | Multipart/Related; type=application/x-ImageSet |
 | application/x-SpinSet | Multipart/Related; type=application/x-SpinSet |
 | application/x-MixedMediaSet | Multipart/Related; type=application/x-MixedMediaSet |
-| video/quicktime | vídeo/x-quicktime |
-| vídeo/mpeg4 | video/mp4 |
-| vídeo/avi | video/avi, video/msvideo, video/x-msvideo |
-| vídeo/wmv | `video/x-ms-wmv` |
-| vídeo/flv | video/x-flv |
+| video/quicktime | video/x-quicktime |
+| video/mpeg4 | video/mp4 |
+| video/avi | video/avi, video/msvideo, video/x-msvideo |
+| video/wmv | `video/x-ms-wmv` |
+| video/flv | video/x-flv |
 
 A continuación se muestra una lista de propiedades de metadatos predeterminadas:
 

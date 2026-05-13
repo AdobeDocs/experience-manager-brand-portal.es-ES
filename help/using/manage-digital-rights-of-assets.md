@@ -7,28 +7,36 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/3ZH-bkACyy-0XGHZu4uxJCXGgAKCoD4JmcCd1vBBxLA
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 3%
+source-wordcount: 904
+ht-degree: 4%
 
 ---
 
 # Administración de los derechos digitales de recursos {#manage-digital-rights-of-assets}
 
-Garantizar la distribución y el uso seguros de los recursos creativos y del material de la marca es vital para proteger su marca. AEM Este proceso se puede hacer cumplir asociando una fecha de caducidad (y hora) con recursos aprobados publicados desde la publicación en Brand Portal o mediante la licencia de estos recursos para su uso condicional. Además, Brand Portal permite especificar una fecha de caducidad para los vínculos a los recursos compartidos desde Brand Portal.
+Garantizar la distribución y el uso seguros de los recursos creativos y del material de la marca es vital para proteger su marca. Este proceso se puede aplicar asociando una fecha de caducidad (y hora) con recursos aprobados publicados de AEM en Brand Portal o licenciando estos recursos para uso condicional. Además, Brand Portal permite especificar una fecha de caducidad para los vínculos a los recursos compartidos desde Brand Portal.
 
 Siga leyendo para saber cómo están protegidos los recursos en Brand Portal y comprender los permisos de uso asociados.
 
 ## Caducidad de recursos {#asset-expiration}
 
-La caducidad de los recursos es una forma eficaz de controlar el uso de los recursos aprobados en Brand Portal en toda la organización. Todos los recursos publicados de AEM Assets en Brand Portal pueden tener una fecha de caducidad que restrinja su uso a diferentes funciones de usuario.
+La caducidad de los recursos es una forma eficaz de controlar el uso de los recursos aprobados en Brand Portal en toda la organización. Todos los recursos publicados por los AEM Assets en Brand Portal pueden tener una fecha de caducidad que restrinja su uso a diferentes funciones de usuario.
 
 ### Permisos de uso relacionados con recursos caducados {#usage-permissions-expired-assets}
 
 En Brand Portal, los administradores pueden ver, descargar y agregar recursos caducados a colecciones. Sin embargo, los editores y los visualizadores solo pueden ver y agregar recursos caducados a las colecciones.
 
-Los administradores pueden publicar recursos caducados de AEM Assets en Brand Portal. Sin embargo, los recursos caducados no se pueden compartir mediante un vínculo de Brand Portal. Si selecciona cualquier recurso caducado de una carpeta que contenga recursos caducados y no caducados, la acción **[!UICONTROL Compartir vínculo]** no estará disponible. Sin embargo, si selecciona una carpeta que contiene recursos caducados y no caducados, las acciones [!UICONTROL Compartir] y **[!UICONTROL Compartir vínculo]** están disponibles.
+Los administradores pueden publicar recursos caducados de los AEM Assets en Brand Portal. Sin embargo, los recursos caducados no se pueden compartir mediante un vínculo de Brand Portal. Si selecciona cualquier recurso caducado de una carpeta que contenga recursos caducados y no caducados, la acción **[!UICONTROL Compartir vínculo]** no estará disponible. Sin embargo, si selecciona una carpeta que contiene recursos caducados y no caducados, las acciones [!UICONTROL Compartir] y **[!UICONTROL Compartir vínculo]** están disponibles.
 
 >[!NOTE]
 >
@@ -76,7 +84,7 @@ Los recursos protegidos por licencias tienen un [acuerdo de licencia adjunto](ht
 Un recurso se considera protegido si contiene una de las siguientes propiedades de metadatos (o ambas):
 
 * `xmpRights:WebStatement`: esta propiedad hace referencia a la ruta de acceso de la página que contiene el contrato de licencia del recurso. `xmpRights:WebStatement` debe ser una ruta de acceso válida en el repositorio.
-* `adobe_dam:restrictions`: el valor de esta propiedad es un HTML sin procesar que especifica el acuerdo de licencia.
+* `adobe_dam:restrictions`: el valor de esta propiedad es una HTML sin procesar que especifica el acuerdo de licencia.
 
 
 Si elige descargar recursos protegidos por licencias, se le redirigirá a la página **[!UICONTROL Administración de derechos de autor]** en función de las propiedades de los metadatos.

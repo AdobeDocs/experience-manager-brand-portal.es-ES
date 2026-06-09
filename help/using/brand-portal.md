@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+source-git-commit: 870850fd29819d96017608f1db48d46b38c62bff
 workflow-type: tm+mt
-source-wordcount: 1714
+source-wordcount: 1549
 ht-degree: 14%
 
 ---
@@ -50,11 +50,11 @@ La configuración de Adobe Experience Manager Assets con Brand Portal habilita l
 >
 > * Brand Portal está en modo de mantenimiento. Todas las innovaciones de productos nuevos están disponibles en [Content Hub](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
 > * Si todavía necesita activar Brand Portal, póngase en contacto con su representante de Adobe e incluya información sobre su caso de uso y otros requisitos específicos.
-> * Brand Portal no está disponible con [Assets Prime](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-prime) ni con [Assets Ultimate](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Sin embargo, los clientes existentes de Assets as a Cloud Service que ya tienen acceso a Brand Portal pueden conservarlo cuando realicen la transición a Assets Ultimate.
+> * Brand Portal no está disponible con [Assets Prime](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-prime) ni con [Assets Ultimate](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Sin embargo, los clientes existentes de Assets as a Cloud Service que ya tienen acceso a Brand Portal pueden seguir utilizándolo cuando realicen la transición a Assets Ultimate.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
-Sin embargo, Experience Manager Assets (local y servicio administrado) se configura manualmente con Brand Portal mediante Adobe Developer Console, que obtiene un token de Adobe Identity Management Services (IMS) para la autorización del inquilino de Brand Portal.
+Sin embargo, Experience Manager Assets (local y servicios administrados) se configura manualmente con Brand Portal mediante Adobe Developer Console, que obtiene un token de Adobe Identity Management Services (IMS) para la autorización del inquilino de Brand Portal.
 
 Para obtener más información, consulte [Configuración de Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -92,7 +92,7 @@ En la tabla siguiente se enumeran las tareas que pueden realizar los usuarios co
 
 Experience Manager Assets Brand Portal permite que [los invitados tengan acceso](#request-access-to-brand-portal) a Brand Portal. Un usuario invitado no necesita credenciales para entrar al portal y tiene acceso a las carpetas y colecciones públicas. Como usuario invitado, puede examinar los detalles de los recursos y tener una vista completa de los recursos de los miembros de carpetas y colecciones públicas. Puede buscar, descargar y agregar recursos públicos a la colección [!UICONTROL Lightbox].
 
-Sin embargo, la sesión de invitado le restringe de la creación de colecciones y búsquedas guardadas, y las comparte más. Los usuarios en una sesión de invitado no pueden acceder a la configuración de carpetas y colecciones y no pueden compartir recursos como vínculo. Esta es una lista de tareas que un usuario invitado puede realizar:
+Sin embargo, la sesión de invitado le restringe de la creación de colecciones y búsquedas guardadas. Los usuarios en una sesión de invitado no pueden acceder a la configuración de carpetas y colecciones y no pueden compartir recursos como vínculo. Esta es una lista de tareas que un usuario invitado puede realizar:
 
 * [Examen y acceso a recursos públicos](browse-assets-brand-portal.md)
 
@@ -161,7 +161,7 @@ Sin embargo, la instancia de autor de AEM solo se puede [configurar](../using/co
 >
 >Para obtener un alias para el nombre del inquilino en una URL de portal existente, las organizaciones deben ponerse en contacto con Asistencia al cliente con una nueva solicitud de creación de alias de inquilino. En primer lugar, compruebe si el alias está disponible y, a continuación, cree el alias para procesar esta solicitud.
 >
->Para reemplazar el alias antiguo o eliminarlo, se debe seguir el mismo proceso.
+>Para reemplazar o eliminar el alias antiguo, se debe seguir el mismo proceso.
 
 ## Solicitud de acceso a Brand Portal {#request-access-to-brand-portal}
 
@@ -216,7 +216,7 @@ Los administradores de productos de Brand Portal reciben solicitudes de acceso e
 ![Notificación solicitada de acceso](assets/bplogin_request_access_7.png)
 
 Para conceder acceso, los administradores de productos deben hacer clic en la notificación correspondiente en el área de notificación de Brand Portal y, a continuación, hacer clic en **[!UICONTROL Conceder acceso]**.
-Los administradores de productos también pueden seguir el vínculo proporcionado en el correo electrónico de solicitud de acceso para visitar Adobe [!UICONTROL Admin Console] y agregar al usuario a la configuración de producto correspondiente.
+Como alternativa, los administradores de productos pueden seguir el enlace proporcionado en el correo electrónico de solicitud de acceso para visitar Adobe [!UICONTROL Admin Console] y agregar al usuario a la configuración de producto correspondiente.
 
 Se le redirigirá a la página de inicio de [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview). Use Adobe [!UICONTROL Admin Console] para crear usuarios y asignarlos a perfiles de producto (anteriormente conocidos como configuraciones de producto), que se muestran como grupos en Brand Portal. Para obtener más información sobre cómo agregar usuarios en [!UICONTROL Admin Console], consulte [Agregar un usuario](brand-portal-adding-users.md#add-a-user) (siga los pasos del 4 al 7 del procedimiento para agregar un usuario).
 

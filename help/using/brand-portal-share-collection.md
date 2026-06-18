@@ -16,7 +16,7 @@ subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 689
 ht-degree: 0%
@@ -79,7 +79,7 @@ A continuación se indican los pasos para compartir una colección con los usuar
    >
    >La función de un usuario rige el acceso a los recursos y carpetas dentro de una colección. Si un usuario no tiene acceso a los recursos, se comparte una colección vacía con el usuario. Además, la función de un usuario rige las acciones disponibles para las colecciones.
 
-## Dejar de compartir una colección {#unshare-a-collection}
+## Dejar de compartir una colección
 
 Para dejar de compartir una colección previamente compartida, haga lo siguiente:
 
@@ -138,7 +138,7 @@ Para dejar de compartir una colección previamente compartida, haga lo siguiente
    >
    >A user's role governs access to the assets and folders inside a collection. If a user does not have access to assets, an empty collection is shared with the user. Also, a user's role governs the actions available for collections.
 
-## Unshare a collection {#unshare-a-collection}
+## Unshare a collection
 
 To unshare a previously shared collection, do the following:
 

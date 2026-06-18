@@ -7,16 +7,11 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
 TQID: https://experienceleague.adobe.com/JDFqy51bnJFV-WNbr9gA61jykF-DJXl90SF1Xn-WGJI
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 689
 ht-degree: 0%
@@ -29,7 +24,7 @@ Una colección representa un grupo de recursos relacionados almacenados juntos e
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Las colecciones se comparten como un vínculo por correo electrónico. Todas las personas con acceso al vínculo para compartir pueden abrir la colección. Sin embargo, los correos electrónicos compartidos se pueden reenviar a cualquier persona. Además, [los vínculos compartidos](https://experienceleague.adobe.com/es/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) son temporales y solo se puede obtener acceso a ellos por una duración limitada. Como alternativa, los usuarios pueden ser invitados como miembros permanentes a colecciones. Existen los siguientes tipos de usuarios para las colecciones:
+Las colecciones se comparten como un vínculo por correo electrónico. Todas las personas con acceso al vínculo para compartir pueden abrir la colección. Sin embargo, los correos electrónicos compartidos se pueden reenviar a cualquier persona. Además, [los vínculos compartidos](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) son temporales y solo se puede obtener acceso a ellos por una duración limitada. Como alternativa, los usuarios pueden ser invitados como miembros permanentes a colecciones. Existen los siguientes tipos de usuarios para las colecciones:
 
 * **Los administradores** pueden compartir o dejar de compartir una colección con usuarios de Brand Portal autorizados. Pueden invitar a otros usuarios a una colección específica y definir su función en esa colección. Además, los administradores pueden crear colecciones públicas.
 
@@ -79,7 +74,7 @@ A continuación se indican los pasos para compartir una colección con los usuar
    >
    >La función de un usuario rige el acceso a los recursos y carpetas dentro de una colección. Si un usuario no tiene acceso a los recursos, se comparte una colección vacía con el usuario. Además, la función de un usuario rige las acciones disponibles para las colecciones.
 
-## Dejar de compartir una colección {#unshare-a-collection}
+## Dejar de compartir una colección
 
 Para dejar de compartir una colección previamente compartida, haga lo siguiente:
 
@@ -138,7 +133,7 @@ Para dejar de compartir una colección previamente compartida, haga lo siguiente
    >
    >A user's role governs access to the assets and folders inside a collection. If a user does not have access to assets, an empty collection is shared with the user. Also, a user's role governs the actions available for collections.
 
-## Unshare a collection {#unshare-a-collection}
+## Unshare a collection
 
 To unshare a previously shared collection, do the following:
 

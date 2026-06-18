@@ -7,21 +7,12 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 TQID: https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
-  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-  - id: ee69dd13-2aba-4eb0-912b-399e82368d73
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: cf50b0d2-df62-495c-a741-4fa0284ca4fcid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 1957
 ht-degree: 11%
@@ -39,7 +30,7 @@ Adobe Experience Manager Assets Brand Portal mejora la experiencia de descarga a
 >
 >Si no desea usar IBM® Aspera Connect y continuar con el proceso de descarga normal, póngase en contacto con el administrador de Brand Portal para desactivar la configuración de **[!UICONTROL descarga rápida]**.
 
-## Configurar la descarga de recursos {#configure-download}
+## Configurar la descarga de recursos
 
 Los administradores de Brand Portal pueden configurar las opciones de descarga de recursos y grupo de usuarios para los usuarios de Brand Portal. Esta capacidad permite a los usuarios acceder y descargar representaciones de recursos desde la interfaz de Brand Portal.
 
@@ -171,7 +162,7 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
      >
      >Si los recursos que descargó también incluyen recursos con licencia, se le redirigirá a la página **[!UICONTROL Administración de copyright]**. En esta página, seleccione los recursos, haga clic en **[!UICONTROL Aceptar]** y, a continuación, haga clic en **[!UICONTROL Descargar]**. Si decide no estar de acuerdo, los recursos con licencia no se descargan.
      > 
-     >Los recursos protegidos por licencias tienen un [acuerdo de licencia adjunto](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/drm), para lo cual se establece la [propiedad de metadatos](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/administer/drm) del recurso en Experience Manager Assets.
+     >Los recursos protegidos por licencias tienen un [acuerdo de licencia adjunto](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), para lo cual se establece la [propiedad de metadatos](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) del recurso en Experience Manager Assets.
 
 
      ![recurso con licencia](assets/licensed-asset-new.png)
@@ -198,7 +189,7 @@ A continuación se indican los pasos para descargar recursos o carpetas que cont
 
    Para seguir usando **[!UICONTROL Descarga rápida]**, haz clic en **[!UICONTROL Permitir]**. Todas las representaciones seleccionadas se descargan en una carpeta zip mediante IBM® Aspera Connect.
 
-   Si no quieres usar IBM® Aspera Connect, haz clic en **[!UICONTROL Denegar]**. Si se deniega la descarga rápida **[!UICONTROL 1&rbrace; o se produce un error, el sistema rellena un mensaje de error.]** Haga clic en el botón **[!UICONTROL Descarga normal]** para continuar descargando los recursos.
+   Si no quieres usar IBM® Aspera Connect, haz clic en **[!UICONTROL Denegar]**. Si se deniega la descarga rápida **[!UICONTROL 1} o se produce un error, el sistema rellena un mensaje de error.]** Haga clic en el botón **[!UICONTROL Descarga normal]** para continuar descargando los recursos.
 
 <!-- 
    removed the known issue from step 2 as it is fixed in 2022.02.0 release.
@@ -295,7 +286,7 @@ removed the known issue from step 3 as it is fixed in 2022.02.0 release.
 
 <!-- 
 Backup of content before updating the new feature docs.
-## Configure asset download {#configure-download}
+## Configure asset download
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 
 

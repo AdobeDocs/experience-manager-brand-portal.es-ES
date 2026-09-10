@@ -22,10 +22,10 @@ subfeature_v2:
   - id: ee69dd13-2aba-4eb0-912b-399e82368d73
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1779df8cb07a952926d7680a8d69557fd184a56c
+source-git-commit: 4b423f850ccbdf8c2c2da14a7cd5ab844502883a
 workflow-type: tm+mt
-source-wordcount: 1379
-ht-degree: 2%
+source-wordcount: 1412
+ht-degree: 3%
 
 ---
 
@@ -97,7 +97,7 @@ Para trabajar con vídeos dinámicos en Brand Portal, asegúrese de lo siguiente
 
   | **Región** | **IP de salida** |
   |--- |--- |
-  | ND | 130.248.160.68, 20.94.203.130 |
+  | ND | 130.248.149.188, 130.248.149.189, 130.248.149.190, 130.248.160.68, 20.94.203.130 |
   | EMEA | 185.34.189.3, 51.132.146.75 |
   | APAC | 172.82.240.74, 172.82.240.75 |
 
@@ -135,7 +135,7 @@ Las direcciones IP de salida son las siguientes:
 
 | **Región** | **IP de salida** |
 |--- |--- |
-| ND | 130.248.160.68, 20.94.203.130 |
+| ND | 130.248.149.188, 130.248.149.189, 130.248.149.190, 130.248.160.68, 20.94.203.130 |
 | EMEA | 51.132.146.75, 130.248.244.202, 130.248.244.203, 130.248.244.204, 130.248.244.210, 130.248.244.211, 130.248.244.212 |
 | APAC | 63.140.44.54 |
 

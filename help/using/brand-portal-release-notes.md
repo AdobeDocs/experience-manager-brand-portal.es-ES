@@ -8,23 +8,29 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 TQID: https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
+    internal-label: Smart Crop
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
   - id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+    internal-label: Smart Tags
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
-source-wordcount: 1633
+source-wordcount: '1633'
 ht-degree: 93%
-
 ---
-
 # Notas de la versión {#release-notes}
 
 Obtenga información sobre las nuevas funciones y mejoras y los problemas críticos corregidos y los conocidos de la versión 2026.01.01 de Adobe Experience Manager Assets Brand Portal.

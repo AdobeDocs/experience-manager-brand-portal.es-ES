@@ -6,26 +6,33 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-TQID: https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU
+TQID: 'https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Content structure
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1361
+source-wordcount: '1369'
 ht-degree: 3%
-
 ---
-
 # Buscar recursos en Brand Portal {#search-assets-on-brand-portal}
 
 La función de búsqueda de Brand Portal le permite buscar rápidamente recursos relevantes mediante Omnisearch, y la búsqueda de facetas que utiliza filtros para ayudarle a reducir aún más la búsqueda. Puede buscar recursos en el nivel de archivos o carpetas y guardar los resultados de búsqueda como colecciones inteligentes.
@@ -103,7 +110,7 @@ Por ejemplo, utilice los siguientes filtros estándar:
      El [!UICONTROL Predicado de propiedad] admite búsquedas de texto para:
 
      **frases parciales**
-Para permitir la búsqueda de recursos utilizando frases parciales en el predicado de propiedad, habilite la casilla de verificación **[!UICONTROL Búsqueda parcial]** en el formulario de búsqueda. Este método permite buscar los recursos deseados aunque no especifique las palabras o frases exactas utilizadas en los metadatos del recurso.
+     Para permitir la búsqueda de recursos utilizando frases parciales en el predicado de propiedad, habilite la casilla de verificación **[!UICONTROL Búsqueda parcial]** en el formulario de búsqueda. Este método permite buscar los recursos deseados aunque no especifique las palabras o frases exactas utilizadas en los metadatos del recurso.
 
      >[!NOTE]
      >
@@ -114,15 +121,15 @@ Para permitir la búsqueda de recursos utilizando frases parciales en el predica
      >* `jcr:content/metadata/dc:format`
 
      Puede hacer lo siguiente:
-      * Especifique una palabra en la frase buscada en la faceta del panel Filtros. Por ejemplo, si busca el término **climb** (y el predicado de propiedad está asignado a la propiedad `dc:title`), se devuelven todos los recursos con la palabra **climb** en su frase de título.
-      * Especifique una parte de la palabra que aparece en la frase buscada, junto con un carácter comodín (&#42;) para rellenar los huecos.
-Por ejemplo, buscar:
-         * **climb&#42;** devuelve todos los recursos que tienen palabras que comienzan con los caracteres &quot;climb&quot; en su frase de título.
-         * **&#42;climb** devuelve todos los recursos que tienen palabras que terminan con los caracteres &quot;climb&quot; en la frase de título.
-         * **&#42;climb&#42;** devuelve todos los recursos que tienen palabras que comprenden los caracteres &quot;climb&quot; en la frase de título.
+     * Especifique una palabra en la frase buscada en la faceta del panel Filtros. Por ejemplo, si busca el término **climb** (y el predicado de propiedad está asignado a la propiedad `dc:title`), se devuelven todos los recursos con la palabra **climb** en su frase de título.
+     * Especifique una parte de la palabra que aparece en la frase buscada, junto con un carácter comodín (&#42;) para rellenar los huecos.
+       Por ejemplo, buscar:
+       * **climb&#42;** devuelve todos los recursos que tienen palabras que comienzan con los caracteres &quot;climb&quot; en su frase de título.
+       * **&#42;climb** devuelve todos los recursos que tienen palabras que terminan con los caracteres &quot;climb&quot; en la frase de título.
+       * **&#42;climb&#42;** devuelve todos los recursos que tienen palabras que comprenden los caracteres &quot;climb&quot; en la frase de título.
 
      **Texto sin distinción de mayúsculas y minúsculas**
-Puede permitir búsquedas sin distinción de mayúsculas y minúsculas en el predicado de propiedades. Simplemente active la casilla de verificación **[!UICONTROL Ignorar mayúsculas y minúsculas]** en el formulario de búsqueda. De forma predeterminada, la búsqueda de texto en el predicado de propiedades distingue entre mayúsculas y minúsculas.
+     Puede permitir búsquedas sin distinción de mayúsculas y minúsculas en el predicado de propiedades. Simplemente active la casilla de verificación **[!UICONTROL Ignorar mayúsculas y minúsculas]** en el formulario de búsqueda. De forma predeterminada, la búsqueda de texto en el predicado de propiedades distingue entre mayúsculas y minúsculas.
 
    >[!NOTE]
    >

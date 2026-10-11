@@ -5,25 +5,30 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
+discoiquuid:
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-TQID: https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA
+TQID: 'https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1513
+source-wordcount: '1519'
 ht-degree: 97%
-
 ---
-
 # Preguntas frecuentes {#frequently-asked-questions}
 
 Las preguntas más frecuentes de Brand Portal se centran en las consultas y problemas que pueden encontrar los usuarios finales al trabajar con la última versión de Experience Manager Assets Brand Portal 6.4.6 o versiones anteriores.

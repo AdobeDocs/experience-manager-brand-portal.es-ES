@@ -5,26 +5,33 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
+TQID: 'https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 870850fd29819d96017608f1db48d46b38c62bff
+    internal-label: Security
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1549
-ht-degree: 14%
-
+source-wordcount: '1722'
+ht-degree: 12%
 ---
-
 # Descripción general de Experience Manager Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
 Como especialista en marketing, a veces necesita colaborar con socios de canal y usuarios internos de la empresa para crear, administrar y ofrecer rápidamente contenido digital relevante a los clientes. La entrega oportuna de contenido relevante en todo el recorrido del cliente es crítica para impulsar una mayor demanda, conversión, participación y lealtad del cliente.
@@ -184,7 +191,7 @@ Para solicitar acceso, haga lo siguiente:
    **Escenario 1**
 
    1. Si tienes un [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID] o [!UICONTROL Federated ID], haz clic en **[!UICONTROL Iniciar sesión]**.
-Se abre la página [!UICONTROL Iniciar sesión].
+      Se abre la página [!UICONTROL Iniciar sesión].
 
    1. Proporcione sus credenciales de [!UICONTROL Adobe ID] y haga clic en **[!UICONTROL Iniciar sesión]**.
 
@@ -195,9 +202,9 @@ Se abre la página [!UICONTROL Iniciar sesión].
    **Escenario 2**
 
    1. Si no tienes un [!UICONTROL Adobe ID], para crear uno, haz clic en **[!UICONTROL Obtener un Adobe ID]** de la página [!UICONTROL Solicitar acceso].
-Se abre la página [!UICONTROL Iniciar sesión].
+      Se abre la página [!UICONTROL Iniciar sesión].
    1. Haga clic en **[!UICONTROL Obtener un Adobe ID]**.
-Se abre la página [!UICONTROL Registrarse].
+      Se abre la página [!UICONTROL Registrarse].
    1. Introduzca su nombre y apellidos, ID de correo electrónico y contraseña.
    1. Seleccione **[!UICONTROL Registrarse]**.
 
@@ -216,7 +223,7 @@ Los administradores de productos de Brand Portal reciben solicitudes de acceso e
 ![Notificación solicitada de acceso](assets/bplogin_request_access_7.png)
 
 Para conceder acceso, los administradores de productos deben hacer clic en la notificación correspondiente en el área de notificación de Brand Portal y, a continuación, hacer clic en **[!UICONTROL Conceder acceso]**.
-Como alternativa, los administradores de productos pueden seguir el enlace proporcionado en el correo electrónico de solicitud de acceso para visitar Adobe [!UICONTROL Admin Console] y agregar al usuario a la configuración de producto correspondiente.
+Los administradores de productos también pueden seguir el vínculo proporcionado en el correo electrónico de solicitud de acceso para visitar Adobe [!UICONTROL Admin Console] y agregar al usuario a la configuración de producto correspondiente.
 
 Se le redirigirá a la página de inicio de [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview). Use Adobe [!UICONTROL Admin Console] para crear usuarios y asignarlos a perfiles de producto (anteriormente conocidos como configuraciones de producto), que se muestran como grupos en Brand Portal. Para obtener más información sobre cómo agregar usuarios en [!UICONTROL Admin Console], consulte [Agregar un usuario](brand-portal-adding-users.md#add-a-user) (siga los pasos del 4 al 7 del procedimiento para agregar un usuario).
 

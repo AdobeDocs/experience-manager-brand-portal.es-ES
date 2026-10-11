@@ -6,29 +6,40 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-TQID: https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU
+TQID: 'https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: b112da9a-40c7-4e3d-8f68-114cdbd87ae4
+    internal-label: Video encoding
   - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+    internal-label: Hybrid mode
   - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
   - id: d8e79b3c-92b5-4c4d-a46c-5f16d63a14dc
+    internal-label: Viewer presets
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
   - id: ee69dd13-2aba-4eb0-912b-399e82368d73
+    internal-label: Scene7 mode
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4b423f850ccbdf8c2c2da14a7cd5ab844502883a
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1412
-ht-degree: 3%
-
+source-wordcount: '1412'
+ht-degree: 4%
 ---
-
 # Compatibilidad con vídeos dinámicos en Brand Portal {#dynamic-video-support-on-brand-portal}
 
 Vista previa y reproducción de vídeos de forma adaptativa en Brand Portal compatible con Dynamic Media. Descargue también las representaciones dinámicas desde el portal y los vínculos compartidos.

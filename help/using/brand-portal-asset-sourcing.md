@@ -12,23 +12,28 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-TQID: https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY
+TQID: 'https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: '662'
 ht-degree: 12%
-
 ---
-
 # Información general de Abastecimiento de recursos {#overview-asset-sourcing-in-bp}
 
 **Abastecimiento de recursos** permite a los usuarios de Experience Manager Assets (administradores/usuarios no administradores) crear nuevas carpetas con una propiedad adicional de **Contribución de recursos**, lo que garantiza que la nueva carpeta creada esté abierta al envío de recursos por parte de los usuarios de Brand Portal. Esto almacena en déclencheur un flujo de trabajo automáticamente, lo que crea dos subcarpetas adicionales, denominadas **COMPARTIDO** y **NUEVO**, dentro de la carpeta **Contribución** recién creada. El administrador define el requisito cargando una breve descripción sobre los tipos de recursos que se deben añadir a la carpeta Contribution. Cargan un conjunto de recursos de línea de base en la carpeta **SHARED**, lo que proporciona a los usuarios de Brand Portal la información de referencia necesaria. El administrador puede otorgar a los usuarios activos de Brand Portal acceso a la carpeta de contribuciones antes de publicar la carpeta **Contribution** recién creada en Brand Portal. Cuando el usuario haya terminado de agregar contenido en la carpeta **NEW**, podrá volver a publicar la carpeta Contribution en el entorno de creación de Experience Manager. Tenga en cuenta que puede tardar unos minutos en completar la importación y reflejar el contenido recién publicado en Experience Manager Assets.
